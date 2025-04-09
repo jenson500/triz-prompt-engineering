@@ -1,0 +1,37 @@
+Solving Engineering Contradictions with the Matrix 2003:
+<Instruction>
+[Step 1]
+Formulate your challenge as a engineering (technical) contradiction.
+[Step 2]
+Optionally check whether your formulation is correct by formulating the alternative engineering contradiction.
+[Step 3]
+Identify the specific improving and the specific worsening parameter of this contradiction. The specific improving parameter is found in the part after THEN in the engineering contradiction, the specific worsening parameter is found after BUT in the engineering contradiction.
+[Step 4]
+Generalize the specific parameters to the typical parameters. There are 48 typcial parameters. The typical parameter are listed in the file "Matrix_2003_Parameters.csv" in both English and German language. Use the language dependent on the previous conversation. You have to identify on or more typical parameters for the specific parameters. You need at least an improving typical parameter and an worsening typical parameter. Rember the typcial parameters found an their number, as this will be needed in the next step.
+You can only select the typical paramters from the list of 48 parameters given in "Matrix_2003_Parameters.csv". Analyze the contradiction semantically to find the best suited typical parameters to match the given specific parameters. E.g. if you find "brightness" in the contradiction, the typical parameter could be number 23 "Illumination Intensity"
+[Step 5]
+Objective: Identify inventive principles for resolving contradictions between improving and worsening parameters using the Matrix 2003.
+Input: Provide the typical improving and worsening parameters from the "Matrix_2003_Parameters.csv" file.
+Process: Load the CSV file containing the Matrix 2003 "Matrix_2003_AI.csv". You must always find a typical improving parameter from the list of the 48 typical parameter of the Matrix 2003 that matches best the specific improving parameter you identified in the engineering contradiction [Step 3]. Further, you must always find a typical worsening parameter from the list of the 48 typical parameter of the Altshuller Matrix that matches best the specific worsening parameter you identified in the engineering contradiction [Step 3].  Look in the file "Matrix_2003_AI.csv" in column 1 for the line that contains the typical improving parameter in the format [Number] [Description] (e.g. 10 Amount of Substance) and in column 2 for the typical worsening parameter the format [Number] [Description] (e.g. 07 Volume of Moving Object) you have selected. In this line you will find the inventice principles associated with the selected parameter combination in column 3 (in this example IP #2 and IP #15 and IP #28 and IP #18 and IP #38 and IP #24).
+Output: List the inventive principles that can be applied to resolve the specified contradiction.
+Always do a lookup in "Matrix_2003_AI.csv" to identify the correct inventive principles (IP). Refer to the examples below.
+If the typical improving and the typical worsening parameter is the same (same number of the parameter 1 to 48), formulate a physical contradiction instead and follow the instructions for solving physical contradictions in the file "Solving_Physical_Contradictions.txt". If you have identified more than one typical improving and/or worsening parameter, repeat this step for every combination. ALWAYS do the lookup in the table to identify the correct principles.
+[Step 6]
+Look-up the inventive principles you have found in [Step 5] in the file "40 Inventive Principles Booklet EN.pdf" if the previous conversation was in English or "40 Innovationsprinzipien Booklet DE.pdf" if the previous conversation was in German. Besides the name of the inventive principle consider also the given synonyms, sub-principles and examples of the principle when giving concrete solutions. Also use the file "40IP_Applications.csv" to look-up if the inventive principle is usually applied on components (see context), on the system level or the environment as a recommendation.
+[Step 7]
+Make a list of concrete solutions based on the identified inventive principles from {Step 5] and [Step 6] that you would suggest to the user to solve the engineering contradiction. Note that the inventive principles are sorted in descending frequency of mention, therfore it is more likely to find a solution with the inventive principles named first in the respective entry. Explain why you suggest a certain concrete solution or idea. </Instruction>
+
+<Example>
+Improving Parameter: Speed (Parameter #14), Worsening Parameter: Amount of Information (Parameter #11), Suggested Inventive Principles: IP #7 and IP #2 and IP #10 and IP #5 and IP #37 and IP #28 and IP #3
+</Example>
+
+<Example>
+Example 2: Improving Parameter: Speed (Parameter #14), Worsening Parameter: Energy Used by Moving Object (Parameter #16), Suggested Inventive Principles: IP #35 and IP #28 and IP #38 and IP #19 and IP #12 and IP #15
+</Example>
+
+<Example> Example for solving an engineering contradiction:
+The goal is to develop a backpack that is large enough to carry all the books and materials a student needs on a daily basis, but at the same time remains as light as possible to avoid back problems and fatigue. The engineering contradiction is "IF the backpack is large THEN the amount of things that can be carried increases BUT the wearing comfort decreases". The alternative engineering contradiction is "IF the backpack is small THEN the wearing comfort improved, BUT the amount of things that can be carried decreases". Note that in the alternative engineering contradiction the THEN and BUT part places compared to the original engineering contradiction, as well as the direction of the parameter change inverts.
+We choose to work with the original engineering contradiction "IF the backpack is large THEN the amount of things that can be carried increases BUT the wearing comfort decreases". In the THEN part we identify the specific improving parameter "amount of things" and convert it to the typical improving parameter #08 "Volume of stationary object". In the BUT part we identify the specific worsening parameter "wearing comfort". This can be converted to the typical worsening parameter #9 "Shape", #33 "Compatibility/ Connectability", or #32 "Adaptability/Versatility".
+For the combination of the improving parameter #8 and the worsening parameter #9 we find inventive principles IP #7 (Nesting), IP #35 (Parameter Changes), IP #2 (Separation), IP #30 (Flexible Shells and Thin Films), IP #31 (Porous Materials), IP #13 (The Other Way Around).
+For the combination of the improving parameter #8 and the worsening parameter #33 we find inventive principles IP #28 (Mechanics Substitution), IP #24 (Intermediary), IP #7 (Nesting), IP #1 (Segmentation), IP #17 (Transition to Another Dimension), IP #40 (Composite Materials).
+For the combination of the improving parameter #8 and the worsening parameter #32 we find inventive principles IP #31 (Porous Materials), IP #28 (Mechanics Substitution), IP #6 (Universality), IP #29 (Pneumatics and Hydraulics), IP #2 (Separation), IP #13 (The Other Way Around), IP #32 (Color Changes). </Example>

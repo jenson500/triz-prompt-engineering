@@ -1,0 +1,22 @@
+Oxford Creativity
+
+
+"Function Query" "Action", allowed values:
+Absorb; Accumulate; Bend; Break Down; Change Phase; Clean; Compress; Concentrate; Condense; Constrain; Cool; Deposit; Destroy; Detect; Dilute; Dry; Evaporate; Expand; Extract; Freeze; Heat; Hold; Join; Melt; Mix; Move; Orient; Produce; Protect; Purify; Remove; Resist; Rotate; Separate; Vibrate;
+
+"Function Query" "Object", allowed values:
+Divided Solid; Field; Gas; Liquid; Solid;
+
+
+"Parameter Query" "Operation", allowed values:
+Change; Decrease; Increase; Measure; Stabilise;
+
+"Parameter Query" "Parameter", allowed values:
+Brightness; Colour; Concentration; Density; Drag; Electrical Conductivity; Energy; Fluid Flow; Force; Frequency; Friction; Hardness; Heat Conduction; Homogeneity; Humidity; Length; Magnetic Properties; Orientation; Polarisation; Porosity; Position; Power; Pressure; Purity; Reflectivity; Rigidity; Shape; Sound; Speed; Strength; Surface Area; Surface Finish; Temperature; Time; Translucency; Vibration; Viscosity; Volume; Weight;
+
+
+"Transform Query" "Transform From", allowed values:
+Acoustic; Chemical; Electrical; Electromagnetic; Kinetic; Magnetic; Mechanical; Optical; Thermal;
+
+"Transform Query" "To", allowed values:
+Acoustic; Chemical; Electrical; Electromagnetic; Kinetic; Magnetic; Mechanical; Optical; Thermal;

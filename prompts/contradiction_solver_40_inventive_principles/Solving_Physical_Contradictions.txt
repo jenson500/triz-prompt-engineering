@@ -1,0 +1,100 @@
+Solving Physcial Contradictions:
+<Instruciton>
+[Step 1]
+Formulate your challenge as a physical contradiction. Note: Technical contradictions can be transformed into physical contradictions. See separate instruction for doing that. Make sure to include a reason for both contradicting values of the parameter.
+[Step 2]
+Resolve the contradiction using the three methods of resolution (separation, satisfying and bypassing). The method separation is comprised of the four principles of separation, i.e. separation in space, separation in time, separation in relation, and separation at the system level.
+Go through the methods step by step.
+1. Separation in space: The approach is applicable if analysis reveals that the contradictory demands are applied to different places in space.
+The recommended inventive principles to separate the contradictory demands in space: IP #1 , IP #2, IP #3, IP #7, IP #4, IP #17.
+2. Separation in time: The approach is applicable if analysis reveals that the contradictory demands are  required at different moments in time.
+The recommended inventive principles to separate the contradictory demands in time: IP #15, IP #34, IP #10, IP #9, IP #11.
+3. Separation in relation: This approach is applicable if analysis reveals that the contradictory demands are applied for different objects.
+The recommended inventive principles to separate the contradictory demands in relation: IP #40, IP #31, IP #32, IP #3, IP #19, IP #17.
+4. Separation at the system level: This approach may always be applied. The contradictory demands are satisfyed on different system levels.
+The recommended inventive principles to separate the contradictory demands at the system level: IP #1, IP #5, IP #33, IP #12.
+5. Satisying: As the name suggests, in this approach – similarly to separation – both demands are also met, but now simultaneously. Recommendations for this approach are often related to the use of so-called smart materials and scientific effects. 
+The recommended inventive principles for satisfying: IP #36, IP #37, IP #28, IP #35, IP #38, IP #39, IP #13.
+6. Bypassing: Bypassing contradictory demands is the least used method of resolving physical contradictions. It is usually used when separating or satisfying contradictory demands doesn’t work.
+The approach is based on changing the engineering system so that the physical contradiction becomes irrelevant and does not need to be resolved anymore, e.g. finding different ways of performing the desired function.
+The recommended inventive principles for bypassing: IP #25, IP #6, IP #13.
+
+Look-up the inventive principles you have found in the file "40 Inventive Principles Booklet EN.pdf" if the previous conversation was in English or "40 Innovationsprinzipien Booklet DE.pdf" if the previous conversation was in German.
+[Step 3]
+Consider concrete solution ideas for the abstract solution methods and write them down.
+[Step 4]
+Apply the innovative principles to find further ideas. In particular, use the recommended innovation principles assigned to the resolution methods and the separation principles.
+Consider concrete ideas based on the innovation principles and write them down.
+</Instruction>
+
+<Example> Separation in space
+Separation in place is possible if the two contradictory requirements for the same property only have to be fulfilled in different places, i.e. in different spatial areas.
+A garage should be closed so that the car does not get wet in the rain, and a garage should be open so that you can easily drive in with your car.
+If we visualize a garage and mark where the “closed” and “open” requirements must be met, we can see immediately that the two requirements only have to be met in areas that do not overlap. A carport is therefore a solution to the contradiction, namely a solution based on separation in space (location).
+
+This separation principle also means that the justifications for the two requirements are an essential part of the physical contradiction. The following physical contradiction again concerns the “closed” and “open” requirements for a garage, so the two requirements are exactly the same as in the contradiction above, but the justifications are now different.
+A garage should be closed so that no thief can get to the car, and a garage should be open so that you can easily drive your car into it.
+As a visualization shows, the areas in which the two contradictory requirements should apply now overlap. Accordingly, separation in space is no longer possible, and the “carport” solution just found is no longer a solution.
+
+In order to find successful approaches for a separation in space, it is helpful to visualize or draw as many views of a situation as possible. A simple example of this occurs when two traffic flows intersect.
+The road should run in an east-west direction, so that cars can drive in an east-west direction undisturbed, and the road should run in a north-south direction, so that cars can drive in a north-south direction undisturbed.
+If you draw a top view of the situation you see that the areas with the conflicting requirements overlap in the actual intersection area. If the course of the two roads is deformed slightly, the overlap does not change. If one were to work only with this illustration, the premature conclusion would be that no separation would be possible in the location. In a side view, however, you can see that the overlap is eliminated by suitable deformation of the two roads. Separation in space is therefore possible, and a bridge or tunnel would be a possible solution. </Example>
+
+<Example> Separation in time
+Separation in time is possible if the two contradictory requirements only have to be fulfilled in different, i.e. disjunctive, periods of time.
+A swimming pool should be filled with water so that you can swim in it, and it should not be filled with water, because water will damage the pool if it freezes at temperatures below 0°C. However, these two contradictory requirements do not have to be met at the same time of year: People only want to swim in the swimming pool in summer, and there is only a risk of frost damage in winter. Accordingly, the solution to the contradiction is quite simple: water is filled in in May and drained out again in September. In order to recognize that the two requirements only have to be met at disjunct periods, the two justifications for the requirements are needed. For this reason, a physical contradiction is incomplete without specifying the justifications. In the example, the physical contradiction “pool filled” and “pool empty” could be solved simply by separating them in time. The same contradiction can no longer be solved by separation in time if the reasons are different:
+A swimming pool should be filled with water so that you can swim in it, and it should not be filled with water, because otherwise small children could fall in and drown. A “correct” separation in time is only possible if the two time periods in which the two contradictory requirements are to be fulfilled are disjoint, i.e. do not overlap. This is a stronger requirement than that the two time periods should be different. This becomes clear in the following example:
+A house wall should have an opening so that people can walk through it, and it should not have an opening so that no cold wind can get in.
+The wish that the house wall should have an opening does not apply all the time, but only when someone wants to enter or leave the house. In contrast, heat loss due to cold wind is undesirable at all times. The two periods are therefore different, but they overlap. Separation in time is therefore not possible. This is perhaps surprising at first glance, because you often hear that an ordinary door would allow separation in time. However, a door does not lead to the satisfaction of contradictory requirements: While the door is open, cold wind can enter the house - and it is precisely the entry of cold air that should be prevented by the requirement that the wall is closed. A door is therefore only a compromise, but not a fully-fledged solution to the contradiction. </Example>
+
+<Example> Separation in relation
+Another possibility of separation is separation in the relationship. It may be possible to apply this separation principle if the two justifications refer to different components. Here the components of the super-system should be taken into account.
+The front door should be closed so that no thief can get in, and it should be open because otherwise the dog will do its business in the living room. Or the outside wall should be open so that sunlight can get in, and it should be closed to keep the heat in.
+A dog and a thief differ in their body size. This can be exploited by making the opening so small that only the dog can get through it. Sunlight is an electromagnetic field, whereas heat is primarily transported by convection, i.e. bound to air. A pane of glass allows light to pass through, so from the point of view of the electromagnetic field it is open, while from the point of view of the air molecules it is closed. 
+In the example of the front door, the dog and the thief differed in one relevant property, which makes it possible to separate the relationship. In this case, the front door was permanently altered slightly, namely by adding a small additional opening. In other cases, this change is only temporary. This separation principle is therefore often referred to as separation by change of condition.
+In sandblasting, small particles, typically sand (as the name implies), are shot onto the workpiece to be processed by a stream of air. This removes the top layer of the workpiece and smoothes the workpiece in the process. The disadvantage is that the solid particles contaminate the workpiece and are harmful to the health of the person carrying out the sandblasting. This can be described by the following physical contradiction:
+The particles in the air stream should be solid so that enough material is removed, and they should not be solid so as not to leave any dirt behind.
+One solution to this contradiction is to use frozen carbon dioxide instead of a solid body (such as sand). The frozen air particles are a solid, so they can remove material from the workpiece, but then they evaporate and leave no residue behind. </Example>
+
+<Example> Separation at the system level
+Two contradictory requirements can be made compatible by fulfilling them on different system levels. This means that the system behaves differently on different length scales: on a small scale the system has one property, but on a large scale it has the opposite property.
+A belt for power transmission is characterized by the following physical contradiction: The belt should be soft so that it can be guided around the drive wheel, and it should be hard so that it can transmit a higher force.
+One solution to this contradiction is to use a chain. If you look at the small components of the chain, they are made of hard, non-deformable metal. The chain as a whole, on the other hand, is elastic and can therefore be guided around curves just like a belt. Depending on the length scale on which the system is examined, opposite properties result.
+In the nomenclature of functional models, every technical system is embedded in a supersystem, and the parts of the technical system are referred to as subsystems. Separation in the system therefore means that the system has a different property than the supersystem or one of its subsystems. The system “bicycle chain” is soft, while the subsystem “chain link” is hard.
+Another example is the following contradiction for intersecting traffic routes: Four intersecting road sections are said to have an intersection, so that you can change from one road section to another, and they should not have an intersection, because intersections are dangerous (and other solutions such as traffic lights are very expensive).
+One solution to this contradiction is a roundabout. Viewed from a distance, e.g. on a road map, it is indistinguishable from a junction. It therefore also fulfills all the useful functions of a junction, allowing road users to choose their direction of travel freely. Viewed from close up, however, a roundabout consists only of junctions, and junctions are safer than intersections, which is why a roundabout reduces the number of accidents compared to an conventional intersection. </Example>
+
+<Example> Satisying
+A physical contradiction states that the same property of a component should have two different values. Sometimes, however, deeper consideration reveals that it is only almost but not exactly the same property. In this case, it is possible to fulfill both requirements.
+To be able to train cross-country, you need a running track of sufficient length - curves are acceptable as such, but the curve radius must be sufficiently large, as is the case on a sports field, for example. If you also want to be able to train in small enclosed spaces, there is a space problem, which can be described by the following contradiction:
+A running track should be long so that you can run reasonably on it, and it should be short so that it also fits into small enclosed spaces.
+The property to which the contradiction refers is the “length” of the “track” component. However, there is a difference between the two requirements: The requirement for a short raceway refers to the length relative to the closed space, i.e. the length in an unmoving reference system. The requirement for a long track refers to the length relative to the runner, i.e. the length in a moving reference system. Accordingly, the two seemingly contradictory requirements can be satisfied by a treadmill. </Example>
+
+<Example> Bypassing
+A physical contradiction describes contradictory requirements resulting from a system and its structure. Every technical system serves a purpose. However, the structure of the system is not determined solely by its purpose, but also by the operating principle chosen to achieve the goal.
+For example, there are or were three relevant operating principles for the propulsion of a train by a locomotive, namely based on steam, electricity and diesel. The following physical contradiction arises for every steam boiler of a steam locomotive:
+The boiler wall should be thick so that a high steam pressure can be used, and the boiler wall should be thin so that the locomotive is light.
+This contradiction does not result from the basic properties of any locomotive, but from the chosen operating principle of “steam”. If the operating principle of the locomotive is changed from steam to electricity or diesel, the above contradiction becomes invalid. Since the contradiction has not been resolved in the strict sense, the contradictory requirements are said to have been circumvented.
+When drilling with a drill, it is important to select the correct speed. This choice is not always easy, as it is subject to physical contradictions, for example:
+A drill should rotate quickly so that the drill hole is clean, and a drill should rotate slowly so that it does not heat up too much.
+If a different operating principle is selected, e.g. laser drilling or water jet cutting, this contradiction no longer has any meaning, i.e. it has been circumvented. </Example>
+
+<Context> Conditions for the applicability of the separation principles
+Separation in place and in time are applicable precisely when the places or times at which the conflicting requirements apply do not overlap. If this is the case, the implementation of the separation principle in a concrete solution tends to be rather simple. However, if this is not the case, it is not possible to apply the separation principle in question, even with as much ingenuity as you like.
+A separation in the relationship presupposes that the justifications for the two contradictory requirements are based on the wishes of two different components. However, this is not sufficient, because a usable property must also be found in which these two components differ. This is not always possible, and even if it is possible, it often requires some creativity. The physical contradiction
+The front door should be closed so that no thief can get in, and it should be open because otherwise the dog will do its business in the living room. This contradiction was solved by a dog flap, because the “body size” of the dog and the thief provides a useful distinguishing feature (see the description in Separation in the relationship). For the physical contradiction
+The front door should be closed so that no thief can get in, and it should be open so that all friends and acquaintances can come in. There is no such distinguishing feature available: There is no way a door could determine whether someone is a friend of the homeowner - keys and passwords do not resolve the contradiction, since a thief could also come into possession of a key or the password.
+A separation in the relationship is therefore possible more often than a separation in place/time, but involves more intellectual effort. However, if there is no relevant difference between the components in the two justifications of the contradiction, separation in the relationship is also not possible. The only principle of separation that can always be applied, at least in principle, is that of separation in the system. However, it should also be mentioned that although this separation principle can always be applied in principle, a concrete solution to the contradiction can be constructed from it relatively rarely or only with great intellectual effort. </Context>
+
+<Context> Application of the separation principles
+It is advisable to go through the six approaches presented for solving a physical contradiction in the order presented below. If no solution can be found using one approach, the next approach is used.
+1. Separation in space
+2. Separation in time
+3. Separation in the relation
+4. Separation at the system level
+5. Satisfy of conflicting requirements
+6. Bypassing of conflicting requirements
+The proposed sorting is based on various aspects. With the first two approaches mentioned, it is relatively easy to check whether they are applicable at all. Separation in time usually leads to solutions that are somewhat more complex than separation in space, since separation in time requires some form of dynamization of the system. For this reason, separation in space should be checked first.
+Bypassing the conflicting requirements is only a last resort, as this approach requires a change in the operating principle, i.e. often involves a fairly fundamental change to the technical system. Separation in the relationship and separation in the system, if they lead to a solution, often result in very intelligent solutions - but on the other hand, a lot of thinking is required to find a solution using these two principles in the first place.
+For each of the six approaches, there is a list of the innovative principles proposed in the instructions above. The application of the proposed inventive principles often leads to a solution in accordance with the principle in question.
+All six approaches should be checked and solutions or ideas documented if possible. </Context>

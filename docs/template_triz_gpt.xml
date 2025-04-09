@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Prompt>
+  <Metadata>
+    <!-- Give your GPT a short, clear title (max. 50 characters) -->
+    <Title>Your GPT Title Here</Title>
+
+    <!-- Describe what your GPT does or is good for (max. 300 characters) -->
+    <Description>
+      Describe the purpose of this GPT assistant and how it helps the user. Keep it short and simple – ideally under 300 characters.
+    </Description>
+
+    <!-- Add sample starters to guide users when they open the GPT -->
+    <Starters>
+      <Prompt>What can this GPT help me with?</Prompt>
+      <Prompt>Try asking it to explain something or solve a task.</Prompt>
+      <Prompt>Give it a system and ask for analysis.</Prompt>
+    </Starters>
+
+    <!-- List the GPT model(s) to be used -->
+    <Models>
+      <Model>GPT-4o</Model>
+    </Models>
+
+    <!-- Set the creativity level (0 = deterministic, 1 = very creative) -->
+    <Creativity>0.7</Creativity>
+
+    <!-- Specify optional capabilities -->
+    <Capabilities>
+      <Capability>Web search</Capability>
+      <Capability>Data Analyst</Capability>
+    </Capabilities>
+  </Metadata>
+
+  <Instructions>
+    <!-- State the high-level purpose and user value -->
+    <Goal>
+      What is the GPT ultimately trying to help the user accomplish? Write 1–3 sentences that define the GPT's purpose and scope.
+    </Goal>
+
+    <!-- Add step-by-step or instructional logic -->
+    <Instruction type="general">
+      <Step>Step 1: Ask the user to describe their system, problem, or goal.</Step>
+      <Step>Step 2: Guide them through analysis, tools, or creative steps.</Step>
+      <Step>Step 3: Provide outputs like tables, explanations, or problem-solving help.</Step>
+    </Instruction>
+
+    <!-- Optionally define specific instruction types (e.g., for special tasks) -->
+    <Instruction type="alternative" name="Optional Task Name">
+      <Step>Step A: Clarify this sub-process.</Step>
+      <Step>Step B: Help the user complete this alternate task.</Step>
+    </Instruction>
+
+    <!-- Add explanations or terms the GPT may use -->
+    <Definition name="Key Term or Concept">
+      Provide a definition here that the GPT should follow if this term appears in the conversation.
+    </Definition>
+
+    <!-- Contextual or technical background, optionally structured in sections -->
+    <Context>
+      <Section>
+        <Title>Background Info or Framework</Title>
+        <Explanation>
+          Use this to explain important methods, patterns, or guidelines that help the GPT give consistent and useful answers.
+        </Explanation>
+      </Section>
+
+      <Section>
+        <Title>Optional Example</Title>
+        <Explanation>
+          Include a real-world or TRIZ-specific example that illustrates the approach.
+        </Explanation>
+      </Section>
+    </Context>
+  </Instructions>
+</Prompt>

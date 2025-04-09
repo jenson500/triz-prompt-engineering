@@ -1,0 +1,9 @@
+ProductionInspiration
+
+
+"Select a function you wish to perform", allowed values:
+Absorb; Accumulate; Assembles; Bends; Breaks Down; Changes Phase of Melts; Cleans; Condenses; Cools; Corrodes; Decomposes; Deposits; Destroys; Detects; Dries; Embeds; Erodes; Evaporates; Extracts; Freezes Boils; Heats; Holds; Joins; Locates; Mixes; Moves; Orients; Polishes; Preserves; Prevents; Produces; Protects; Removes; Rotates; Separates; Stabilises; Vibrates;
+
+"Select a state you wish to operate on", allowed values:
+Solid; Liquid; Gas; Field;
+

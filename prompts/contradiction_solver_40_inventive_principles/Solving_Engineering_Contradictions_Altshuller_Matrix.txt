@@ -1,0 +1,30 @@
+Solving Engineering Contradictions with the Altshuller Matrix:
+<Instruction>
+[Step 1]
+Formulate your challenge as a engineering (technical) contradiction.
+[Step 2]
+Optionally check whether your formulation is correct by formulating the alternative engineering contradiction.
+[Step 3]
+Identify the specific improving and the specific worsening parameter of this contradiction. The improving parameter is found in the part after THEN in the engineering contradiction, the worsening parameter is found after BUT in the engineering contradiction.
+[Step 4]
+Generalize the specific parameters to the typical parameters. There are 39 typical parameters. The typical parameter are listed in the file "Altshuller_39_Parameters.csv" in both English and German language. Use the language dependent on the previous conversation. You have to identify on or more typical parameters for the specific parameters. You need at least an improving typical parameter and an worsening typical parameter.  
+[Step 5]
+Objective: Identify inventive principles for resolving contradictions between improving and worsening parameters using Altshuller's Matrix.
+Input: Provide the typical improving and worsening parameters from the "Altshuller_39_Parameters.csv" file.
+Process: Load the CSV file containing the Altshuller's Contradiction Matrix "Altshuller_Contradiction_Matrix_AI.csv". You must always find a typical improving parameter from the list of the 39 typical parameter of the Altshuller Matrix that matches best the specific improving parameter you identified in the engineering contradiction [Step 3]. Further, you must always find a typical worsening parameter from the list of the 39 typical parameter of the Altshuller Matrix that matches best the specific worsening parameter you identified in the engineering contradiction [Step 3].  Look in the file "Altshuller_Contradiction_Matrix_AI.csv" for the line that contains the typical improving (column 1) and typical worsening parameter (column 2) you have selected. In this line you will find the inventice principles associated with the selected parameter combination in column 3.
+Output: List the inventive principles that can be applied to resolve the specified contradiction.
+Example: Improving Parameter: Speed (Parameter #09)
+Worsening Parameter: Use of energy by moving object (Parameter #19)
+Suggested Inventive Principles: #8, #15, #35, #38
+If the entry "no preferred inventive principles" is found, this means all 40 inventive principles should be considered. If the typical improving and the typical worsening parameter is the same (same number of the parameter 1 to 39), formulate a physical contradiction instead and follow the instructions for solving physical contradictions in the file "Solving_Physical_Contradictions.txt". If you have identified more than one typical improving and/or worsening parameter, repeat this step for every combination. ALWAYS do the lookup in the table to identify the correct principles.
+[Step 6]
+Look-up the inventive principles you have found in [Step 5] in the file "40 Inventive Principles Booklet EN.pdf" if the previous conversation was in English or "40 Innovationsprinzipien Booklet DE.pdf" if the previous conversation was in German. Besides the name of the inventive principle consider also the given synonyms, sub-principles and examples of the principle when giving concrete solutions. Also use the file "40IP_Applications.csv" to look-up if the inventive principle is usually applied on components (see context), on the system level or the environment as a recommendation.
+[Step 7]
+Make a list of concrete solutions based on the identified inventive principles from {Step 5] and [Step 6] that you would suggest to the user to solve the engineering contradiction. Explain why you suggest a certain concrete solution or idea. </Instruction>
+
+<Example> Example for solving an engineering contradiction:
+The goal is to develop a backpack that is large enough to carry all the books and materials a student needs on a daily basis, but at the same time remains as light as possible to avoid back problems and fatigue. The engineering contradiction is "IF the backpack is large THEN the amount of things that can be carried increases BUT the wearing comfort decreases". The alternative engineering contradiction is "IF the backpack is small THEN the wearing comfort improved, BUT the amount of things that can be carried decreases". Note that in the alternative engineering contradiction the THEN and BUT part places compared to the original engineering contradiction, as well as the direction of the parameter change inverts.
+We choose to work with the original engineering contradiction "IF the backpack is large THEN the amount of things that can be carried increases BUT the wearing comfort decreases". In the THEN part we identify the specific improving parameter "amount of things" and convert it to the typical improving parameter #08 "Volume of stationary object". In the BUT part we identify the specific worsening parameter "wearing comfort". This can be converted to the typical worsening parameter #12 "Shape", #33 "Ease of operation", or #35 "Adaptability or Versatility".
+For the combination of the improving parameter #8 and the worsening parameter #12 we find inventive principles #7 (Nesting), #2 (Separation), #35 (Parameter Changes)
+For the combination of the improving parameter #8 and the worsening parameter #33 we find no preferred inventive principles. Therefore, we have to look through all 40 inventive principles and identity those that would give the most promising solutions.
+For the combination of the improving parameter #8 and the worsening parameter #35 we find no preferred inventive principles. Therefore, we have to look through all 40 inventive principles and identity those that would give the most promising solutions. </Example>
