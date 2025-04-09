@@ -1,7 +1,4 @@
 # triz-prompt-engineering
-Structured TRIZ prompt engineering for LLMs in an open, portable XML format – MIT licensed.
-
-# 🧠 triz-prompt-engineering
 
 **Universal TRIZ prompts for LLMs – open, structured, and future-proof**
 
