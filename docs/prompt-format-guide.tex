@@ -12,14 +12,12 @@
 \usepackage{amsmath}		% For math
 \useosf % change normal text to use proportional oldstyle figures
 %\usetosf would provide tabular oldstyle figures in text
-
 \usepackage{microtype}
-
 \usepackage{graphicx}
 \usepackage{enumitem}
 \setlist{leftmargin=*}
 \usepackage{listings} % For code highlighting
-\lstset{language=XML,basicstyle=\ttfamily,breaklines=true,backgroundcolor=\color{lightgray}}
+\lstset{language=XML,basicstyle=\ttfamily,breaklines=true,backgroundcolor=\color{gray2}}
 %\lstset{language=XML,basicstyle=\ttfamily,frame=single,xleftmargin=3em,xrightmargin=3em}
 \usepackage[os=win]{menukeys}
 \renewmenumacro{\keys}[+]{shadowedroundedkeys}
@@ -29,6 +27,10 @@
 
 \usetikzlibrary{chains,arrows,shapes,positioning}
 \usepackage{hyperref}
+
+\usepackage[table,dvipsnames]{xcolor}		% "table" for table rowcolors
+% Color definitiions
+\definecolor{gray2}{RGB}{230,230,230}
 
 \renewcommand\abstractname{Introduction}
 
@@ -86,7 +88,7 @@ Maximum length: 300 characters.
   <Prompt>I want to improve a system with TRIZ.</Prompt>
 </Starters>
 \end{lstlisting}
-Include 2-3 simple prompts to guide users.
+Include 2-3 simple prompts to guide users. This will help new users to engage in a meaningful way with the prompt. The prompt should be a short and simple question or statement that describes the problem or task that a beginner wants to solve. The prompt should be relevant to the context of the prompt.
 
 \subsection{Models}
 \begin{lstlisting}
