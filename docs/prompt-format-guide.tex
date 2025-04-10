@@ -1,0 +1,221 @@
+\documentclass[a4paper,11pt]{refart}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} % LY1 also works
+
+%% Font settings suggested by fbb documentation.
+\usepackage{textcomp} % to get the right copyright, etc.
+\usepackage[lining,tabular]{fbb} % so math uses tabular lining figures
+\usepackage[sfdefault]{roboto}	% Roboto font
+\usepackage[scaled=0.95]{roboto-mono} % Roboto Mono font
+\usepackage{sfmath}		% Roboto Mono font for math
+\usepackage{amsmath}		% For math
+\useosf % change normal text to use proportional oldstyle figures
+%\usetosf would provide tabular oldstyle figures in text
+
+\usepackage{microtype}
+
+\usepackage{graphicx}
+\usepackage{enumitem}
+\setlist{leftmargin=*}
+\usepackage{listings} % For code highlighting
+\lstset{language=XML,basicstyle=\ttfamily,breaklines=true,backgroundcolor=\color{lightgray}}
+%\lstset{language=XML,basicstyle=\ttfamily,frame=single,xleftmargin=3em,xrightmargin=3em}
+\usepackage[os=win]{menukeys}
+\renewmenumacro{\keys}[+]{shadowedroundedkeys}
+\usepackage{framed}
+\usepackage{etoolbox}
+\AtBeginEnvironment{leftbar}{\sffamily\small}
+
+\usetikzlibrary{chains,arrows,shapes,positioning}
+\usepackage{hyperref}
+
+\renewcommand\abstractname{Introduction}
+
+\title{Guide to Structuring XML Files for AI Prompts}
+\author{Jens Träger (\url{mail@jens-traeger.de})\\{\footnotesize \url{http://www.linkedin.com/in/jens-traeger/}}}
+\date{April 10, 2025}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This guide defines a structured, XML-based format for designing TRIZ prompts intended for use with large language models (LLMs). The format is designed to be universal, editable in standard text editors, and independent of proprietary platforms. It supports modular elements such as metadata, functional descriptions, instructional logic, and AI-specific input prompts. This structure ensures consistent, transparent, and reusable prompt engineering, facilitating collaborative development and scalable integration into AI-assisted innovation workflows.
+\end{abstract}
+
+\tableofcontents
+\clearpage
+
+\section{Introduction}
+The TRIZ Prompt Format is a standard for creating reusable and interpretable prompts in XML. It ensures compatibility across editing tools, facilitates maintenance, and promotes prompt sharing among users. XML was chosen for its clarity, tooling support, and structured nature.
+
+\section{File Structure Overview}
+Each prompt follows this basic layout:
+\begin{lstlisting}
+<Prompt>
+  <Metadata>...</Metadata>
+  <Instructions>...</Instructions>
+</Prompt>
+\end{lstlisting}
+
+\begin{itemize}
+\item \lstinline!<Metadata>!: Defines basic configuration, models, capabilities, and starter inputs.
+\item \lstinline!<Instructions>!: Describes the purpose, interaction flow, definitions, and context.
+\end{itemize}
+
+\section{Metadata Section}
+The metadata provides essential context and technical configuration for the prompt.
+
+\subsection{Title}
+\begin{lstlisting}
+<Title>Your GPT Title Here</Title>
+\end{lstlisting}
+A short, precise name (max. 50 characters).
+
+\subsection{Description}
+\begin{lstlisting}
+<Description>
+  Describe what this GPT does and how it helps users.
+</Description>
+\end{lstlisting}
+Maximum length: 300 characters.
+
+\subsection{Starters}
+\begin{lstlisting}
+<Starters>
+  <Prompt>How can I solve a contradiction?</Prompt>
+  <Prompt>I want to improve a system with TRIZ.</Prompt>
+</Starters>
+\end{lstlisting}
+Include 2-3 simple prompts to guide users.
+
+\subsection{Models}
+\begin{lstlisting}
+<Models>
+  <Model>GPT-4o</Model>
+</Models>
+\end{lstlisting}
+Specify supported or recommended models. This will help new users to engage in a meaningful way with the prompt. The model name should be a string, e.g., \texttt{GPT-4o}.
+
+\subsection{Creativity}
+\begin{lstlisting}
+<Creativity>0.7</Creativity>
+\end{lstlisting}
+Float value from 0 (precise) to 1 (creative). Optional. Not available in all models.
+
+\subsection{Capabilities}
+\begin{lstlisting}
+<Capabilities>
+  <Capability>Web Search</Capability>
+  <Capability>Canvas</Capability>
+  <Capability model="GPT-4o">DALL-E Image Generation</Capability>
+  <Capability model="GPT-4o">Code Interpreter & Data Analysis</Capability>
+</Capabilities>
+\end{lstlisting}
+List necessary tools or model features. Can include model-specific attributes.
+
+\section{Instructions Section}
+The \lstinline!<Instructions>! section contains the main prompt logic. It should not exceed 8000 characters.
+
+\subsection{Goal}
+\begin{lstlisting}
+<Goal>
+  Describe the overall intent of this assistant.
+</Goal>
+\end{lstlisting}
+Summarize what the GPT aims to achieve.
+
+\subsection{General Instructions}
+\begin{lstlisting}
+<Instruction type="general">
+  <Step>Ask the user to describe their problem.</Step>
+  <Step>Analyze the system using TRIZ methods.</Step>
+  <Step>Offer structured output such as diagrams or explanations.</Step>
+</Instruction>
+\end{lstlisting}
+Main step-by-step guidance for the GPT. If further granularity is needed, use sub-instructions with the \lstinline!<Substep>! tag.
+
+\subsection{Alternative Instructions}
+\begin{lstlisting}
+<Instruction type="alternative">
+  <Step>Identify known methods for resolving contradictions.</Step>
+  <Step>Present method examples with pros and cons.</Step>
+</Instruction>
+\end{lstlisting}
+Optional flows for specific tasks.
+
+\subsection{Definitions}
+\begin{lstlisting}
+<Definition name="Technical Contradiction">
+  A situation in which improving one parameter leads to the worsening of another.
+</Definition>
+\end{lstlisting}
+Ensure consistent understanding of core terms and concepts. Definitions should be short and precise.
+
+\subsection{Context and Background}
+\begin{lstlisting}
+<Context>
+  <Section>
+    <Title>Title of context section</Title>
+    <Explanation>
+      A TRIZ technique used to do something specific or for achieving a given function.
+    </Explanation>
+  </Section>
+</Context>
+\end{lstlisting}
+Provide background, methods, and domain knowledge.
+
+\subsection{Examples}
+\begin{lstlisting}
+  <Examples>
+    <Example title="First Example">
+      <Problem>Describe the parametersroblem.</Problem>
+      <Solutution>Describe a methodologically correct solution.</Solution>
+    </Example>
+  </Examples>
+\end{lstlisting}
+Realistic application of the prompt in a actual context. Usually helps the LLMs to understand the context of the prompt better and to provide better results. Each example should be short and concise. The example should be a real-world example, not a made-up one. The example should be relevant to the prompt and the context of the prompt. The example should be easy to understand and follow. Each example is enclosed in \lstinline!<Example>! and \lstinline!</Example>! tags.
+
+\subsection{Additional Knowledge Files}
+List external files if the content exceeds the XML file limit. Suggested formats include XML, TXT, CSV, and PDF. Reference these in the meta data section and in the instructions part of your prompt. Store all additional files alongside the prompt file in the same folder. Always keep core behavior and interaction rules in the main instructions.
+
+Tips:
+\begin{itemize}
+  \item Suggested content for additional knowledge files:
+  \begin{itemize}
+    \item Detailed process descriptions
+    \item Definitions, lists, and explanations
+    \item Complex rules or instructions
+    \item Additional data sets like tables etc.
+    \item Multilingual instruction sets  
+  \end{itemize}
+  \item Use clear, descriptive names for files.
+  \item Ensure files are accessible and properly formatted.
+  \item Prefer non-proprietary formats (e.g., XML, CSV, TXT) for compatibility.
+  \item Reference them in <Context> or steps (e.g., "See matrix.pdf")
+  \item Structure them for easy parsing by LLMs
+\end{itemize}
+  
+\section{How to Start}
+Use \lstinline!template_triz_gpt.xml! as a base. It includes all recommended elements with inline comments.
+
+\section{Best Practices}
+\begin{itemize}
+  \item Use meaningful, consistent tag names.
+  \item Keep prompts clean and minimal.
+  \item Include a goal, instructions, and starter prompts.
+  \item Test with different LLMs where applicable.
+  \item Use external files to keep prompts under 8k characters.
+  \item Validate well-formed XML and UTF-8 encoding.
+  \item Prefer open formats for supporting files.
+\end{itemize}
+
+\section{License}
+Released under the MIT License -- free for reuse and adaptation with attribution.
+
+\section{Contact}
+For contributions, open an issue or pull request on GitHub. Collaboration is welcome!
+
+
+% \bibliographystyle{plain}
+% \bibliography{refs}
+\end{document}

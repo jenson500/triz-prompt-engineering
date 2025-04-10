@@ -37,7 +37,7 @@ Whether you're an AI developer, TRIZ expert, educator, or prompt engineer – fe
 
 > 💡 **Before you get started:** Please check the [`prompt-format-guide.pdf`](docs/prompt-format-guide.pdf)  
 
-> 🧩 **Tip:** Use [`template_triz_gpt.xml`](prompts/template_triz_gpt.xml) as a starting point when creating a new prompt. It includes the basic structure and placeholders for metadata, logic, and prompt content.
+> 🧩 **Tip:** Use [`template_triz_gpt.xml`](docs/template_triz_gpt.xml) as a starting point when creating a new prompt. It includes the basic structure and placeholders for metadata, logic, and prompt content.
 
 ---
 

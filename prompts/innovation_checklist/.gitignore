@@ -71,10 +71,30 @@ Temporary Items
 
 
 ### LaTeX ###
-# LaTeX temporary files
-*.aux
-*.log
-*.toc
+# LaTeX temporary files and build artefacts
+*.acn  
+*.acr  
+*.alg  
+*.aux  
+*.bbl  
+*.blg  
+*.dvi  
+*.fls  
+*.glo  
+*.glg  
+*.gls  
+*.idx  
+*.ilg  
+*.ind  
+*.ist  
+*.lof  
+*.log  
+*.lot  
+*.maf  
+*.mtc  
+*.mtc1  
+*.out  
+*.toc  
 
 # Latexmk
 *.fdb_latexmk
