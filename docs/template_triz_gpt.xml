@@ -32,7 +32,7 @@
 
     <!-- Describe what your GPT does or is good for (max. 300 characters) -->
     <Description>
-      Describe the purpose of this GPT assistant and how it helps the user. Keep it short and simple – ideally under 300 characters.
+      Describe the purpose of this GPT assistant and how it helps the user. Keep it short and simple.
     </Description>
 
     <!-- Add sample starters to guide users when they open the GPT -->
@@ -55,11 +55,11 @@
       <Capability>Web search</Capability>
       <Capability>Canvas</Capability>
       <Capability>DALL·E Image Generation</Capability>
-      <Capability>Code Interpreter & Data Analysis</Capability>
+      <Capability>Code Interpreter and Data Analysis</Capability>
     </Capabilities>
   </Metadata>
 
-  <!-- Define the instructions for the GPT -->
+  <!-- Define the instructions for the GPT (max. 8000 characters) -->
   <Instructions>
     <!-- State the high-level purpose and user value -->
     <Goal>
@@ -104,8 +104,8 @@
     <!-- Optional, but highly recommended: Add some examples -->
     <Examples>
       <Example title="First Example">
-        <Problem>Describe the parametersroblem.</Problem>
-        <Solutution>Describe a methodologically correct solution.</Solution>
+        <Problem>Describe the parameters of the problem.</Problem>
+        <Solution>Describe a methodologically correct solution.</Solution>
       </Example>
 
       <Example title="Second Example">
