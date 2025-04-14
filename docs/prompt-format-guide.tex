@@ -1,5 +1,6 @@
 \documentclass[a4paper,11pt]{refart}
 
+\usepackage[USenglish]{babel} 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} % LY1 also works
 
@@ -28,6 +29,18 @@
 \usetikzlibrary{chains,arrows,shapes,positioning}
 \usepackage{hyperref}
 
+\usepackage[
+backend=bibtex,	% Backend para las referencias (no modificar)
+style=ieee, 	% Estilo APA de bibliografía
+sortcites,		% Para tener ordenadas las citas
+natbib=true,	% Utiliza natbib
+url=true, 		% Para que aparezca o no la url
+doi=true,		% Para que aparezca o no el DOI
+isbn=false 		% Para que aparezca o no el ISBN
+]{biblatex}
+\addbibresource{prompt-guide.bib}
+%\usepackage[nottoc]{tocbibind} % To add the bibliography to the table of contents
+
 \usepackage[table,dvipsnames]{xcolor}		% "table" for table rowcolors
 % Color definitiions
 \definecolor{gray2}{RGB}{230,230,230}
@@ -45,7 +58,7 @@ This guide defines a structured, XML-based format for designing TRIZ prompts int
 \end{abstract}
 
 \tableofcontents
-\clearpage
+%\clearpage
 
 \section{Introduction}
 The TRIZ Prompt Format is a standard for creating reusable and interpretable prompts in XML. It ensures compatibility across editing tools, facilitates maintenance, and promotes prompt sharing among users. XML was chosen for its clarity, tooling support, and structured nature.
@@ -118,13 +131,16 @@ List necessary tools or model features. Can include model-specific attributes.
 \section{Instructions Section}
 The \lstinline!<Instructions>! section contains the main prompt logic. It should not exceed 8000 characters.
 
-\subsection{Role}
+\subsection{Role and Persona}
 \begin{lstlisting}
 <Role>
-  Describe the role of the assistant in this context. E.g., you are a TRIZ expert helping users analyze systems and solve problems using structured innovation methods.
+  Role of the assistant in this context. E.g., you are a TRIZ expert helping users analyze systems and solve problems using structured innovation methods.
 </Role>
+<Persona>
+  Persona, tone, and positioning of the assistant. E.g., you are a friendly and knowledgeable person who is always ready to help users with their problems.
+</Persona>
 \end{lstlisting}
-This optional tag defines the assistant's persona, tone, and positioning. It acts as the role prompt that guides the LLM's behavior throughout the session.
+Both tags are optional. The \lstinline!<Role>! tag functions as a role prompt that guides the LLM's behavior throughout the session. While the terms role prompting and persona prompting are often used interchangeably, they have subtle differences. For a more detailed discussion, the reader is referred to the relevant literature. \cite{zotero-item-1637,debnath2025,park2023,wei2023}
 
 \subsection{Goal}
 \begin{lstlisting}
@@ -237,7 +253,7 @@ Released under the MIT License -- free for reuse and adaptation with attribution
 \section{Contact}
 For contributions, open an issue or pull request on GitHub. Collaboration is welcome!
 
-
-% \bibliographystyle{plain}
-% \bibliography{refs}
+%\bibliographystyle{ieeetr}
+%\bibliography{prompt-guide}
+\printbibliography[heading=bibintoc]
 \end{document}
