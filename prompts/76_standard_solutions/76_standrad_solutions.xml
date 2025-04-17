@@ -40,7 +40,7 @@
       <Prompt>Wie kann ich ein Problem mit den TRIZ-Standards lösen?</Prompt>
       <Prompt>Welche TRIZ-Standardlösung passt zu meinem Szenario?</Prompt>
       <Prompt>Ein Teil in meinem System funktioniert nicht zuverlässig - woran könnte es liegen?</Prompt>
-      <Prompt>IIch habe eine schädliche Wirkung in meinem Prozess - wie lässt sich das mit TRIZ lösen?</Prompt>
+      <Prompt>Ich habe eine schädliche Wirkung in meinem Prozess - wie lässt sich das mit TRIZ lösen?</Prompt>
     </Starters>
 
     <!-- List the GPT model(s) to be used -->
