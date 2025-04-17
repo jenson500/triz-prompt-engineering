@@ -70,6 +70,12 @@ Temporary Items
 .nfs*
 
 
+### Visual Studio Code ###
+# Visual Studio cache/options directory
+.vs/
+.vscode/
+
+
 ### LaTeX ###
 # LaTeX temporary files and build artefacts
 *.acn  

@@ -1,5 +1,6 @@
 \documentclass[a4paper,11pt]{refart}
 
+\usepackage[USenglish]{babel} 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc} % LY1 also works
 
@@ -28,6 +29,18 @@
 \usetikzlibrary{chains,arrows,shapes,positioning}
 \usepackage{hyperref}
 
+\usepackage[
+backend=bibtex,	% Backend for biblatex
+style=ieee, 	  % Biblatex style
+sortcites,		  % Sort citations
+natbib=true,	  % Use natbib for citations
+url=true, 		  % Show URL in bibliography
+doi=true,		    % Show DOI in bibliography
+isbn=false 		  % Do not show ISBN in bibliography
+]{biblatex}
+\addbibresource{prompt-guide.bib}
+%\usepackage[nottoc]{tocbibind} % To add the bibliography to the table of contents
+
 \usepackage[table,dvipsnames]{xcolor}		% "table" for table rowcolors
 % Color definitiions
 \definecolor{gray2}{RGB}{230,230,230}
@@ -36,7 +49,7 @@
 
 \title{Guide to Structuring XML Files for AI Prompts}
 \author{Jens Träger (\url{mail@jens-traeger.de})\\{\footnotesize \url{http://www.linkedin.com/in/jens-traeger/}}}
-\date{April 10, 2025}
+\date{\today}
 \begin{document}
 \maketitle
 
@@ -45,7 +58,7 @@ This guide defines a structured, XML-based format for designing TRIZ prompts int
 \end{abstract}
 
 \tableofcontents
-\clearpage
+%\clearpage
 
 \section{Introduction}
 The TRIZ Prompt Format is a standard for creating reusable and interpretable prompts in XML. It ensures compatibility across editing tools, facilitates maintenance, and promotes prompt sharing among users. XML was chosen for its clarity, tooling support, and structured nature.
@@ -61,7 +74,7 @@ Each prompt follows this basic layout:
 
 \begin{itemize}
 \item \lstinline!<Metadata>!: Defines basic configuration, models, capabilities, and starter inputs.
-\item \lstinline!<Instructions>!: Describes the purpose, interaction flow, definitions, and context.
+\item \lstinline!<Instructions>!: Describes the purpose, interaction flow, definitions, and context. This is the actual prompt logic to be transferred to the LLM.
 \end{itemize}
 
 \section{Metadata Section}
@@ -84,8 +97,8 @@ Maximum length: 300 characters.
 \subsection{Starters}
 \begin{lstlisting}
 <Starters>
-  <Prompt>How can I solve a contradiction?</Prompt>
-  <Prompt>I want to improve a system with TRIZ.</Prompt>
+  <Prompt>How can I solve contradictions?</Prompt>
+  <Prompt>I want to solve a problem with a ... using TRIZ - how can I proceed?</Prompt>
 </Starters>
 \end{lstlisting}
 Include 2-3 simple prompts to guide users. This will help new users to engage in a meaningful way with the prompt. The prompt should be a short and simple question or statement that describes the problem or task that a beginner wants to solve. The prompt should be relevant to the context of the prompt.
@@ -117,6 +130,17 @@ List necessary tools or model features. Can include model-specific attributes.
 
 \section{Instructions Section}
 The \lstinline!<Instructions>! section contains the main prompt logic. It should not exceed 8000 characters.
+
+\subsection{Role and Persona}
+\begin{lstlisting}
+<Role>
+  Role of the assistant in this context. E.g., you are a TRIZ expert helping users analyze systems and solve problems using structured innovation methods.
+</Role>
+<Persona>
+  Persona, tone, and positioning of the assistant. E.g., you are a friendly and knowledgeable person who is always ready to help users with their problems.
+</Persona>
+\end{lstlisting}
+Both tags are optional. The \lstinline!<Role>! tag functions as a role prompt that guides the LLM's behavior throughout the session. While the terms role prompting and persona prompting are often used interchangeably, they have subtle differences. For a more detailed discussion, the reader is referred to the relevant literature. \cite{zotero-item-1637,debnath2025,park2023,wei2023}
 
 \subsection{Goal}
 \begin{lstlisting}
@@ -170,12 +194,12 @@ Provide background, methods, and domain knowledge.
 \begin{lstlisting}
   <Examples>
     <Example title="First Example">
-      <Problem>Describe the parametersroblem.</Problem>
-      <Solutution>Describe a methodologically correct solution.</Solution>
+      <Problem>Describe the parameters of the problem.</Problem>
+      <Solution>Describe a methodologically correct solution.</Solution>
     </Example>
   </Examples>
 \end{lstlisting}
-Realistic application of the prompt in a actual context. Usually helps the LLMs to understand the context of the prompt better and to provide better results. Each example should be short and concise. The example should be a real-world example, not a made-up one. The example should be relevant to the prompt and the context of the prompt. The example should be easy to understand and follow. Each example is enclosed in \lstinline!<Example>! and \lstinline!</Example>! tags.
+Realistic application of the prompt in an actual context. Usually helps the LLMs to understand the context of the prompt better and to provide better results. Each example should be short and concise. The example should be a real-world example, not a made-up one. The example should be relevant to the prompt and the context of the prompt. The example should be easy to understand and follow. Each example is enclosed in \lstinline!<Example>! and \lstinline!</Example>! tags.
 
 \subsection{Additional Knowledge Files}
 List external files if the content exceeds the XML file limit. Suggested formats include XML, TXT, CSV, and PDF. Reference these in the meta data section and in the instructions part of your prompt. Store all additional files alongside the prompt file in the same folder. Always keep core behavior and interaction rules in the main instructions.
@@ -211,13 +235,25 @@ Use \lstinline!template_triz_gpt.xml! as a base. It includes all recommended ele
   \item Prefer open formats for supporting files.
 \end{itemize}
 
+\section{Transferring Prompts into LLMs}
+Depending on the LLM you use, the exact procedure may differ. The following steps are a guideline for ChatGPT and similar LLMs:
+\begin{enumerate}
+  \item Open ChatGPT and go to ``Explore GPTs'' → ``Create''. Switch to the ``Configure'' tab.
+  \item In the setup interface, manually copy the content from the metadata sections such as \lstinline!<Title>!, \  \lstinline!<Description>!, and \\ \lstinline!<Starters>! into the corresponding fields.
+  \item Copy all content between the \lstinline!<Instructions>! \ and \\ \lstinline!</Instructions>! tags into the ``Instructions'' field. This contains the main prompt logic used to instruct the LLM.
+  \item From the \lstinline!<Capabilities>! section, select the listed capabilities by ticking the respective boxes. Note that capabilities can be model-specific. If you are using a model that does not support all capabilities, select only those supported by your model.
+  \item If your prompt need knowledge files, upload them by hitting the ``Upload files'' button in the section ``Knowledge''. You can upload multiple files at once.
+  \item Save and test your GPT.
+\end{enumerate}
+\textit{Note:} Field names may vary based on your language settings. The names provided above refer to the English version. If you are using a different language, the terminology may differ; however, the underlying function remains the same.
+
 \section{License}
 Released under the MIT License -- free for reuse and adaptation with attribution. For new prompts add your name and the names of all other contributors to the respective line at the beginning of the XML file. Do not change the license text.
 
 \section{Contact}
 For contributions, open an issue or pull request on GitHub. Collaboration is welcome!
 
-
-% \bibliographystyle{plain}
-% \bibliography{refs}
+%\bibliographystyle{ieeetr}
+%\bibliography{prompt-guide}
+\printbibliography[heading=bibintoc]
 \end{document}
