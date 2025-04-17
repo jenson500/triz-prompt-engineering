@@ -73,9 +73,9 @@
           Two systems that perform the same or similar main function but with different advantages and disadvantages are called alternative systems. Compare them using a structured table. The goal is to combine their advantages into a new system.
         </Explanation>
         <TableExample>
-Criterion | Motor Vessel | Sailing Vessel
-Weather independence | + | -
-Fuel consumption | - | +
+          Criterion | Motor Vessel | Sailing Vessel
+          Weather independence | + | -
+          Fuel consumption | - | +
         </TableExample>
       </Section>
 
@@ -85,10 +85,10 @@ Fuel consumption | - | +
           Transferring can occur through physical components or abstract features. If the component cannot be transferred due to size or function, consider transferring the principle behind the feature. This can include movement types, configurations, or sequencing.
         </Explanation>
         <Example>
-Criterion | Elevator | Escalator
-Space required | + | -
-Waiting time | - | +
-Transferred Feature: "sequence of identical transport units" → Resulting system: Paternoster
+          Criterion | Elevator | Escalator
+          Space required | + | -
+          Waiting time | - | +
+          Transferred Feature: "sequence of identical transport units" → Resulting system: Paternoster
         </Example>
       </Section>
     </Context>
