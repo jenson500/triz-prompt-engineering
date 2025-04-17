@@ -118,6 +118,10 @@ Temporary Items
 *.bbl
 *.blg
 
+# BibLaTeX
+*-blx.bib
+*.run.xml
+
 # Log created by Adobe Reader
 C:\\nppdf32Log\\debuglog.txt
 
