@@ -56,7 +56,7 @@ EN 76 Standardlösungen
       <Capability>Web search</Capability>
       <Capability>Canvas</Capability>
       <Capability>DALL·E Image Generation</Capability>
-      <Capability>Code Interpreter&Data Analysis</Capability>
+      <Capability>Code Interpreter and Data Analysis</Capability>
     </Capabilities>
   </Metadata>
 
@@ -121,7 +121,6 @@ EN 76 Standardlösungen
   6. Develop concrete solution ideas
 </Explanation>
   </Section>
-   <!--<Section>
     <Title>Unterteilung der 5 Klassen</Title>
     <Explanation>
       Die 76 Lösungsstandards werden in fünf Klassen unterteilt und werden auch „Die Klassen der Standardlösungen“ genannt:
@@ -152,7 +151,7 @@ EN 76 Standardlösungen
       Ziel: Unterstützung der anderen Klassen durch systemergänzende oder systemergänzbare Mittel – Annäherung an das Ideale Endresultat.
       Enthält 5 Untergruppen mit 17 Standardlösungen.
     </Explanation> 
-  </Section>-->
+  </Section>
   <Instruction type="alternative" name="Organisatorisches Problem">
   <Step>Analysiere die Funktionsträger im Prozess als Stoffe (z.B. Mensch, Dokument, Software, Information).</Step>
   <Step>Identifiziere Wechselwirkungen (Felder) wie Kommunikation, Kontrolle, Informationstransfer.</Step>
