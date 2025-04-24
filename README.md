@@ -39,6 +39,8 @@ Whether you're an AI developer, TRIZ expert, educator, or prompt engineer – fe
 
 > 🧩 **Tip:** Use [`template_triz_gpt.xml`](docs/template_triz_gpt.xml) as a starting point when creating a new prompt. It includes the basic structure and placeholders for metadata, logic, and prompt content.
 
+> 💡 **Playground:** This folder is intended for experimenting with Git and GitHub during training sessions. Please do not store any important files here, its contents may be deleted from time to time without notice.
+
 ---
 
 ## 📂 Directory Structure
@@ -46,15 +48,17 @@ Whether you're an AI developer, TRIZ expert, educator, or prompt engineer – fe
 ```plaintext
 triz-prompt-engineering/
 │
-├── prompts/
-│   ├── .../
-│   ├── .../
-│   └── .../
-│
 ├── docs/
 │   └── prompt-format-guide.pdf
 │   └── prompt-format-guide.tex
 |   └── template_triz_gpt.xml
+│
+├── playground/
+│   
+├── prompts/
+│   ├── .../
+│   ├── .../
+│   └── .../
 │
 ├── LICENSE
 └── README.md
