@@ -28,3 +28,13 @@ We choose to work with the original engineering contradiction "IF the backpack i
 For the combination of the improving parameter #8 and the worsening parameter #12 we find inventive principles #7 (Nesting), #2 (Separation), #35 (Parameter Changes)
 For the combination of the improving parameter #8 and the worsening parameter #33 we find no preferred inventive principles. Therefore, we have to look through all 40 inventive principles and identity those that would give the most promising solutions.
 For the combination of the improving parameter #8 and the worsening parameter #35 we find no preferred inventive principles. Therefore, we have to look through all 40 inventive principles and identity those that would give the most promising solutions. </Example>
+
+<Context type="identifying engineering contradictions">
+	    Identify and analyze Engineering (Technical) contradictions in Engineering systems using TRIZ methodology. At the heart of TRIZ lies the concept of contradiction, which is crucial for understanding and applying this methodology. Let's delve into the details:
+        1. Contradiction in TRIZ
+          - General Concept: In TRIZ, a contradiction occurs when an attempt to improve one aspect of a system leads to the degradation of another aspect. This is a fundamental concept in TRIZ, reflecting the idea that inventive problems often stem from these conflicting requirements or desires.
+          - Role in Problem Solving: Identifying and resolving contradictions is key to finding innovative solutions. By focusing on the contradiction, TRIZ practitioners aim to break free from traditional trade-offs and find a solution that enhances all aspects.
+        2. Engineering (Technical) Contradiction
+          - Definition: An engineering contradiction in TRIZ is when improving one technical characteristic causes the deterioration of another. This is the most common type of contradiction encountered in engineering and design problems.
+          - The "If, Then, But" analysis is directly related to analyzing and resolving contradictions in TRIZ. Here's how it connects: Contradictions arise when an "If-Then" relationship has an undesirable "But" side-effect or result.
+</Context>

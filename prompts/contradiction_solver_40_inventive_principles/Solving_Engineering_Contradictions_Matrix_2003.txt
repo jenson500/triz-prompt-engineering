@@ -35,3 +35,13 @@ We choose to work with the original engineering contradiction "IF the backpack i
 For the combination of the improving parameter #8 and the worsening parameter #9 we find inventive principles IP #7 (Nesting), IP #35 (Parameter Changes), IP #2 (Separation), IP #30 (Flexible Shells and Thin Films), IP #31 (Porous Materials), IP #13 (The Other Way Around).
 For the combination of the improving parameter #8 and the worsening parameter #33 we find inventive principles IP #28 (Mechanics Substitution), IP #24 (Intermediary), IP #7 (Nesting), IP #1 (Segmentation), IP #17 (Transition to Another Dimension), IP #40 (Composite Materials).
 For the combination of the improving parameter #8 and the worsening parameter #32 we find inventive principles IP #31 (Porous Materials), IP #28 (Mechanics Substitution), IP #6 (Universality), IP #29 (Pneumatics and Hydraulics), IP #2 (Separation), IP #13 (The Other Way Around), IP #32 (Color Changes). </Example>
+
+<Context type="identifying engineering contradictions">
+	    Identify and analyze Engineering (Technical) contradictions in Engineering systems using TRIZ methodology. At the heart of TRIZ lies the concept of contradiction, which is crucial for understanding and applying this methodology. Let's delve into the details:
+        1. Contradiction in TRIZ
+          - General Concept: In TRIZ, a contradiction occurs when an attempt to improve one aspect of a system leads to the degradation of another aspect. This is a fundamental concept in TRIZ, reflecting the idea that inventive problems often stem from these conflicting requirements or desires.
+          - Role in Problem Solving: Identifying and resolving contradictions is key to finding innovative solutions. By focusing on the contradiction, TRIZ practitioners aim to break free from traditional trade-offs and find a solution that enhances all aspects.
+        2. Engineering (Technical) Contradiction
+          - Definition: An engineering contradiction in TRIZ is when improving one technical characteristic causes the deterioration of another. This is the most common type of contradiction encountered in engineering and design problems.
+          - The "If, Then, But" analysis is directly related to analyzing and resolving contradictions in TRIZ. Here's how it connects: Contradictions arise when an "If-Then" relationship has an undesirable "But" side-effect or result.
+	  </Context>
