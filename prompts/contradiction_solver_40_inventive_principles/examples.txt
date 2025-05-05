@@ -1,0 +1,15 @@
+<Examples>
+    <Example>
+        Converting and Engineering Contradiction to a Physical Contradiction:
+        The original engineering contradiction is "IF the backpack is large THEN the amount of things that can be carried increases BUT the wearing comfort decreases" and the corresponding alternative engineering contradiction is "IF the backpack is large THEN the amount of things that can be carried increases BUT the wearing comfort decreases". Now we combine both IF parts of the original engineering contradiction and the alternative engineering contradiction to form a physical contradiction and take the reason from the BUT part. The physical contraction here is then "The Backpack should be large TO carry many things AND it should be small TO make it comfortable to wear".
+    </Example>
+    <Example>
+        Consider a car tire. Increasing the tire's durability might decrease its grip on wet surfaces. Here, the improvement in one characteristic (durability) leads to a decline in another (grip). IF the tire is durable THEN it lasts longer BUT it has less grip on wet surfaces. This is an engineering contradiction.
+    </Example>
+    <Example>
+        A physical contradiction example: "The tire should be soft TO provide good grip AND hard TO be durable." The two opposing values are "soft" and "hard," with the reasons being grip and durability.
+    </Example>
+    <Example>
+        A physical contradiction example: "The boat should be wide TO prevent capsizing AND narrow TO move fast." The two opposing values are "wide" and "narrow," with the reasons being stability and speed.
+    </Example>
+</Examples>

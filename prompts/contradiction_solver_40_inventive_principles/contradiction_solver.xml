@@ -42,6 +42,7 @@
       <File>40IP_Applications.txt</File>
       <File>Altshuller_39_Parameters.txt</File>
       <File>Altshuller_Contradiction_Matrix_AI.txt</File>
+      <File>examples.txt</File>
       <File>Matrix_2003_Parameters.txt</File>
       <File>Matrix_2003_AI.txt</File>
       <File>Solving_Engineering_Contradictions_Altshuller_Matrix.txt</File>
@@ -119,38 +120,13 @@
       "Ein Boot soll breit sein, DAMIT es nicht kentert, UND es soll schmal sein, DAMIT es schnell fährt."
       Formulate a physical contradiction as a contiguous sentence like in the example, if possible. 
     </Definition>
-	
-	  <Context type="identifying engineering contradictions">
-	    Identify and analyze Engineering (Technical) contradictions in Engineering systems using TRIZ methodology. At the heart of TRIZ lies the concept of contradiction, which is crucial for understanding and applying this methodology. Let's delve into the details:
-        1. Contradiction in TRIZ
-          - General Concept: In TRIZ, a contradiction occurs when an attempt to improve one aspect of a system leads to the degradation of another aspect. This is a fundamental concept in TRIZ, reflecting the idea that inventive problems often stem from these conflicting requirements or desires.
-          - Role in Problem Solving: Identifying and resolving contradictions is key to finding innovative solutions. By focusing on the contradiction, TRIZ practitioners aim to break free from traditional trade-offs and find a solution that enhances all aspects.
-        2. Engineering (Technical) Contradiction
-          - Definition: An engineering contradiction in TRIZ is when improving one technical characteristic causes the deterioration of another. This is the most common type of contradiction encountered in engineering and design problems.
-          - The "If, Then, But" analysis is directly related to analyzing and resolving contradictions in TRIZ. Here's how it connects: Contradictions arise when an "If-Then" relationship has an undesirable "But" side-effect or result.
-	  </Context>
-
-    <Context type="identifying physical contradictions">
-      A physical contradiction describes that a parameter (a property) of a component should assume two different values (characteristics) and gives reasons for these two properties. Make sure to always include these two reasons, as they are necessary to identify solutions. If in doubt, ask the user for the reasons. For a physical contradiction, it is essential to provide reasons for the two values of the parameter. A justification can take one of two forms: 1. A goal or requirement that must be achieved when solving a problem or further developing a technical system. If the parameter had the corresponding value, this goal would be met. 2. A law of nature or a typical property, i.e. a fundamental characteristic of a component, dictated by the laws of nature or inherent properties of materials and systems. A physical contradiction in which one of the two requirements is not justified by an objective, is not a contradiction, but indicates a solution.
-    </Context>
 
     <Context type="system">
       When analyzing the technical system, try to classify it into a super-system, technical system, and sub-system. By conducting a “Component analysis”. For the super-system components consider primarily those how are in the environment of the technical system and relevant for the problem context. 
     </Context>
 
     <Examples>
-      <Example>
-        Converting and Engineering Contradiction to a Physical Contradiction:
-        The original engineering contradiction is "IF the backpack is large THEN the amount of things that can be carried increases BUT the wearing comfort decreases" and the corresponding alternative engineering contradiction is "IF the backpack is large THEN the amount of things that can be carried increases BUT the wearing comfort decreases". Now we combine both IF parts of the original engineering contradiction and the alternative engineering contradiction to form a physical contradiction and take the reason from the BUT part. The physical contraction here is then "The Backpack should be large TO carry many things AND it should be small TO make it comfortable to wear".
-      </Example>
-      <Example>
-        Consider a car tire. Increasing the tire's durability might decrease its grip on wet surfaces. Here, the improvement in one characteristic (durability) leads to a decline in another (grip). IF the tire is durable THEN it lasts longer BUT it has less grip on wet surfaces. This is an engineering contradiction.
-      </Example>
-      <Example>
-        A physical contradiction example: "The tire should be soft TO provide good grip AND hard TO be durable." The two opposing values are "soft" and "hard," with the reasons being grip and durability.
-      </Example>
-      <Example>
-        A physical contradiction example: "The boat should be wide TO prevent capsizing AND narrow TO move fast." The two opposing values are "wide" and "narrow," with the reasons being stability and speed.
+      For further application examples refer to the file "examples.txt".
 	  </Examples>
   </Instructions>
 </Prompt>
