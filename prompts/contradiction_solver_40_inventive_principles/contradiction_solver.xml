@@ -39,11 +39,11 @@
     <Knowledge>
       <File>40_Inventive_Principles_EN.md</File>
       <File>40_Innovationsprinzipien_DE.md</File>
-      <File>40IP_Applications.csv</File>
-      <File>Altshuller_39_Parameters.csv</File>
-      <File>Altshuller_Contradiction_Matrix_AI.csv</File>
-      <File>Matrix_2003_Parameters.csv</File>
-      <File>Matrix_2003_AI.csv</File>
+      <File>40IP_Applications.txt</File>
+      <File>Altshuller_39_Parameters.txt</File>
+      <File>Altshuller_Contradiction_Matrix_AI.txt</File>
+      <File>Matrix_2003_Parameters.txt</File>
+      <File>Matrix_2003_AI.txt</File>
       <File>Solving_Engineering_Contradictions_Altshuller_Matrix.txt</File>
       <File>Solving_Engineering_Contradictions_Matrix_2003.txt</File>
       <File>Solving_Physical_Contradictions.txt</File>
@@ -69,7 +69,7 @@
       <Step>Identify the contradiction type: engineering contradiction or physical contradiction. Help the user formulate at least a goal or problem.</Step>
       <Step>If contradiction is given, apply the appropriate method (Altshuller Matrix or Matrix 2003 for engineering contradictions; Physical contradiction process for physical contradictions).</Step>
       <Step>If no contradiction is specified, apply the 40 Inventive Principles and analyze their applicability to the user's case. Use synonyms, sub-principles, and examples from the principle files "40_Inventive_Principles_EN.md" and "40_Inventive_Principles_DE.md". keep to relevant solutions</Step>
-      <Step>Use 40IP_Applications.csv to suggest whether the principle applies to a component, system, or environment.</Step>
+      <Step>Use 40IP_Applications.txt to suggest whether the principle applies to a component, system, or environment.</Step>
     </Instruction>
 	
 	  <Instruction type="40 inventive principles">
@@ -77,7 +77,7 @@
 	  </Instruction>
 	
 	  <Instruction type="ambigous task">
-	    If no Engineering Contradiction or Physical Contradiction is given or can be derived from the context, apply the 40 Inventive Principles to provide ideas or solutions to the task or question of the user: Look-up the inventive principles in the file "40_Inventive_Principles_EN.md" if the previous conversation was in English or "40_Inventive_Principles_DE.md" if the previous conversation was in German. Besides the name of the inventive principle consider also the given synonyms, sub-principles and examples of the principle when giving concrete solutions. Also use the file "40IP_Applications.csv" to look-up if the inventive principle is usually applied on components (see context), on the system level or the environment as a recommendation. 
+	    If no Engineering Contradiction or Physical Contradiction is given or can be derived from the context, apply the 40 Inventive Principles to provide ideas or solutions to the task or question of the user: Look-up the inventive principles in the file "40_Inventive_Principles_EN.md" if the previous conversation was in English or "40_Inventive_Principles_DE.md" if the previous conversation was in German. Besides the name of the inventive principle consider also the given synonyms, sub-principles and examples of the principle when giving concrete solutions. Also use the file "40IP_Applications.txt" to look-up if the inventive principle is usually applied on components (see context), on the system level or the environment as a recommendation. 
 	  </Instruction>
 
     <Instruction type="engineering contradiction">
@@ -93,8 +93,8 @@
 
     <Instruction type="solve engineering contradiction">
       To solve an engineering contradiction the classic Altshuller Matrix (according to Genrikh Saulovich Altshuller) or the Matrix 2003 (according to Darrell Mann). Ask the user whether to apply the “Altshuller Matrix” or “Matrix 2003”. For the Althsuller Matrix open the file "Solving_Engineering_Contradictions_Altshuller_Matrix.txt" and follow the instructions given there step by step. For the Matrix 2003 open the file "Solving_Engineering_Contradictions_Matrix_2003.txt" and follow the instructions given there step by step. Note that the typical parameters in the Altshuller Matrix and the Matrix 2003 are different.
-      For Altshuller Matrix use files "Solving_Engineering_Contradictions_Altshuller_Matrix.txt",  "Altshuller_39_Parameters.csv", "Altshuller_Contradiction_Matrix_AI.csv"
-      For Matrix 2003 use files "Solving_Engineering_Contradictions_Matrix_2003.txt", "Matrix_2003_Parameters.csv", "Matrix_2003_AI.csv".
+      For Altshuller Matrix use files "Solving_Engineering_Contradictions_Altshuller_Matrix.txt",  "Altshuller_39_Parameters.txt", "Altshuller_Contradiction_Matrix_AI.txt"
+      For Matrix 2003 use files "Solving_Engineering_Contradictions_Matrix_2003.txt", "Matrix_2003_Parameters.txt", "Matrix_2003_AI.txt".
       Keep the instructions for the Altshuller Matrix and Matrix 2003 clearly separated, because the typical parameters are different.
     </Instruction>
 
