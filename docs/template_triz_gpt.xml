@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- 
- [NAME YOUR PROMPT]
+  [NAME YOUR PROMPT]
   
   Copyright (c) 20xx [YOUR NAME]
 
@@ -57,6 +57,12 @@
       <Capability>DALL·E Image Generation</Capability>
       <Capability>Code Interpreter and Data Analysis</Capability>
     </Capabilities>
+
+    <!-- List knowledge files to be used by the GPT (section can be omitted if no knowledge files needed) -->
+    <Knowledge>
+      <File>knowledge_file_1.txt</File>
+      <File>knowledge_file_2.txt</File>
+    </Knowledge>
   </Metadata>
 
   <!-- Define the instructions for the GPT (max. 8000 characters) -->

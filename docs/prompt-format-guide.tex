@@ -128,6 +128,16 @@ Float value from 0 (precise) to 1 (creative). Optional. Not available in all mod
 \end{lstlisting}
 List necessary tools or model features. Can include model-specific attributes.
 
+\subsection{Knowledge Files}
+\begin{lstlisting}
+<Knowledge>
+  <File>example_1.xml</File>
+  <File>example_2.txt</File>
+  <File>40_inventive_principles.pdf</File>
+<\Knolwedge>
+\end{lstlisting}
+List all additional files required for your prompt to function correctly. These files must be placed in the same directory as the prompt XML file. For further guidance, refer to Section~\ref{sec:additional-knowledge-files}.
+
 \section{Instructions Section}
 The \lstinline!<Instructions>! section contains the main prompt logic. It should not exceed 8000 characters.
 
@@ -177,6 +187,7 @@ Optional flows for specific tasks.
 \end{lstlisting}
 Ensure consistent understanding of core terms and concepts. Definitions should be short and precise.
 
+\newpage
 \subsection{Context and Background}
 \begin{lstlisting}
 <Context>
@@ -201,8 +212,14 @@ Provide background, methods, and domain knowledge.
 \end{lstlisting}
 Realistic application of the prompt in an actual context. Usually helps the LLMs to understand the context of the prompt better and to provide better results. Each example should be short and concise. The example should be a real-world example, not a made-up one. The example should be relevant to the prompt and the context of the prompt. The example should be easy to understand and follow. Each example is enclosed in \lstinline!<Example>! and \lstinline!</Example>! tags.
 
-\subsection{Additional Knowledge Files}
-List external files if the content exceeds the XML file limit. Suggested formats include XML, TXT, CSV, and PDF. Reference these in the meta data section and in the instructions part of your prompt. Store all additional files alongside the prompt file in the same folder. Always keep core behavior and interaction rules in the main instructions.
+\subsection{Additional Knowledge Files}\label{sec:additional-knowledge-files}
+List all external files required for your prompt. External files may be necessary if the XML file exceeds the size limit (e.g., 8,000 characters for ChatGPT) or if additional reference knowledge is needed for the GPT to consult.
+
+Supported file formats include XML, TXT, CSV, and PDF. However, based on recent experience, the use of CSV files is discouraged, as they often cause issues with ChatGPT. Instead, use tab-separated TXT files.
+
+Ensure that all XML, TXT, and CSV files are encoded in UTF-8, and possibly avoid the use of special characters. Note that proprietary office suites often export tab-separated files with encoding that is not UTF-8 compliant. If necessary, encoding issues can be identified and corrected manually using a text editor such as Visual Studio Code.
+
+Reference all external files in both the \lstinline!<Metadata>! section and the instructions section of your prompt. Store all additional files in the same folder as the XML prompt file. Keep the core interaction logic and behavioral rules directly in the main instructions block.
 
 Tips:
 \begin{itemize}
@@ -216,8 +233,9 @@ Tips:
   \end{itemize}
   \item Use clear, descriptive names for files.
   \item Ensure files are accessible and properly formatted.
-  \item Prefer non-proprietary formats (e.g., XML, CSV, TXT) for compatibility.
-  \item Reference them in <Context> or steps (e.g., "See matrix.pdf")
+  \item Prefer non-proprietary formats (e.g., XML, TXT, CSV) for compatibility. These files should be UTF-8 encoded.
+  \item Use tab-separated TXT files instead of CSV files to avoid issues with ChatGPT.
+  \item Reference them in <Context> or steps (e.g., see "matrix.pdf")
   \item Structure them for easy parsing by LLMs
 \end{itemize}
   
