@@ -56,9 +56,10 @@ triz-prompt-engineering/
 ├── playground/
 │   
 ├── prompts/
-│   ├── .../
-│   ├── .../
-│   └── .../
+│   ├── business_triz/
+│       └── .../
+│   └── technical_triz/
+│       └── .../
 │
 ├── LICENSE
 └── README.md
