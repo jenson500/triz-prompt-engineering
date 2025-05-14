@@ -56,6 +56,12 @@
       <Capability>Web search</Capability>
       <Capability>Code Interpreter and Data Analysis</Capability>
     </Capabilities>
+
+    <Knowledge>
+      <File>Matrix_2003_Parameters_Synonyms.txt</File>
+      <File>40_Inventive_Principles_EN.md</File>
+      <File>40_Innovationsprinzipien_DE.md</File>
+    </Knowledge>
   </Metadata>
 
   <!-- Define the instructions for the GPT (max. 8000 characters) -->
