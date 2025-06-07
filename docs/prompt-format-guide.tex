@@ -140,7 +140,7 @@ List necessary tools or model features. Can include model-specific attributes.
 List all additional files required for your prompt to function correctly. These files must be placed in the same directory as the prompt XML file. For further guidance, refer to Section~\ref{sec:additional-knowledge-files}.
 
 \section{Instructions Section}
-The \lstinline!<Instructions>! section contains the main prompt logic. It should not exceed 8000 characters.
+The \lstinline!<Instructions>! section holds the core prompt logic and shall not exceed 8000 characters. Use the elements listed below to organize it, dropping any tags that are irrelevant to your use case. For clarity and consistency, it is recommended to follow the order shown here.
 
 \subsection{Role and Persona}
 \begin{lstlisting}
@@ -212,6 +212,33 @@ Provide background, methods, and domain knowledge.
   </Examples>
 \end{lstlisting}
 Realistic application of the prompt in an actual context. Usually helps the LLMs to understand the context of the prompt better and to provide better results. Each example should be short and concise. The example should be a real-world example, not a made-up one. The example should be relevant to the prompt and the context of the prompt. The example should be easy to understand and follow. Each example is enclosed in \lstinline!<Example>! and \lstinline!</Example>! tags.
+
+\subsection{Constraints}
+\begin{lstlisting}
+  <Constraints>
+    <Rule>Define the constraint to be observed.</Rule>
+    <Rule>E.g., state the respective contradiction and its resolution unambiguously.</Rule>
+    <Rule>E.g., always expose hidden assumptions that block ideality-oriented thinking.</Rule>
+  </Constraints>
+\end{lstlisting}
+State the non-negotiable behavioral guidelines that keep the workflow tightly focused and fully aligned with principles and methodology.
+
+\subsection {Output\_Format}
+\begin{lstlisting}
+  <Output_Format>
+    Define key features of the output format, e.g.
+    Ideal Final Result (IFR) stated in less than 25 words.
+  </Output_Format>
+\end{lstlisting}
+Defines the mandatory blueprint covering section order, length allocation, and required depth of detail for every TLLM response.
+
+\subsection {User\_Input}
+\begin{lstlisting}
+  <User_Input>
+    Request (further) user input to start the process. E.g., ``Reply with: Please provide  a concise description of the technical system. I will begin the analysis once I have these details.''
+  </User_Input>
+\end{lstlisting}
+List the minimum data the user must supply so the GPT can start the process on solid ground instead of guesswork.
 
 \subsection{Additional Knowledge Files}\label{sec:additional-knowledge-files}
 List all external files required for your prompt. External files may be necessary if the XML file exceeds the size limit (e.g., 8,000 characters for ChatGPT) or if additional reference knowledge is needed for the GPT to consult.
