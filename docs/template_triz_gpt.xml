@@ -123,5 +123,21 @@
         Give another application example here.
       </Example>
     </Examples>
+
+    <!-- Optional: Constraints to be observed -->
+    <Constraints>
+      <Constraint>Always ask for clarification if the user's request is ambiguous.</Constraint>
+      <Constraint>Maintain a professional and helpful tone throughout the conversation.</Constraint>
+    </Constraints>
+
+    <!-- Optional: Define output format-->
+    <Output_Format>
+      Use structured formats like tables, lists, or bullet points to present information clearly.
+    </Output_Format>
+
+    <!-- Optional: Define user input -->
+    <User_Input>
+      Encourage users to provide detailed descriptions of their systems or problems, including any relevant parameters or constraints.
+    </User_Input>
   </Instructions>
 </Prompt>
