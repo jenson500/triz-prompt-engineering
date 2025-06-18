@@ -116,7 +116,7 @@ Specify supported or recommended models. This will help new users to engage in a
 \begin{lstlisting}
 <Creativity>0.7</Creativity>
 \end{lstlisting}
-Float value from 0 (precise) to 1 (creative). Optional. Not available in all models.
+Float value from 0 (precise) to 1 (creative). Optional. Not available in all models. If you need to use a different scale, add a comment to the XML file explaining the scale used. For example, if you use a scale from 1 to 10, add a comment like this: \lstinline|<!-- Creativity scale: 1-10, 10 is most creative -->|
 
 \subsection{Capabilities}
 \begin{lstlisting}
@@ -188,7 +188,6 @@ Optional flows for specific tasks.
 \end{lstlisting}
 Ensure consistent understanding of core terms and concepts. Definitions should be short and precise.
 
-\newpage
 \subsection{Context and Background}
 \begin{lstlisting}
 <Context>
@@ -243,9 +242,9 @@ List the minimum data the user must supply so the GPT can start the process on s
 \subsection{Additional Knowledge Files}\label{sec:additional-knowledge-files}
 List all external files required for your prompt. External files may be necessary if the XML file exceeds the size limit (e.g., 8,000 characters for ChatGPT) or if additional reference knowledge is needed for the GPT to consult.
 
-Supported file formats include XML, TXT, CSV, and PDF. However, based on recent experience, the use of CSV files is discouraged, as they often cause issues with ChatGPT. Instead, use tab-separated TXT files.
+Accepted file formats include XML, TXT, CSV, and PDF. Proprietary file formats should be avoided. Ensure that all XML, TXT, and CSV files are encoded in UTF-8 and, where possible, avoid special characters. Proprietary office suites often export tab-separated files containing special characters or non-standard encoding, which can cause the LLM to misread them. If necessary, identify and fix encoding issues manually in a text editor such as Visual Studio Code.
 
-Ensure that all XML, TXT, and CSV files are encoded in UTF-8, and possibly avoid the use of special characters. Note that proprietary office suites often export tab-separated files with encoding that is not UTF-8 compliant. If necessary, encoding issues can be identified and corrected manually using a text editor such as Visual Studio Code.
+Before finalizing your prompt, test each file, especially CSV or other tab-separated files, with the LLM to confirm that it can read them correctly.
 
 Reference all external files in both the \lstinline!<Metadata>! section and the instructions section of your prompt. Store all additional files in the same folder as the XML prompt file. Keep the core interaction logic and behavioral rules directly in the main instructions block.
 
