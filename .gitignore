@@ -84,6 +84,7 @@ Temporary Items
 *.aux  
 *.bbl  
 *.blg  
+*-blx.bib
 *.dvi  
 *.fls  
 *.glo  
@@ -100,6 +101,7 @@ Temporary Items
 *.mtc  
 *.mtc1  
 *.out  
+*.run.xml
 *.toc  
 
 # Latexmk
