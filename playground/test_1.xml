@@ -28,7 +28,7 @@
   <!-- Define the metadata like title, description, etc. -->
   <Metadata>
     <!-- Give your GPT a short, clear title (max. 50 characters) -->
-    <Title>My test prompt</Title>
+    <Title>My test prompt!</Title>
 
     <!-- Describe what your GPT does or is good for (max. 300 characters) -->
     <Description>
