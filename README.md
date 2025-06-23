@@ -57,7 +57,7 @@ triz-prompt-engineering/
 │   
 ├── prompts/
 │   ├── business_triz/
-│       └── .../
+│   │   └── .../
 │   └── technical_triz/
 │       └── .../
 │
