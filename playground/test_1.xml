@@ -3,7 +3,7 @@
 <!-- 
   Great Prompt
   
-  Copyright (c) 20xx John Doe
+  Copyright (c) 2025 John Doe, Jane Smith
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this prompt and associated instructions, knowledge, and documentation files
@@ -28,7 +28,7 @@
   <!-- Define the metadata like title, description, etc. -->
   <Metadata>
     <!-- Give your GPT a short, clear title (max. 50 characters) -->
-    <Title>Great Prompt</Title>
+    <Title>Greatest Prompt of All Time</Title>
 
     <!-- Describe what your GPT does or is good for (max. 300 characters) -->
     <Description>
@@ -45,6 +45,7 @@
     <!-- List the GPT model(s) to be used -->
     <Models>
       <Model>GPT-4o</Model>
+      <Model>GPT-o3</Model>
     </Models>
 
     <!-- Set the creativity level (0 = deterministic, 1 = very creative) -->
