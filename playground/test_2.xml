@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- 
-  John Doe
+  Even Greater Prompt
   
-  Copyright (c) 20xx [YOUR NAME]
+  Copyright (c) 20xx John Doe
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this prompt and associated instructions, knowledge, and documentation files
@@ -28,7 +28,7 @@
   <!-- Define the metadata like title, description, etc. -->
   <Metadata>
     <!-- Give your GPT a short, clear title (max. 50 characters) -->
-    <Title>My second test prompt</Title>
+    <Title>Even Greater Prompt</Title>
 
     <!-- Describe what your GPT does or is good for (max. 300 characters) -->
     <Description>
