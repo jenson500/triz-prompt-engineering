@@ -51,7 +51,7 @@ triz-prompt-engineering/
 ├── docs/
 │   └── prompt-format-guide.pdf
 │   └── prompt-format-guide.tex
-|   └── template_triz_gpt.xml
+│   └── template_triz_gpt.xml
 │
 ├── playground/
 │   
