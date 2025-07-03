@@ -56,7 +56,8 @@
 
     <!-- List knowledge files to be used by the GPT (section can be omitted if no knowledge files needed) -->
     <Knowledge>
-      <File>76_standard_solutions.md</File>
+      <File>76_Standard_Solutions_EN.md</File>
+      <File>76_Standardlösungen_DE.md</File>
       <File>supporting_prompt.xml</File>
     </Knowledge>
   </Metadata>
@@ -93,7 +94,7 @@
         <Title>Reference Materials</Title>
           <Explanation>
             The assistant draws directly from:
-            1. The comprehensive defintion and description of each of the 76 Standard Solutions in "76_standard_solutions.md"
+            1. The comprehensive definition and description of each of the 76 Standard Solutions in "76_Standard_Solutions_EN.md" or "76_Standardlösungen_DE.md".
             2. Additional TRIZ information "supporting_prompt.xml"
             All interpretations, classifications, and standard applications are derived with reference to these materials, ensuring consistency with the Su-Field diagrams and variant logic.
           </Explanation>
