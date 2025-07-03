@@ -106,7 +106,7 @@ Diese Gruppe hat 5 Untergruppen und enthält 17 Standardlösungen.
 
 ![](2.png)
 
-### Vorgehensweise bei der Anwendung von Standardlösungen**
+### Vorgehensweise bei der Anwendung von Standardlösungen
 Wenn das Problem ein Messproblem ist, dann wendet man die Klasse 4 an und zusätzlich die Klasse 5.
 
 Ist das Problem kein Messproblem, dann wird analysiert, ob das SFM-Modell vollständig ist. Ist es nicht vollständig, dann wendet man den Standard 1.1.1 an und zusätzlich die Klasse 5.
@@ -124,7 +124,7 @@ Vervollständigen Sie das Stoff-Feld-System so, dass zwei Stoffe und ein Feld (W
 
 **Ziel:** Ein technisches System so vervollständigen, dass es zwei Substanzen (S1 und S2) und mindestens ein Feld (F) enthält, das eine Wechselwirkung zwischen ihnen ermöglicht.
 
-**Zentrale Idee:** Ein technisches System ist nur dann vollständig und funktionsfähig, wenn es drei wesentliche Komponenten enthält:
+**Grundidee:** Ein technisches System ist nur dann vollständig und funktionsfähig, wenn es drei wesentliche Komponenten enthält:
 
 -  **Stoff 1 (S1):** Das Ziel der Handlung z. B. das Objekt, das verändert wird.
 -  **Stoff 2 (S2):** Das Werkzeug oder agierende Element z. B. das, was auf S1 einwirkt*
@@ -163,7 +163,7 @@ Wenn ein nützlicher Effekt verbessert werden soll und es keine Einschränkungen
 
 **Ziel:** Verbesserung einer nützlichen Wirkung innerhalb eines technischen Systems durch das **Einführen eines internen Additivs (S3)** in eine der vorhandenen Substanzen (S1 oder S2).
 
-**Zentrale Idee:** Wenn ein Stoff-Feld-System bereits vollständig ist (bestehend aus S1, S2 und F), aber die Leistung unzureichend ist oder verbessert werden soll, kann man:
+**Grundidee:** Wenn ein Stoff-Feld-System bereits vollständig ist (bestehend aus S1, S2 und F), aber die Leistung unzureichend ist oder verbessert werden soll, kann man:
 
 - Ein Additiv (S3) in das Innere von S1 oder S2 einbringen
 - Dieses Additiv verbessert z. B. Steuerbarkeit, Wirkungsgrad oder eine gewünschte Eigenschaft
@@ -223,7 +223,7 @@ Wenn ein nützlicher Effekt verbessert werden soll, es aber nicht möglich ist, 
 
 **Ziel:** Verbesserung einer nützlichen Wirkung innerhalb eines bestehenden Stoff-Feld-Systems durch das Hinzufügen eines externen Additivs (S3), das außerhalb von S1 oder S2 angebracht wird.
 
-**Zentrale Idee:** Wenn ein Stoff-Feld-Modell (bestehend aus S1, S2 und F) bereits vorhanden ist, aber nicht effizient genug arbeitetoder eine bestimmte Wirkung verbessert werden soll, kann Folgendes getan werden:
+**Grundidee:** Wenn ein Stoff-Feld-Modell (bestehend aus S1, S2 und F) bereits vorhanden ist, aber nicht effizient genug arbeitetoder eine bestimmte Wirkung verbessert werden soll, kann Folgendes getan werden:
 
 - Ein Additiv (S3) wird außerhalb von S1 oder S2 angebracht oder aufgebracht
 
@@ -945,7 +945,6 @@ eine Art  "Bodyguard ", der gezielt die schädliche Energie aufnimmt oder ableit
    
       - S2: Vorher platzierte Hohlräume im Erdreich → Diese puffern die Bewegung → keine Deformation des Rohrs
    
-
 3. Röntgenschutz bei medizinischen Aufnahmen
 
    - S1: Patient / Techniker
