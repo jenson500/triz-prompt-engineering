@@ -5893,7 +5893,7 @@ Von fest zu flüssig, von flüssig zu gasförmig, von fest zu gasförmig oder um
 
 **Ziel:** Durch Änderung des physischen Zustands eines bereits vorhandenen Stoffes werden neue oder verbesserte Funktionen im System aktiviert, z. B. Transport, Kühlung, Reinigung, Formgebung, Reaktion, Energiespeicherung oder Abgabe, ohne neue Stoffe zuzuführen.
 
-**Grundidee:** Der Aggregatzustand eines Stoffes bestimmt maßgeblich seine Eigenschaften wie Dichte, Beweglichkeit, Reaktivität, Kontaktfläche, Druck, Temperaturverhalten. Durch eine gezielte Zustandsänderung kann derselbe Stoff neue Funktionen erfüllen, z. B.:
+**Grundidee:** Der Aggregatzustand eines Stoffes bestimmt maßgeblich seine Eigenschaften wie Dichte, Beweglichkeit, Reaktivität, Kontaktfläche, Druck, Temperaturverhalten.Durch eine gezielte Zustandsänderung kann derselbe Stoff neue Funktionen erfüllen, z. B.:
 
 * Flüssigkeit → bessere Benetzung oder Transport
 * Gas → Vergrößerung des Volumens, Reinigung, Kühlung
@@ -5912,7 +5912,7 @@ Von fest zu flüssig, von flüssig zu gasförmig, von fest zu gasförmig oder um
 
 **Anwendungshinweise**
 
-* **Wann einsetzen?** Besonders geeignet, wenn:
+* **Wann einsetzen?**Besonders geeignet, wenn:
   * die Leistungsfähigkeit bestehender Stoffe erhöht werden soll
   * kompakte Lagerung oder Transport erforderlich ist
   * bestimmte Funktionen nur in spezifischem Aggregatzustand möglich sind
@@ -5923,12 +5923,12 @@ Von fest zu flüssig, von flüssig zu gasförmig, von fest zu gasförmig oder um
 
 1. Eisstrahlen zur Oberflächenbehandlung
    - Wasser wird zu Eis gefroren und als abrasives Strahlmittel eingesetzt.
-   - Nach dem Prozess taut es rückstandsfrei auf. → *Reinigungsfunktion durch feste Phase, Selbsteliminierung durch Übergang in Flüssigkeit.*
+   - Nach dem Prozess taut es rückstandsfrei auf.→ *Reinigungsfunktion durch feste Phase, Selbsteliminierung durch Übergang in Flüssigkeit.*
 2. Zuckerkristalle zur temporären Wundbehandlung
    - Feine Zuckerpartikel werden appliziert.
    - Anschließend werden die Zuckerpartikel in Wasser aufgelöst. → *Nützlich im festen Zustand, aber leicht entfernbar im flüssigen.*
 3. Verwendung von α-Messing statt β-Messing
-   - Durch Temperaturbehandlung wird die Kristallstruktur des Metalls verändert, was zu anderen mechanischen Eigenschaften führt. → *Aggregatzustand auf Mikrostruktur-Ebene verändert die Funktion.*
+   - Durch Temperaturbehandlung wird die Kristallstruktur des Metalls verändert, was zu anderen mechanischen Eigenschaften führt.→ *Aggregatzustand auf Mikrostruktur-Ebene verändert die Funktion.*
 
 **Hinweise**
 
