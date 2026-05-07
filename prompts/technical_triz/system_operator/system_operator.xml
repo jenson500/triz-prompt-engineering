@@ -41,7 +41,7 @@
     </Starters>
 
     <Models>
-      <Model>GPT-4o</Model>
+      <Model>GPT-5.5</Model>
     </Models>
 
     <Creativity>0.7</Creativity>
