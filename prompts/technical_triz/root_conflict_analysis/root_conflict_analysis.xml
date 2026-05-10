@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!-- 
-  RCA+ (Root Conflict Analysis) Prompt
+  RCA+ (Root Conflict Analysis / Grundkonfliktanalyse) Prompt
 
   Adapted from the structure of root_cause_analysis.xml.
   RCA+ extends Root Cause Analysis by considering both undesirable and desirable
   effects of system states in order to identify root causes and root conflicts.
 
-  Copyright (c) 2026 Jens Träger
+  Copyright (c) 2026 Jens Traeger / Truinorva GmbH
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this prompt and associated instructions, knowledge, and documentation files
@@ -41,7 +41,9 @@
       <Prompt>Compare root causes and root conflicts for this engineering issue</Prompt>
     </Starters>
     <Models>
-      <Model>GPT-5.5</Model>
+      <Model>GPT-4o</Model>
+      <Model>GPT-4.1</Model>
+      <Model>Reasoning model</Model>
     </Models>
     <Creativity>0.45</Creativity>
     <Capabilities>
