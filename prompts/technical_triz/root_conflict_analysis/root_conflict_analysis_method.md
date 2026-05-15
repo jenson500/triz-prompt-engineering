@@ -125,6 +125,14 @@ For N causes: elimination problems. For N+P causes: technical contradiction (TC)
 
 Prioritized list with rationale. Do not solve — solving uses other TRIZ methods.
 
+Selection guidelines:
+- **AND causes**: solving any one contradiction cause eliminates the entire negative effect.
+- **OR causes**: all must be solved to fully prevent the negative effect.
+- **Closer to the top** is generally preferred — more ideal solutions.
+- **Fewer components** involved → easier to resolve.
+- **System-level** causes preferred over supersystem causes (easier to change).
+- N-type causes without contradictions can be directly eliminated.
+
 ---
 
 ## 4. RCA vs. RCA+

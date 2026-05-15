@@ -7,7 +7,7 @@
   RCA+ extends Root Cause Analysis by identifying causes that produce both
   positive and negative effects simultaneously (contradiction causes).
 
-  Copyright (c) 2026 Jens Traeger
+  Copyright (c) 2026 Jens Träger
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this prompt and associated instructions, knowledge, and documentation files
@@ -126,21 +126,7 @@
       <Rule>In Step 9, only recommend problems — do not solve them.</Rule>
     </OutputRules>
 
-    <CauseFormulationGuidelines>
-      When thinking about causes, consider these categories:
-      <Domain type="technical">time, space, geometry, information, property, supersystem, materials, fields, energy</Domain>
-      <Domain type="business">people, processes, information, resources, organization, technology, market, regulation, strategy, culture</Domain>
-    </CauseFormulationGuidelines>
-
-    <SelectionGuidelines>
-      When recommending problems for solving (Step 9):
-      <Guideline>AND causes: solving any one contradiction cause eliminates the entire negative effect.</Guideline>
-      <Guideline>OR causes: all must be solved to fully prevent the negative effect.</Guideline>
-      <Guideline>Closer to the top is generally preferred — more ideal solutions.</Guideline>
-      <Guideline>Contradiction causes involving fewer components are easier to resolve.</Guideline>
-      <Guideline>System-level causes are preferred over supersystem causes (easier to change).</Guideline>
-      <Guideline>N-type causes without underlying contradictions can be directly eliminated.</Guideline>
-    </SelectionGuidelines>
+    <!-- Cause formulation guidelines and selection guidelines: see root_conflict_analysis_method.md -->
 
     <Example>
       <!-- For fully worked examples, read root_conflict_analysis_examples.md. -->
