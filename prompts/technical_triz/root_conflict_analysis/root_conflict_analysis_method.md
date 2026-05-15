@@ -6,186 +6,142 @@ Detailed method rules for `root_conflict_analysis.xml`.
 
 ## Lookup Map
 
-- For the purpose of RCA+, use section 1.
-- For definitions of state, desirable aspect, undesirable aspect, dependency, root cause, and root conflict, use section 2.
-- For the analytical workflow, use section 3.
-- For causal polarity and backwards classification propagation, use section 4.
-- For deciding RCA vs. RCA+, use section 5.
-- For quality checks, use section 6.
+- For the purpose and background of RCA+, use section 1.
+- For definitions of cause types, relationships, and problem categories, use section 2.
+- For the 9-step analytical workflow, use section 3.
+- For deciding RCA vs. RCA+, use section 4.
+- For quality rules, use section 5.
 
 ---
 
 ## 1. Purpose of RCA+
 
-Root Cause Analysis (RCA) focuses mainly on undesirable effects and traces them back to negative causes. Root Conflict Analysis (RCA+ / Grundkonfliktanalyse) extends RCA by also recording desirable effects, useful outcomes, goals, and requirements with equal importance.
+Root Conflict Analysis (RCA+) was developed by Valeri Souchkov. It combines ideas from Root Cause Analysis, Theory of Constraints, and TRIZ. RCA+ extends classical Root Cause Analysis in two fundamental ways:
 
-A conflict exists when the same system state or parameter contributes to both desirable and undesirable effects. RCA+ is therefore especially useful when a system already works reasonably well, but improvement is difficult because removing the problem would also destroy a benefit.
+1. **Contradictions, not just causes.** Often a cause contributes to both a negative and a positive effect. Simply eliminating the cause would destroy the positive effect. RCA+ identifies these contradiction causes so they can be resolved inventively rather than by brute elimination.
 
-Typical use cases:
+2. **Closer to the problem is better.** Instead of drilling to the deepest root cause, RCA+ targets contradictions that reside as close as possible to the general negative effect. Experience with hundreds of problems shows that solving a contradiction closer to the top problem provides more ideal solutions.
 
-- mature products or systems that need improvement;
-- product, process, service, or organizational optimization;
-- situations where a design decision has a useful purpose but also creates harm;
-- innovation tasks where contradiction or conflict resolution is more suitable than defect repair.
-
-RCA is usually sufficient when the task is mainly defect elimination and the unwanted effect is caused by an avoidable, actionable root cause. RCA+ is usually more powerful when the system is already functional and the problem results from a trade-off or conflict.
+RCA+ is domain-independent and applies equally to technical/engineering systems and business/management systems.
 
 ---
 
 ## 2. Core Concepts
 
-### State
+### Four Problem Categories
 
-A state is a condition, property, behavior, parameter value, environmental condition, user behavior, or system situation that causally influences other states. Phrase states so that “more/less”, “stronger/weaker”, “larger/smaller”, “more frequent/less frequent”, or “present/absent” can be meaningfully discussed.
+RCA+ can analyze four categories of problems:
 
-Examples:
+1. **Negative effect** — something happens that we do not want at all (a failure, defect, damage, loss, complaint).
+2. **Insufficient effect** — a desired result is not achieved with the required degree of performance, quality, or completeness.
+3. **Excessive effect** — a desired result is achieved but wastes too much of a costly resource.
+4. **Ineffective control** — we have the means of control but the process of control is too slow, inaccurate, or unreliable.
 
-- opening is large;
-- rain protection is present;
-- waste becomes wet;
-- maintenance frequency is high;
-- access to the opening is easy;
-- system is located unfavorably.
+### Four Types of Causes
 
-### Desirable Aspect
+Every cause in an RCA+ diagram is classified as one of four types:
 
-A useful, intended, required, beneficial, or goal-related effect that should be preserved or strengthened.
+| Tag | Type | Meaning |
+|---|---|---|
+| **N** | Negative | The cause is entirely negative; we want to eliminate it. Can be factual (verified) or assumptive (unverified). |
+| **N+P** | Negative + Positive | The same cause produces both a negative and a positive effect. This is a **contradiction cause** — the core discovery of RCA+. |
+| **NC** | Non-Changeable | The cause contributes negatively but cannot be eliminated or modified (beyond our control, e.g. laws of nature, policy, supersystem constraints). |
+| **P** | Positive | A positive effect produced by a contradiction cause. Listed for completeness. |
 
-### Undesirable Aspect
+### Cause Formulation
 
-A harmful, unintended, costly, risky, defective, inconvenient, or problematic effect that should be reduced or eliminated.
+A cause must be stated as one of:
 
-### Causal Dependency
+- A **function**: subject + action + object (e.g. "Knife scratches table surface", "Manager delays decisions").
+- A **relative parameter value**: property + relative value (e.g. "Temperature is too high", "Marketing budget is too low").
+- A **change of a property**: direction + property + relative value (e.g. "Decrease of temperature is too fast").
+- A **radical state change**: (e.g. "Ice melts", "Key employee leaves").
 
-A directed relationship from a source state to a target state. The source state causally influences the target state.
+Each cause must be a sentence, not a single word. Avoid the question "Why?" — always ask "What causes ...?"
 
-The direction of causality is from cause to effect:
+### Factual vs. Assumptive Causes
 
-`Source State -> Target State`
+- **Factual cause**: Verified by data or observation.
+- **Assumptive cause**: Hypothetical, requires verification. Mark clearly.
 
-### Positive Dependency / Reinforcing Dependency
+### AND / OR Relationships
 
-Use `+ reinforces` when more of the source state leads to more of the target state, or less of the source state leads to less of the target state.
+- **AND relationship**: Multiple causes are all required together. Removing any single one eliminates the effect.
+- **OR relationship**: Causes contribute independently. Each alone can produce the effect.
 
-Example:
+For specific problems, causes are usually AND-related. For broad failure prevention, causes can be AND or OR.
 
-- More difficult access to the opening leads to more waste placed next to the bin.
+### Stopping Rules
 
-### Negative Dependency / Weakening or Inverting Dependency
+Stop expanding a branch when you reach:
 
-Use `- weakens/inverts` when more of the source state leads to less of the target state, or less of the source state leads to more of the target state.
+- A **contradiction cause** (N+P) — the positive effect identifies why the cause exists.
+- A **non-changeable cause** (NC) — we cannot influence it.
+- A **requirement or demand** that cannot be changed.
 
-Example:
+### Cause Exploration Categories
 
-- More rain protection leads to less rain entering the bin.
+**For technical/engineering problems:** time, space, geometry, information, property, supersystem, materials, fields, energy.
 
-### Root Cause
-
-A root cause is an undesirable state that causes other states but is not itself caused by another state within the chosen model boundary. A real root cause should be actionable or changeable in principle.
-
-### Root Conflict
-
-A root conflict is a state that receives both desirable and undesirable classifications. This means the same state contributes to at least one useful effect and at least one harmful effect.
-
-A root conflict cannot normally be solved by simply removing the state, because the useful effect would also be lost. It requires inventive means, such as separation in time, separation in space, separation by condition, dynamic adaptation, or replacement of the harmful mechanism while preserving the useful effect.
-
----
-
-## 3. RCA+ Workflow
-
-1. Define the system, system boundary, operating context, stakeholders, and improvement objective.
-2. Identify the initial undesirable aspect or problem.
-3. Identify desirable aspects that must be preserved or strengthened.
-4. List all relevant system states and parameters.
-5. Mark known terminal aspects as desirable or undesirable.
-6. Build directed causal dependencies between states.
-7. Assign polarity to each dependency:
-   - `+ reinforces`: more source creates more target;
-   - `- weakens/inverts`: more source creates less target.
-8. Propagate classifications backwards through the causal graph:
-   - through `+`, keep the classification;
-   - through `-`, invert the classification.
-9. Iterate propagation until no additional classifications can be inferred.
-10. Classify each state as desirable, undesirable, root conflict, unclassified, or ambiguous.
-11. Identify root causes among actionable undesirable states with outgoing dependencies and no incoming dependencies.
-12. Identify root conflicts among states that receive both positive and negative classifications.
-13. Formulate each root conflict as a contradiction statement.
-14. Only then propose solution directions.
+**For business/management problems:** people, processes, information, resources, organization, technology, market, regulation, strategy, culture.
 
 ---
 
-## 4. Classification Propagation Rules
+## 3. The 9 Steps of RCA+
 
-Classifications propagate **against** the direction of causal dependencies, from the target state back to the source state.
+### Step 1 — State the general negative effect
 
-### Positive dependency
+The top-level problem must be a single sentence belonging to one of the four problem categories.
 
-If the target is desirable and the dependency is positive, the source is desirable.
+### Step 2 — Find the causes
 
-If the target is undesirable and the dependency is positive, the source is undesirable.
+Ask: "What causes this effect to occur?" Formulate each cause as a function, relative parameter value, change of property, or radical state change. Mark as factual or assumptive.
 
-Example:
+### Step 3 — Check AND / OR relationships
 
-- More maintenance-friendly design leads to lower running costs.
-- Low running costs are desirable.
-- Therefore, maintenance-friendly design is desirable.
+Check whether each cause alone is sufficient or whether additional AND-related causes exist.
 
-### Negative dependency
+### Step 4 — Classify each cause
 
-If the target is desirable and the dependency is negative, the source is undesirable.
+For every cause, ask: "Does this cause also produce a positive effect?" Classify as N, N+P, NC, or P.
 
-If the target is undesirable and the dependency is negative, the source is desirable.
+### Step 5 — Continue the top-down analysis
 
-Example:
+For each N-type cause, repeat Step 2. Do not expand N+P or NC causes.
 
-- More rain protection leads to less wet waste.
-- Wet waste is undesirable.
-- Therefore, rain protection is desirable.
+### Step 6 — Check AND relationships for new causes
 
-Another example:
+For each newly added cause, repeat Step 3. Continue iteratively until all branches end.
 
-- Smaller opening leads to less easy waste disposal.
-- Easy waste disposal is desirable.
-- Therefore, a smaller opening is undesirable.
+### Step 7 — Create the summary table
 
-### Conflict detection
+Single table with columns: ID | Cause | Type | Positive Effect | Negative Effect.
 
-If one state receives only positive classifications, classify it as desirable.
+### Step 8 — Formulate the problems
 
-If one state receives only negative classifications, classify it as undesirable.
+For N causes: elimination problems. For N+P causes: technical contradiction (TC) and physical contradiction (PC).
 
-If one state receives both positive and negative classifications, classify it as a root conflict candidate.
+### Step 9 — Recommend problems for solving
 
-If evidence is weak or causal paths contradict each other due to uncertainty, classify it as ambiguous and state the missing data.
+Prioritized list with rationale. Do not solve — solving uses other TRIZ methods.
 
 ---
 
-## 5. RCA vs. RCA+
+## 4. RCA vs. RCA+
 
-RCA is limited to identifying root causes of undesirable effects. RCA+ identifies both root causes and root conflicts. RCA+ requires more effort because desirable aspects must also be identified and modeled.
-
-Useful decision rules:
-
-- If the system is underdeveloped or defective, RCA may be sufficient.
-- If the system is mature and generally works, but improvement is difficult because every change has disadvantages, RCA+ is often more suitable.
-- Mature products usually have fewer simple root causes and more root conflicts.
-- A problem caused by an actionable root cause indicates a defect or unfinished development.
-- A problem caused by a root conflict indicates that a useful design decision also creates harm.
-
-RCA mainly answers causal “Why?” questions: Why does this undesirable effect occur?
-
-RCA+ also answers goal-related “Why?” questions: Why was this design decision made? Which useful effect does it preserve?
+- If the system is underdeveloped or defective → RCA may be sufficient.
+- If the system is mature and improvement is difficult because every change has disadvantages → RCA+ is more suitable.
+- Mature products usually have fewer simple root causes and more contradictions.
+- A problem caused by an actionable root cause indicates a defect.
+- A problem caused by a contradiction cause indicates that a useful design decision also creates harm.
 
 ---
 
-## 6. Quality Rules
+## 5. Quality Rules
 
-- Distinguish clearly between root causes and root conflicts.
-- Do not treat every negative state as a root cause.
-- Check whether an undesirable state is caused by another state.
-- Check whether a conflict state preserves a useful effect.
-- Do not remove a conflict state without preserving its desirable effect.
-- Use cautious language for assumed causal dependencies.
-- Mark uncertain findings as candidates.
-- State missing data explicitly.
-- Keep the analysis structured and suitable for engineering, product, process, service, or organizational systems.
+- Each cause must be a sentence, not a single word.
+- Always check for AND-related causes — breadth reveals more solution opportunities.
+- Do not skip Step 4 — checking for positive effects is what makes RCA+ more powerful than plain RCA.
+- Mark assumptive causes clearly; they require verification.
+- Do not continue deeper analysis beyond N+P or NC causes.
+- Keep the diagram top-down and readable.

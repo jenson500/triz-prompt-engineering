@@ -1,395 +1,221 @@
 # Root Conflict Analysis (RCA+) Knowledge File
 
-This knowledge file contains the detailed method instructions for `root_conflict_analysis.xml`. The XML prompt should stay compact; this file holds the extended RCA+ methodology, definitions, tables, propagation rules, examples, and report structure.
+This knowledge file contains the complete RCA+ methodology for `root_conflict_analysis.xml`, based on Souchkov's approach. The XML prompt should stay compact; this file holds the extended methodology, definitions, tables, examples, and report structure.
 
 ---
 
 ## 1. Purpose of RCA+
 
-Root Cause Analysis (RCA) focuses mainly on undesirable effects and traces them back to negative causes. Root Conflict Analysis (RCA+ / Grundkonfliktanalyse) extends RCA by also recording desirable effects, useful outcomes, goals, and requirements with equal importance.
+Root Conflict Analysis (RCA+) was developed by Valeri Souchkov. It combines ideas from Root Cause Analysis, Theory of Constraints, and TRIZ. RCA+ extends classical Root Cause Analysis in two fundamental ways:
 
-A conflict exists when the same system state or parameter contributes to both desirable and undesirable effects. RCA+ is therefore especially useful when a system already works reasonably well, but improvement is difficult because removing the problem would also destroy a benefit.
+1. **Contradictions, not just causes.** Often a cause contributes to both a negative and a positive effect. Simply eliminating the cause would destroy the positive effect. RCA+ identifies these contradiction causes so they can be resolved inventively rather than by brute elimination.
 
-Typical use cases:
+2. **Closer to the problem is better.** Instead of drilling to the deepest root cause, RCA+ targets contradictions that reside as close as possible to the general negative effect. Experience with hundreds of problems shows that solving a contradiction closer to the top problem provides more ideal solutions.
 
-- mature products or systems that need improvement;
-- product, process, service, or organizational optimization;
-- situations where a design decision has a useful purpose but also creates harm;
-- innovation tasks where contradiction or conflict resolution is more suitable than defect repair.
-
-RCA is usually sufficient when the task is mainly defect elimination and the unwanted effect is caused by an avoidable, actionable root cause. RCA+ is usually more powerful when the system is already functional and the problem results from a trade-off or conflict.
+RCA+ is domain-independent and applies equally to technical/engineering systems and business/management systems.
 
 ---
 
 ## 2. Core Concepts
 
-### State
+### Four Problem Categories
 
-A state is a condition, property, behavior, parameter value, environmental condition, user behavior, or system situation that causally influences other states. Phrase states so that “more/less”, “stronger/weaker”, “larger/smaller”, “more frequent/less frequent”, or “present/absent” can be meaningfully discussed.
+1. **Negative effect** — something happens that we do not want at all (a failure, defect, damage, loss, complaint).
+2. **Insufficient effect** — a desired result is not achieved with the required degree of performance, quality, or completeness.
+3. **Excessive effect** — a desired result is achieved but wastes too much of a costly resource.
+4. **Ineffective control** — we have the means of control but the process of control is too slow, inaccurate, or unreliable.
 
-Examples:
+### Four Types of Causes
 
-- opening is large;
-- rain protection is present;
-- waste becomes wet;
-- maintenance frequency is high;
-- access to the opening is easy;
-- system is located unfavorably.
+| Tag | Type | Meaning |
+|---|---|---|
+| **N** | Negative | The cause is entirely negative; we want to eliminate it. Can be factual (verified) or assumptive (unverified). |
+| **N+P** | Negative + Positive | The same cause produces both a negative and a positive effect. This is a **contradiction cause** — the core discovery of RCA+. |
+| **NC** | Non-Changeable | The cause contributes negatively but cannot be eliminated or modified (beyond our control). |
+| **P** | Positive | A positive effect produced by a contradiction cause. Listed for completeness. |
 
-### Desirable Aspect
+### Cause Formulation
 
-A useful, intended, required, beneficial, or goal-related effect that should be preserved or strengthened.
+A cause must be stated as one of:
 
-Examples:
+- A **function**: subject + action + object (e.g. "Knife scratches table surface", "Manager delays decisions").
+- A **relative parameter value**: property + relative value (e.g. "Temperature is too high", "Marketing budget is too low").
+- A **change of a property**: direction + property + relative value (e.g. "Decrease of temperature is too fast").
+- A **radical state change**: (e.g. "Ice melts", "Key employee leaves").
 
-- users can easily throw waste into the bin;
-- running costs are low;
-- the product is easy to operate;
-- maintenance effort is low;
-- safety is high.
+Each cause must be a sentence, not a single word. Avoid "Why?" — always ask "What causes ...?"
 
-### Undesirable Aspect
+### AND / OR Relationships
 
-A harmful, unintended, costly, risky, defective, inconvenient, or problematic effect that should be reduced or eliminated.
+- **AND**: Multiple causes are all required together. Removing any single one eliminates the effect.
+- **OR**: Causes contribute independently. Each alone can produce the effect.
 
-Examples:
+### Stopping Rules
 
-- odor nuisance occurs;
-- waste lies next to the bin;
-- rain enters the bin;
-- material becomes wet;
-- maintenance costs increase.
+Stop expanding a branch when you reach: an N+P cause, an NC cause, or a requirement that cannot be changed.
 
-### Causal Dependency
+### Cause Exploration Categories
 
-A directed relationship from a source state to a target state. The source state causally influences the target state.
+**Technical/engineering:** time, space, geometry, information, property, supersystem, materials, fields, energy.
 
-The direction of causality is from cause to effect:
-
-`Source State -> Target State`
-
-### Positive Dependency / Reinforcing Dependency
-
-Use `+ reinforces` when more of the source state leads to more of the target state, or less of the source state leads to less of the target state.
-
-Example:
-
-- More difficult access to the opening leads to more waste placed next to the bin.
-
-### Negative Dependency / Weakening or Inverting Dependency
-
-Use `- weakens/inverts` when more of the source state leads to less of the target state, or less of the source state leads to more of the target state.
-
-Example:
-
-- More rain protection leads to less rain entering the bin.
-
-### Root Cause
-
-A root cause is an undesirable state that causes other states but is not itself caused by another state within the chosen model boundary. A real root cause should be actionable or changeable in principle.
-
-### Root Conflict
-
-A root conflict is a state that receives both desirable and undesirable classifications. This means the same state contributes to at least one useful effect and at least one harmful effect.
-
-A root conflict cannot normally be solved by simply removing the state, because the useful effect would also be lost. It requires inventive means, such as separation in time, separation in space, separation by condition, dynamic adaptation, or replacement of the harmful mechanism while preserving the useful effect.
+**Business/management:** people, processes, information, resources, organization, technology, market, regulation, strategy, culture.
 
 ---
 
-## 3. RCA+ Workflow
+## 3. The 9 Steps of RCA+
 
-1. Define the system, system boundary, operating context, stakeholders, and improvement objective.
-2. Identify the initial undesirable aspect or problem.
-3. Identify desirable aspects that must be preserved or strengthened.
-4. List all relevant system states and parameters.
-5. Mark known terminal aspects as desirable or undesirable.
-6. Build directed causal dependencies between states.
-7. Assign polarity to each dependency:
-   - `+ reinforces`: more source creates more target;
-   - `- weakens/inverts`: more source creates less target.
-8. Propagate classifications backwards through the causal graph:
-   - through `+`, keep the classification;
-   - through `-`, invert the classification.
-9. Iterate propagation until no additional classifications can be inferred.
-10. Classify each state as desirable, undesirable, root conflict, unclassified, or ambiguous.
-11. Identify root causes among actionable undesirable states with outgoing dependencies and no incoming dependencies.
-12. Identify root conflicts among states that receive both positive and negative classifications.
-13. Formulate each root conflict as a contradiction statement.
-14. Only then propose solution directions.
+**Step 1** — State the general negative effect (single sentence, one of four problem categories).
 
----
+**Step 2** — Find the causes: "What causes this effect to occur?" Formulate as function, relative parameter value, change of property, or radical state change. Mark as factual or assumptive.
 
-## 4. Classification Propagation Rules
+**Step 3** — Check AND / OR relationships. Is this the only cause, or do additional causes act together?
 
-Classifications propagate **against** the direction of causal dependencies, from the target state back to the source state.
+**Step 4** — Classify each cause: N (purely negative), N+P (contradiction cause), NC (non-changeable), P (positive effect of N+P).
 
-### Positive dependency
+**Step 5** — Continue top-down analysis for N-type causes. Stop at N+P, NC, or requirements.
 
-If the target is desirable and the dependency is positive, the source is desirable.
+**Step 6** — Check AND relationships for new causes. Continue Steps 5–6 iteratively until all branches end.
 
-If the target is undesirable and the dependency is positive, the source is undesirable.
+**Step 7** — Create summary table: ID | Cause | Type | Positive Effect | Negative Effect.
 
-Example:
+**Step 8** — Formulate problems. For N: elimination/prevention. For N+P: technical contradiction (TC) and physical contradiction (PC).
 
-- More maintenance-friendly design leads to lower running costs.
-- Low running costs are desirable.
-- Therefore, maintenance-friendly design is desirable.
-
-### Negative dependency
-
-If the target is desirable and the dependency is negative, the source is undesirable.
-
-If the target is undesirable and the dependency is negative, the source is desirable.
-
-Example:
-
-- More rain protection leads to less wet waste.
-- Wet waste is undesirable.
-- Therefore, rain protection is desirable.
-
-Another example:
-
-- Smaller opening leads to less easy waste disposal.
-- Easy waste disposal is desirable.
-- Therefore, a smaller opening is undesirable.
-
-### Conflict detection
-
-If one state receives only positive classifications, classify it as desirable.
-
-If one state receives only negative classifications, classify it as undesirable.
-
-If one state receives both positive and negative classifications, classify it as a root conflict candidate.
-
-If evidence is weak or causal paths contradict each other due to uncertainty, classify it as ambiguous and state the missing data.
+**Step 9** — Recommend problems for solving (prioritized list). Do not solve — solving uses other TRIZ methods.
 
 ---
 
-## 5. Required First Analytical Output
+## 4. Summary Table Format (Step 7)
 
-After the user provides a situation, the first analytical output must start with the relevant data in tabular form. Do not begin with a long conceptual explanation.
+| ID | Cause | Type | Positive Effect | Negative Effect |
+|---|---|---|---|---|
 
-Always include:
-
-1. `Relevant RCA+ Data`
-2. `Causal Dependency Table`
-3. `Classification and Propagation Table`
-4. `Root Causes and Root Conflicts`
-5. A direct statement beginning with `Root conflict(s) found:` or `No reliable root conflict identified yet:`
+- **Type**: N, N+P, NC, or P.
+- For N+P: fill both Positive and Negative Effect columns.
+- For N and NC: leave Positive Effect empty.
+- For P: leave Negative Effect empty.
 
 ---
 
-## 6. Required Table Formats
+## 5. Contradiction Formulation Templates (Step 8)
 
-### Relevant RCA+ Data
+### Technical Contradiction (TC)
 
-| Item ID | State / Aspect | Type | Known Classification | Why It Matters | Source / Evidence | Confidence |
-|---|---|---|---|---|---|---|
+"How to ensure [N+P-cause] to enable [positive effect] but to avoid [negative effect]?"
 
-Possible values for `Type`:
+### Physical Contradiction (PC)
 
-- Initial Problem
-- Desirable Aspect
-- Undesirable Aspect
-- Intermediate State
-- Parameter
-- Environmental Condition
-- User Behavior
-- Cost Driver
-- Maintenance Driver
-- Assumption
+"[N+P-cause] should be present/high/strong to [positive effect] AND should be absent/low/weak to avoid [negative effect]."
 
-Possible values for `Known Classification`:
+### N-type Problem Statement
 
-- Desirable
-- Undesirable
-- Unknown
-- Ambiguous
-
-### Causal Dependency Table
-
-| Dependency ID | Source State | Polarity | Target State | Causal Reading | Evidence / Assumption | Confidence |
-|---|---|---|---|---|---|---|
-
-Polarity must be one of:
-
-- `+ reinforces`
-- `- weakens/inverts`
-
-Causal reading should be phrased as:
-
-- More `[source]` leads to more `[target]`.
-- More `[source]` leads to less `[target]`.
-
-### Classification and Propagation Table
-
-| State | Direct Classification | Inferred Positive Paths | Inferred Negative Paths | Final RCA+ Classification | Interpretation |
-|---|---|---|---|---|---|
-
-Possible values for `Final RCA+ Classification`:
-
-- Desirable
-- Undesirable
-- Root Conflict
-- Root Conflict Candidate
-- Unclassified
-- Ambiguous
-
-### Root Causes and Root Conflicts
-
-| ID | Finding Type | State / Parameter | Conflict or Cause Logic | Desirable Effect Preserved | Undesirable Effect Created | Actionability | Recommended Direction |
-|---|---|---|---|---|---|---|---|
-
-Possible values for `Finding Type`:
-
-- Root Cause
-- Candidate Root Cause
-- Root Conflict
-- Candidate Root Conflict
-- Not Yet Decidable
+"How to eliminate / prevent [N-cause]?"
 
 ---
 
-## 7. Root Conflict Formulation Templates
+## 6. Selection Guidelines (Step 9)
 
-Use one or more of these templates:
-
-- The `[state/parameter]` should be high / present / strong so that `[desirable effect]` is achieved, and it should be low / absent / weak so that `[undesirable effect]` is avoided.
-- The system needs more `[state]` for `[useful result]`, but less `[state]` for `[harm reduction]`.
-- `[Design decision]` creates `[desirable effect]`, but also causes or increases `[undesirable effect]`.
-- The conflict is not merely that `[problem]` exists; the conflict is that the same underlying state also provides `[benefit]`.
-
----
-
-## 8. Solution Guidance
-
-Do not jump to solutions before the root conflict has been clearly stated.
-
-For root causes, suggest direct actions such as:
-
-- elimination;
-- mitigation;
-- relocation;
-- parameter adjustment;
-- process correction;
-- better measurement;
-- control action;
-- change of operating condition.
-
-For root conflicts, suggest inventive directions such as:
-
-- separation in time;
-- separation in space;
-- separation by condition;
-- separation by scale;
-- separation by system level;
-- dynamic adaptation;
-- segmentation;
-- feedback control;
-- selective activation;
-- local quality;
-- transition to a higher system level;
-- replacement of the harmful mechanism while preserving the useful effect.
-
-For every solution direction, explicitly explain how it preserves the desirable effect while reducing the undesirable effect.
+- **AND causes**: solving any one contradiction cause eliminates the entire negative effect.
+- **OR causes**: all must be solved to fully prevent the negative effect.
+- **Closer to the top** is generally preferred — more ideal solutions.
+- **Fewer components** involved → easier to resolve.
+- **System-level** causes preferred over supersystem causes (easier to change).
+- N-type causes without contradictions can be directly eliminated.
 
 ---
 
-## 9. RCA vs. RCA+
+## 7. Solution Directions
 
-RCA is limited to identifying root causes of undesirable effects. RCA+ identifies both root causes and root conflicts. RCA+ requires more effort because desirable aspects must also be identified and modeled.
+### For N-type causes
 
-Useful decision rules:
+Direct actions: elimination, mitigation, relocation, parameter adjustment, process correction, better measurement, control action, change of operating condition.
 
-- If the system is underdeveloped or defective, RCA may be sufficient.
-- If the system is mature and generally works, but improvement is difficult because every change has disadvantages, RCA+ is often more suitable.
-- Mature products usually have fewer simple root causes and more root conflicts.
-- A problem caused by an actionable root cause indicates a defect or unfinished development.
-- A problem caused by a root conflict indicates that a useful design decision also creates harm.
+### For N+P-type causes (contradictions)
 
-RCA mainly answers causal “Why?” questions: Why does this undesirable effect occur?
+Inventive directions: separation in time, separation in space, separation by condition, separation by scale, separation by system level, dynamic adaptation, segmentation, feedback control, selective activation, local quality, transition to a higher system level, replacement of the harmful mechanism while preserving the useful effect.
 
-RCA+ also answers goal-related “Why?” questions: Why was this design decision made? Which useful effect does it preserve?
+### Recommended TRIZ solving methods
 
----
-
-## 10. Waste Bin Example
-
-Situation:
-
-A public waste bin creates odor problems. It should also be easy for passers-by to use, and running costs should stay low. Opening size, rain protection, maintenance frequency, and placement influence both useful and harmful effects.
-
-### Relevant RCA+ Data
-
-| Item ID | State / Aspect | Type | Known Classification | Why It Matters | Source / Evidence | Confidence |
-|---|---|---|---|---|---|---|
-| A1 | Odor nuisance occurs near the bin | Undesirable Aspect | Undesirable | Creates discomfort and complaints | Given problem | High |
-| A2 | Waste is easy to throw into the bin | Desirable Aspect | Desirable | Ensures user adoption | Requirement | High |
-| A3 | Running costs are low | Desirable Aspect | Desirable | Keeps operation economical | Requirement | High |
-| S1 | Opening is large | Parameter / State | Unknown | Affects both usability and odor/rain ingress | Assumption | Medium |
-| S2 | Rain protection is present | Parameter / State | Unknown | Reduces wet waste but may reduce access | Assumption | Medium |
-| S3 | Emptying frequency is high | Maintenance Driver | Unknown | Reduces odor but increases cost | Assumption | Medium |
-
-### Causal Dependency Table
-
-| Dependency ID | Source State | Polarity | Target State | Causal Reading | Evidence / Assumption | Confidence |
-|---|---|---|---|---|---|---|
-| D1 | Opening is large | + reinforces | Waste is easy to throw into the bin | More opening size leads to easier disposal | Plausible dependency | High |
-| D2 | Opening is large | + reinforces | Odor nuisance occurs near the bin | More opening size can lead to more odor release | Plausible dependency | Medium |
-| D3 | Rain protection is present | - weakens/inverts | Waste becomes wet | More rain protection leads to less wet waste | Plausible dependency | High |
-| D4 | Rain protection is present | - weakens/inverts | Waste is easy to throw into the bin | More rain protection may reduce accessibility | Plausible dependency | Medium |
-| D5 | Emptying frequency is high | - weakens/inverts | Odor nuisance occurs near the bin | More emptying leads to less odor nuisance | Plausible dependency | High |
-| D6 | Emptying frequency is high | - weakens/inverts | Running costs are low | More emptying leads to lower cost efficiency | Plausible dependency | High |
-
-### Classification and Propagation Table
-
-| State | Direct Classification | Inferred Positive Paths | Inferred Negative Paths | Final RCA+ Classification | Interpretation |
-|---|---|---|---|---|---|
-| Opening is large | None | From easy disposal via D1 | From odor nuisance via D2 | Root Conflict | Large opening is both useful and harmful |
-| Rain protection is present | None | From less wet waste via D3 | From reduced accessibility via D4 | Root Conflict Candidate | Rain protection may be useful and harmful |
-| Emptying frequency is high | None | From reduced odor via D5 | From increased operating costs via D6 | Root Conflict | Frequent emptying reduces odor but increases cost |
-
-### Root conflict(s) found
-
-1. The waste bin opening should be large so that waste can be thrown in easily, and it should be small so that odor release and rain ingress are reduced.
-2. The emptying frequency should be high so that odor nuisance is reduced, and it should be low so that running costs remain low.
-3. Rain protection should be present so that rain does not enter the bin, and it should be absent or non-obstructive so that users can easily access the opening.
-
-Possible inventive directions:
-
-- opening large only during disposal, small otherwise: flap, spring lid, sensor lid;
-- frequent emptying only when needed: fill-level, odor, temperature, or season-dependent emptying;
-- rain protection without access obstruction: local cover geometry, asymmetric hood, funnel, hydrophobic entry path.
+- Contradiction Matrix and 40 Inventive Principles (for TC)
+- Separation Principles (for PC)
+- 76 Standard Solutions and Substance-Field Analysis
+- ARIZ
+- Function-Oriented Search
+- Feature Transfer
 
 ---
 
-## 11. Final RCA+ Report Structure
+## 8. Worked Examples
 
-When the user asks for a final report, use this structure:
+### Technical: Toothbrush Damages Gums
+
+**General negative effect:** "A toothbrush damages gums." (Negative effect)
+
+**Causes (AND-related):** Bristle surface is too hard (N+P: plaque removal), Bristles move over gums (N), Pressure is too strong (N), Surface of gums is too soft (NC).
+
+**Deeper:** Pressure → Bristles contact gums (N) AND Force is too strong (N+P: plaque removal). Bristles contact gums → Distance between teeth and gums is too small (NC). Bristles move over gums → Bristles move over teeth (N+P: all teeth cleaned).
+
+| ID | Cause | Type | Positive Effect | Negative Effect |
+|---|---|---|---|---|
+| 1 | Bristle surface is too hard | N+P | Plaque is removed | Toothbrush damages gums |
+| 2 | Pressure of bristles on gums is too strong | N | — | Toothbrush damages gums |
+| 3 | Surface of gums is too soft | NC | — | Toothbrush damages gums |
+| 4 | Bristles move over gums | N | — | Toothbrush damages gums |
+| 5 | Bristles contact gums | N | — | Pressure on gums is too strong |
+| 6 | Force on bristles is too strong | N+P | Plaque is removed | Pressure on gums is too strong |
+| 7 | Distance between teeth and gums is too small | NC | — | Bristles contact gums |
+| 8 | Bristles move over the teeth | N+P | All teeth are cleaned | Bristles move over gums |
+
+**Recommended:** (1) Bristle hardness N+P — closest to top. (2) Force N+P — eliminates pressure path. (3) Movement N+P — prevents gum contact.
+
+### Business: Sales Volume Is Low
+
+**General negative effect:** "Sales volume is low." (Insufficient effect)
+
+**Causes (mixed AND/OR):** Unexplored market segments (N, OR), Price too high (N+P: revenues, AND), Wrong price perception (N, AND).
+
+**Deeper:** Wrong perception → Customers don't recognize value (N) AND Customers used to cheaper versions (N+P: happy customer). Don't recognize value → Communication too little (N) → Marketing team too small (N+P: cost effective).
+
+| ID | Cause | Type | Positive Effect | Negative Effect |
+|---|---|---|---|---|
+| 1 | Unexplored market segments | N | — | Sales volume is low |
+| 2 | Price of the product is too high | N+P | Higher revenues | Sales volume is low |
+| 3 | Wrong perception of the price | N | — | Sales volume is low |
+| 4 | Customers do not recognize new value | N | — | Wrong perception of the price |
+| 5 | Customers used to much cheaper versions | N+P | Happy customer | Wrong perception of the price |
+| 6 | Direct communication with potential buyers is too little | N | — | Customers do not recognize new value |
+| 7 | Marketing team is too small | N+P | Cost effective | Direct communication is too little |
+
+**Recommended:** (1) Price N+P — closest. (2) Marketing team N+P. (3) Unexplored segments N — direct elimination.
+
+### Compact: Waste Bin
+
+**General negative effect:** "A public waste bin creates odor problems."
+
+**Contradiction causes:** Opening is large (N+P: easy disposal vs. odor), Emptying frequency is high (N+P: less odor vs. higher costs), Rain protection is present (N+P: dry waste vs. reduced access).
+
+**Inventive directions:** Flap/sensor lid (separation in time), fill-level-dependent emptying (separation by condition), asymmetric hood (separation in space).
+
+---
+
+## 9. Quality Rules
+
+- Each cause must be a sentence, not a single word.
+- Always check for AND-related causes — breadth reveals more solution opportunities.
+- Do not skip Step 4 — checking for positive effects is what makes RCA+ more powerful than plain RCA.
+- Mark assumptive causes clearly; they require verification.
+- Do not continue deeper analysis beyond N+P or NC causes.
+- Keep the diagram top-down and readable.
+
+---
+
+## 10. Final RCA+ Report Structure
 
 1. Executive Summary
-2. System Boundary and Improvement Objective
-3. Initial Desirable and Undesirable Aspects
-4. Relevant RCA+ Data
-5. Causal Dependency Model
-6. Classification Propagation
-7. Root Causes
-8. Root Conflicts
-9. Conflict Formulations
-10. Inventive Solution Directions
-11. Recommended Investigation and Validation Steps
-12. Assumptions, Open Questions, and Confidence Level
-
----
-
-## 12. Quality Rules
-
-- Distinguish clearly between root causes and root conflicts.
-- Do not treat every negative state as a root cause.
-- Check whether an undesirable state is caused by another state.
-- Check whether a conflict state preserves a useful effect.
-- Do not remove a conflict state without preserving its desirable effect.
-- Use cautious language for assumed causal dependencies.
-- Mark uncertain findings as candidates.
-- State missing data explicitly.
-- Keep the analysis structured and suitable for engineering, product, process, service, or organizational systems.
+2. System Description and Improvement Objective
+3. General Negative Effect and Problem Category
+4. RCA+ Diagram (top-down cause-effect structure with AND/OR relationships)
+5. Summary Table (ID | Cause | Type | Positive Effect | Negative Effect)
+6. Problem Formulations (TC and PC for each N+P cause; elimination problems for N causes)
+7. Recommended Problems for Solving (prioritized list with rationale)
+8. Assumptions, Open Questions, and Verification Needs
+9. Suggested Next Steps (which TRIZ methods to apply)
