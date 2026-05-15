@@ -45,11 +45,11 @@
     </Models>
     <Creativity>0.45</Creativity>
     <Capabilities>
-      <Capability>Structured reasoning</Capability>
-      <Capability>Table generation</Capability>
-      <Capability>Technical analysis</Capability>
-      <Capability>Code Interpreter and Data Analysis</Capability>
       <Capability>Web search</Capability>
+      <Capability>Canvas</Capability>
+      <Capability>Image generation</Capability>
+      <Capability>Code Interpreter and Data Analysis</Capability>
+      
     </Capabilities>
   </Metadata>
 
