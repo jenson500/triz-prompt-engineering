@@ -143,8 +143,10 @@ do it in advance
 1. If it is difficult to achieve a desired function 100%, implement something more or less to greatly simplify the problem: (1) The ink pad transfers more ink to a stamp than is needed for one mark, so it is possible to use the stamp more than once. (2) Objects to be coated with paint are dipped, then the excess is removed. (3) Holes in a wall are overfilled with plaster and, after hardening, sanded to a smooth surface.
 ----------
 
-IP #17 Transition to Another Dimension
+# IP #17 Transition to Another Dimension
+
 *Synonyms:* higher dimension, next dimension, another dimension, change dimension, transition to new dimensions, transition to higher dimensions (from one- to two- to three-dimensionality), movement into a new dimension
+
 1. Transition from zero-dimensional to one-dimensional movement and/or placement, from one-dimensional to two-dimensional, from two-dimensional to three-dimensional, and from three-dimensional to four-dimensional (time): Cheese grater, from the flat surface to the concave curved shape.
 2. Arrange objects in multiple layers instead of just one layer: (1) Software, displaying multi-level windows on the screen. (2) Kitchen grater, from the flat (two sides) to the cube (four times two sides) for different purposes.
 3. Tilting the object, changing its position, or laying the object on its side: (1) Wood logs can be bundled into a package or stored vertically. (2) Handbell, turn the bell upside down and circle it instead of holding it upright.
