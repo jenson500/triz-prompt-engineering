@@ -95,7 +95,7 @@ Synonyme: Segmentierung, Segmentieren, Zerlegung, Zerstückelung
 1. Unzureichende Zuverlässigkeit eines Systems durch zuvor getroffene Gegenmaßnahmen kompensieren: (1) Ein Überdruckventil verhindert das Bersten von Rohren oder Tanks, indem es die Flüssigkeit oder das Gas ablässt, wenn der Druck zu hoch ist. (2) Der Airbag im Auto verhindert schwere Verletzungen, indem er ein Gaspolster bildet, bevor der Kopf das Lenkrad berührt. (3) Schutzhüllen für Handy federn Stürze und Schläge ab und schützen so das Gerät.
 ----------
 
-# IP #12 Äquipotentialprinzip
+# IP #12 Äquipotentialprinz
 
 *Synonyme:* Äquipotential, Äquipotentialität, kürzester Weg (ohne Anheben und Absenken des Objekts) Gleichgewicht, äquipotentieller Transport (auf gerader oder kreisförmiger Linie ohne Anheben und Absenken), „Vor-Ort“-Arbeitsweise, Dinge auf die gleiche Ebene bringen, Spannungen beseitigen
 
@@ -238,7 +238,7 @@ Synonyme: Segmentierung, Segmentieren, Zerlegung, Zerstückelung
 1. Ersetzen eines teuren Objekts durch mehrere billigere Objekte, wobei auf bestimmte Eigenschaften verzichtet wird (z.B. Lebensdauer): (1) Papiertaschentücher haben Stofftaschentücher für die Körperpflege ersetzt, da sie nach Gebrauch weggeworfen werden. (2) Tageslinsen können nur für eine kurze Zeit getragen werden, sind aber auch wesentlich billiger als länger haltbare Monatslinsen. (3) Ein Einwegrasierer ist ein billiger und kurzlebiger Gegenstand. Anstelle eines robusten, wiederverwendbaren Rasierers mit auswechselbaren Klingen ist ein Einwegrasierer sehr einfach aufgebaut, um die Entwicklungs- und Produktionskosten zu minimieren. (4) Eine (sterile) Spritze und Nadel wird nach der Injektion weggeworfen.
 ----------
 
-# IP #28 Ersatz mechanischer Wirkprinzipien
+# IP #28 Ersatz mechanischer Wirkprinz# IPien
 
 *Synonyme:* mechanische Substitution, Mechanik ersetzen, Übergang zu höheren Formen, Verwenden von Magneten, Ersatz mechanischer Schaltungen, Ersatz mechanischer Systeme und Schemata, Verfahren des Ersatzes oder Ablösung mechanischer Wirkprinzipien (Übergang zu höheren Bewegungsformen und Feldern)
 
