@@ -95,7 +95,7 @@ Synonyme: Segmentierung, Segmentieren, Zerlegung, Zerstückelung
 1. Unzureichende Zuverlässigkeit eines Systems durch zuvor getroffene Gegenmaßnahmen kompensieren: (1) Ein Überdruckventil verhindert das Bersten von Rohren oder Tanks, indem es die Flüssigkeit oder das Gas ablässt, wenn der Druck zu hoch ist. (2) Der Airbag im Auto verhindert schwere Verletzungen, indem er ein Gaspolster bildet, bevor der Kopf das Lenkrad berührt. (3) Schutzhüllen für Handy federn Stürze und Schläge ab und schützen so das Gerät.
 ----------
 
-# IP #12 Äquipotentialprinz
+# IP #12 Äquipotentialprinzip
 
 *Synonyme:* Äquipotential, Äquipotentialität, kürzester Weg (ohne Anheben und Absenken des Objekts) Gleichgewicht, äquipotentieller Transport (auf gerader oder kreisförmiger Linie ohne Anheben und Absenken), „Vor-Ort“-Arbeitsweise, Dinge auf die gleiche Ebene bringen, Spannungen beseitigen
 
@@ -227,7 +227,7 @@ Synonyme: Segmentierung, Segmentieren, Zerlegung, Zerstückelung
 *Synonyme:* Kopieren
 
 1. Verwenden einer vereinfachten und billigen Kopie anstelle eines komplexen, teuren, zerbrechlichen oder schlecht handhabbaren Objekts: (1) Repliken von teurem Schmuck und Kunstgegenständen, Wechsel des Materials von teuer (Diamanten, Metall) zu billig (Plastik). (2) E-Book, Verwendung einer digitalen Kopie anstelle einer gedruckten Buchversion.
-2. Ersetzen eines Elements (Objekt oder System von Objekten) durch seine optische oder digitale Abbildung oder Kopie. Dieses Unterprinz# IP wird meist auf Messprobleme angewendet, z. B. Zählen und Messen von gefährlichen, giftigen, kleinen, extrem großen physischen Teilen oder Teilen mit Parametern, die sonst schwer zu handhaben oder zugänglich sind: (1) Zählen von Fischen in einem Aquarium durch Anfertigen eines Fotos. Die gleich aussehenden Fische stehen auf dem Foto still und können bequem gezählt werden. (2) Zur Messung von Teilen eine Kopie (visuell - Projektion oder Schatten; physisch - Foto, Rapid-Prototyping-Teil) anstelle des Originals verwenden.
+2. Ersetzen eines Elements (Objekt oder System von Objekten) durch seine optische oder digitale Abbildung oder Kopie. Dieses Unterprinzip wird meist auf Messprobleme angewendet, z. B. Zählen und Messen von gefährlichen, giftigen, kleinen, extrem großen physischen Teilen oder Teilen mit Parametern, die sonst schwer zu handhaben oder zugänglich sind: (1) Zählen von Fischen in einem Aquarium durch Anfertigen eines Fotos. Die gleich aussehenden Fische stehen auf dem Foto still und können bequem gezählt werden. (2) Zur Messung von Teilen eine Kopie (visuell - Projektion oder Schatten; physisch - Foto, Rapid-Prototyping-Teil) anstelle des Originals verwenden.
 3. Wenn bereits eine optische Kopie verwendet wird, Ersetzen der Kopie durch Abbilder (Kopien) im infraroten oder ultravioletten Bereich. Verwenden von Röntgenaufnahmen: (1) Wärmebildkamera mit der die Temperaturverteilung von Objekten sichtbar gemacht werden kann. (2) Verwendung von Röntgenaufnahmen zur zerstörungsfreien Erkennung von Fehlstellen (Lunkern) in Metallteilen.
 ----------
 
@@ -238,7 +238,7 @@ Synonyme: Segmentierung, Segmentieren, Zerlegung, Zerstückelung
 1. Ersetzen eines teuren Objekts durch mehrere billigere Objekte, wobei auf bestimmte Eigenschaften verzichtet wird (z.B. Lebensdauer): (1) Papiertaschentücher haben Stofftaschentücher für die Körperpflege ersetzt, da sie nach Gebrauch weggeworfen werden. (2) Tageslinsen können nur für eine kurze Zeit getragen werden, sind aber auch wesentlich billiger als länger haltbare Monatslinsen. (3) Ein Einwegrasierer ist ein billiger und kurzlebiger Gegenstand. Anstelle eines robusten, wiederverwendbaren Rasierers mit auswechselbaren Klingen ist ein Einwegrasierer sehr einfach aufgebaut, um die Entwicklungs- und Produktionskosten zu minimieren. (4) Eine (sterile) Spritze und Nadel wird nach der Injektion weggeworfen.
 ----------
 
-# IP #28 Ersatz mechanischer Wirkprinz# IPien
+# IP #28 Ersatz mechanischer Wirkprinzipien
 
 *Synonyme:* mechanische Substitution, Mechanik ersetzen, Übergang zu höheren Formen, Verwenden von Magneten, Ersatz mechanischer Schaltungen, Ersatz mechanischer Systeme und Schemata, Verfahren des Ersatzes oder Ablösung mechanischer Wirkprinzipien (Übergang zu höheren Bewegungsformen und Feldern)
 
