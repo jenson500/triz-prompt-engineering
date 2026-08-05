@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-  Physical Contradictions and Separation Principles Prompt
+  Physical Contradictions Prompt
 
   Copyright (c) 2025 Tanasak Pheunghua
 
@@ -26,7 +26,7 @@
 
 <Prompt>
   <Metadata>
-    <Title>Physical Contradictions and Separation Principles</Title>
+    <Title>Physical Contradictions</Title>
     <Description>
       Identify and resolve physical contradictions in engineering systems using TRIZ — with two documented strategy sets, the Litvin variant (separation in space, time, relation, system level plus satisfy and bypass) and the Zlotin/Zusman variant, each linked to the recommended Inventive Principles.
     </Description>

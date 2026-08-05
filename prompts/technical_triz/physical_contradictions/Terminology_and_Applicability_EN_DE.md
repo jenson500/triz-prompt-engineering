@@ -1,8 +1,8 @@
 # Binding terminology and applicability check (EN / DE)
 # Verbindliche Terminologie und Anwendbarkeitsprüfung (EN / DE)
 
-This file is binding for the prompt "Physical Contradictions and Separation Principles".
-Diese Datei ist verbindlich für den Prompt „Physical Contradictions and Separation Principles".
+This file is binding for the prompt "Physical Contradictions" (physical_contradictions.xml).
+Diese Datei ist verbindlich für den Prompt „Physical Contradictions" (physical_contradictions.xml).
 
 ---
 
