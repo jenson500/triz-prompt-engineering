@@ -91,18 +91,7 @@ empfohlen, auf die nächsten Segmente überzugehen und die dortigen Prinzipien a
 
 ---
 
-## 4. Hinweis zu technischen und physikalischen Widersprüchen
-
-Über die jeweilige Bedeutung physikalischer und technischer Widersprüche wurde viel diskutiert. Die
-klare Implikation ARIZ-basierter Prozesse und der meisten früheren Autoren ist, dass der
-physikalische Widerspruch der wichtigere ist. Neuere Aussagen legen nahe, dass es hinsichtlich der
-Anzahl generierter Ideen keinen signifikanten Unterschied zwischen den beiden Typen gibt, und dass
-die Berücksichtigung **sowohl** des physikalischen **als auch** des technischen Widerspruchs die
-Gesamtzahl der produzierten nützlichen Ideen beträchtlich erhöht.
-
----
-
-## 5. Anwendung dieser Datei
+## 4. Anwendung dieser Datei
 
 1. Die Aufgabenstellung als physikalischen Widerspruch formulieren, mit einer Begründung für jeden
    der beiden Werte des Parameters.
