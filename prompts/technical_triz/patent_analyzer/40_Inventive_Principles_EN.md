@@ -11,17 +11,17 @@
 
 # IP #2 Separation
 
-*Synonyms:* taking out, taking away, removal, extraction, detachment, isolation,separate treatment (of the disturbing or the only necessary)
+*Synonyms:* taking out, taking away, removal, extraction, detachment, isolation, separate treatment (of the disturbing or the only necessary)
 
-1. Separate or extract a disturbing part or a disturbing property(function) from an object: Normal pencils need to be sharpened and become shorter over time.In a mechanical pencil, the graphite lead is not firmly attached to the pencil and therefore exchangeable. This means that a new lead can simply be used, while the pencil itself does not wear out.
-2. Highlight or separate the only necessary part or the only necessary property (function): To prevent crop damage, birds must be kept away from the fields.Since farmers do not want to constantly guard their fields themselves, they use scarecrows. Scarecrows imitate the visual and acoustic characteristics of humans, which have the desired effect of scaring away the birds.
+1. Separate or extract a disturbing part or a disturbing property(function) from an object: Normal pencils need to be sharpened and become shorter over time. In a mechanical pencil, the graphite lead is not firmly attached to the pencil and therefore exchangeable. This means that a new lead can simply be used, while the pencil itself does not wear out.
+2. Highlight or separate the only necessary part or the only necessary property (function): To prevent crop damage, birds must be kept away from the fields. Since farmers do not want to constantly guard their fields themselves, they use scarecrows. Scarecrows imitate the visual and acoustic characteristics of humans, which have the desired effect of scaring away the birds.
 ----------
 
 # IP #3 Local Quality
 
-*Synonyms:* local properties, creating optimal conditions,optimal conditions for parts (highest local priority), adaptation,customization, non-uniformity of system and environment elements
+*Synonyms:* local properties, creating optimal conditions, optimal conditions for parts (highest local priority), adaptation, customization, non-uniformity of system and environment elements
 
-1. Transition from a homogeneous structure of the object or its environment to an inhomogeneous structure: Anti-slip socks have non-slip studs made of a rubber-like material(e.g. silicone) on the bottom that prevent slipping.
+1. Transition from a homogeneous structure of the object or its environment to an inhomogeneous structure: Anti-slip socks have non-slip studs made of a rubber-like material (e.g. silicone) on the bottom that prevent slipping.
 2. Different parts of an object perform different functions: The ends of shoelaces are reinforced with a sleeve to make it easierto thread them into the shoe and to prevent the end from fraying.
 3. Use each component of a system under optimal individual conditions: To produce seamless pipe segments, a forming tool (a so-called needle) is pushed through a heated cylindrical blank. To prevent the needle from going off course, the blank is cooled from the outside. This means that it is cool and hard on the outside, but hot and soft on the inside. This creates an internal guide for the needle.
 ----------
@@ -32,12 +32,12 @@
 
 1. Transition from symmetrical to asymmetrical forms: The asymmetrical design of connectors or memory cards ensures proper insertion or installation, as they can only be inserted in one direction.
 2. Increasing the degree of asymmetry if it already exists: An asymmetrically constructed car tire with an additional fabric layer on the outside as sidewall reinforcement offers better protection against impacts.
-3. Changing the appearance of an object, system (or event) to adapt to asymmetries in the environment: Adjustable furniture: Furniture with adjustable feet/legs to adapt to uneven floors, which can be extended or retracted on one side. This keeps the piece of furniture level and stable even on uneven floors.The object (furniture) adapts its shape (leg length) to the asymmetry(uneven floor).
+3. Changing the appearance of an object, system (or event) to adapt to asymmetries in the environment: Adjustable furniture: Furniture with adjustable feet/legs to adapt to uneven floors, which can be extended or retracted on one side. This keeps the piece of furniture level and stable even on uneven floors. The object (furniture) adapts its shape (leg length) to the asymmetry (uneven floor).
 ----------
 
 # IP #5 Merging
 
-*Synonyms:* coupling (of objects or operations), uniting, joining, consolidation,composition, integration, agglomeration, combination, combining,combine elements with similar functions, harmony
+*Synonyms:* coupling (of objects or operations), uniting, joining, consolidation, composition, integration, agglomeration, combination, combining, combine elements with similar functions, harmony
 
 1. Spatial grouping or coupling of objects of the same type or intended for cooperation: Multihull watercraft, such as catamarans and trimarans, can reach higher speeds and have a shallower draught than comparable monohull vessels. This is achieved by combining several components of the same type, in this case hulls.
 2. Temporal coupling of similar or related processes: With a flint lighter, the spark is generated first, then the propane/butane gas valve is opened. With modern lighters with piezo ignition, these two separate processes are carried out in one.
@@ -111,7 +111,7 @@ do it in advance
 
 *Synonyms:* reversal, agreement of the irreconcilable, opposite effect, the opposite way, inversion
 
-1. Instead of achieving the effect prescribed by the conditions of the task, aim for the opposite effect: (1) Ink pens are hand-held writing instruments, they are used to "mark  paper with ink". Chemical ink erasers can also be considered hand-held writing instruments, but they do exactly the opposite: they remove ink from paper and can therefore be used for corrections. (2) Checking the tightness of a fuel tank by filling it with compressed air and submerging it in water. The bubbles are easier to detect than slow fluid leaks.
+1. Instead of achieving the effect prescribed by the conditions of the task, aim for the opposite effect: (1) Ink pens are hand-held writing instruments, they are used to "mark paper with ink". Chemical ink erasers can also be considered hand-held writing instruments, but they do exactly the opposite: they remove ink from paper and can therefore be used for corrections. (2) Checking the tightness of a fuel tank by filling it with compressed air and submerging it in water. The bubbles are easier to detect than slow fluid leaks.
 2. Make moving parts fixed and fixed parts movable: Escalators (moving stairs): Unlike a traditional staircase with fixed steps, the steps move while the person using the escalator remains stationary. A treadmill (for walking or running on the spot) or a hamster wheel.
 3. Turn the object (or process) "upside down" or reverse it: (1) Cleaning a container by turning it over and injecting water from below. (2) Stand a bicycle on its handlebars and saddle to change the bicycle chain or tires.
 ----------
@@ -132,7 +132,7 @@ do it in advance
 
 1. Design a system or its environment so that it automatically adjusts to optimum performance during each phase of operation: (1) Conventional desks are not adjustable and usually have a fixed table height of 75 cm, with the "optimal" sitting position determined without regard to individual needs. Adjustable desks can be raised or lowered according to personal preference or the user's height. They allow working while sitting or standing. (2) Modern strollers have become extremely versatile thanks to numerous improvements in their dynamics: very compact size when folded, ergonomic push handles, adjustable suspension, 1-stage parking brakes, 5-point safety belts, covers, silent hood mechanism, footrests adjustable in length and height, multi-adjustable seat, snap-in car seat adapter.
 2. Divide a system into elements that can be optimally arranged with each other: (1) Flexible joint for high maneuverability of a vehicle. (2) The paper fan is very small when folded, but it becomes larger when unfolded.
-4. Make an immovable object movable, adjustable or interchangeable: (1) A wireless computer mouse uses a radio connection instead of a cable to transmit data and has greater freedom of movement. (2) Replaceable bit inserts make a screwdriver a more versatile tool.
+3. Make an immovable object movable, adjustable or interchangeable: (1) A wireless computer mouse uses a radio connection instead of a cable to transmit data and has greater freedom of movement. (2) Replaceable bit inserts make a screwdriver a more versatile tool.
 4. Increase in the degree of flexibility or free motion: The "flex zone" between the handle and the brush of a toothbrush head gives way when too much pressure is applied while brushing, protecting the gums from injury. Normal toothbrushes do not have a flexible zone.
 ----------
 
@@ -234,7 +234,7 @@ do it in advance
 
 # IP #27 Cheap Short-living Objects
 
-*Synonyms:* short-livedness instead of longevity, cheap short-lived objects, use of a cheap substitute object, replacing expensive durable parts with cheap non-durable ones, inexpensive, disposable, as good as necessary for single use 
+*Synonyms:* short-livedness instead of longevity, cheap short-lived objects, use of a cheap substitute object, replacing expensive durable parts with cheap non-durable ones, inexpensive, disposable, as good as necessary for single use
 
 1. Replacing an expensive object with several cheaper objects while sacrificing certain properties (e.g. durability): (1) Paper handkerchiefs have replaced cloth handkerchiefs for personal hygiene because they are thrown away after use. (2) One-day contact lenses can only be worn for a short period of time, but are also much cheaper than longer-lasting monthly lenses. (3) A disposable razor is a cheap and short-lived item. Instead of a sturdy, reusable razor with replaceable blades, a disposable razor is designed very simply to minimize development and production costs. (4) A (sterile) syringe and needle are thrown away after the injection.
 ----------
