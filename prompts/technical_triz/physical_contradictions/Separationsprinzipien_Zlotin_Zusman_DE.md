@@ -91,7 +91,7 @@ empfohlen, auf die nächsten Segmente überzugehen und die dortigen Prinzipien a
 
 ---
 
-## 5. Anwendung dieser Datei
+## 4. Anwendung dieser Datei
 
 1. Die Aufgabenstellung als physikalischen Widerspruch formulieren, mit einer Begründung für jeden
    der beiden Werte des Parameters.
