@@ -87,18 +87,7 @@ to a satisfactory result, move on to the neighbouring segments and try the princ
 
 ---
 
-## 4. Note on Technical vs. Physical contradictions
-
-There has been much discussion about the relative importance of physical and technical
-contradictions. The clear implication of ARIZ-based processes and of most earlier authors is that
-the physical contradiction is the more important of the two. More recent findings suggest that
-there is no significant difference between the two types with respect to the number of ideas
-generated, and that taking **both** the physical and the technical contradiction into account
-considerably increased the total number of useful ideas produced.
-
----
-
-## 5. How to use this file
+## 4. How to use this file
 
 1. Formulate the challenge as a physical contradiction, including a justification for each of the
    two values of the parameter.
