@@ -1,7 +1,7 @@
 Improving Parameter,Worsening Parameter,Inventive Principles
 01 Weight of moving object,01 Weight of moving object,see physical contradiction
 01 Weight of moving object,02 Weight of stationary object,no preferred inventive principles
-01 Weight of moving object,03 Length of moving object,IP #15 and IP #8 and IP #29 andIP #34
+01 Weight of moving object,03 Length of moving object,IP #15 and IP #8 and IP #29 and IP #34
 01 Weight of moving object,04 Length of stationary object,no preferred inventive principles
 01 Weight of moving object,05 Area of moving object,IP #29 and IP #17 and IP #38 and IP #34
 01 Weight of moving object,06 Area of stationary object,no preferred inventive principles
@@ -123,7 +123,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 04 Length of stationary object,05 Area of moving object,no preferred inventive principles
 04 Length of stationary object,06 Area of stationary object,IP #17 and IP #7 and IP #10 and IP #40
 04 Length of stationary object,07 Volume of moving object,no preferred inventive principles
-04 Length of stationary object,08 Volume of stationary object,IP #35 and IP #8 and IP #2 andIP #14
+04 Length of stationary object,08 Volume of stationary object,IP #35 and IP #8 and IP #2 and IP #14
 04 Length of stationary object,09 Speed,no preferred inventive principles
 04 Length of stationary object,10 Force (Intensity),IP #28 and IP #10
 04 Length of stationary object,11 Stress or pressure,IP #1 and IP #14 and IP #35
@@ -296,7 +296,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 08 Volume of stationary object,22 Loss of energy,no preferred inventive principles
 08 Volume of stationary object,23 Loss of substance,IP #10 and IP #39 and IP #35 and IP #34
 08 Volume of stationary object,24 Loss of information,no preferred inventive principles
-08 Volume of stationary object,25 Loss of time,IP #35 and IP #16 and IP #32 IP #18
+08 Volume of stationary object,25 Loss of time,IP #35 and IP #16 and IP #32 and IP #18
 08 Volume of stationary object,26 Quantity of substance,IP #35 and IP #3
 08 Volume of stationary object,27 Reliability,IP #2 and IP #35 and IP #16
 08 Volume of stationary object,28 Measurement accuracy,no preferred inventive principles
@@ -701,7 +701,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 18 Illumination intensity,37 Difficulty of detection,IP #32 and IP #15
 18 Illumination intensity,38 Extent of automation,IP #2 and IP #26 and IP #10
 18 Illumination intensity,39 Productivity,IP #2 and IP #25 and IP #16
-19 Use of energy by moving object,01 Weight of moving object,IP #2 and IP #18 and IP #28 and IP #31
+19 Use of energy by moving object,01 Weight of moving object,IP #12 and IP #18 and IP #28 and IP #31
 19 Use of energy by moving object,02 Weight of stationary object,no preferred inventive principles
 19 Use of energy by moving object,03 Length of moving object,IP #12 and IP #28
 19 Use of energy by moving object,04 Length of stationary object,no preferred inventive principles
@@ -860,7 +860,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 23 Loss of substance,01 Weight of moving object,IP #35 and IP #6 and IP #23 and IP #40
 23 Loss of substance,02 Weight of stationary object,IP #35 and IP #6 and IP #22 and IP #32
 23 Loss of substance,03 Length of moving object,IP #14 and IP #29 and IP #10 and IP #39
-23 Loss of substance,04 Length of stationary object,IP #10 and IP #28 andIP #24
+23 Loss of substance,04 Length of stationary object,IP #10 and IP #28 and IP #24
 23 Loss of substance,05 Area of moving object,IP #35 and IP #2 and IP #10 and IP #31
 23 Loss of substance,06 Area of stationary object,IP #10 and IP #18 and IP #39 and IP #31
 23 Loss of substance,07 Volume of moving object,IP #1 and IP #29 and IP #30 and IP #36
