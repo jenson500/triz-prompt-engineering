@@ -41,11 +41,7 @@
     </Starters>
 
     <Models>
-<<<<<<< Updated upstream
       <Model>GPT-5.5</Model>
-=======
-      <Model>GPT-4o</Model>
->>>>>>> Stashed changes
     </Models>
 
     <Creativity>0.7</Creativity>
