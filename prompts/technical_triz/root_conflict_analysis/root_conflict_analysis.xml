@@ -32,7 +32,7 @@
   <Metadata>
     <Title>Root Conflict Analysis (RCA+)</Title>
     <Description>
-      Perform Root Conflict Analysis (RCA+) in a clear and structured methodology. Applicable to technical/engineering systems as well as business/management systems. Identifies contradiction causes (N+P) that produce both positive and negative effects, and formulates technical and physical contradictions for inventive problem solving.
+      Perform a structured Root Conflict Analysis (RCA+) for technical/engineering and business/management systems. Identifies root conflicts (contradiction causes, N+P) with positive and negative effects and formulates technical and physical contradictions for inventive problem solving.
     </Description>
     <Starters>
       <Prompt>Help me perform an RCA+ analysis for this technical problem</Prompt>

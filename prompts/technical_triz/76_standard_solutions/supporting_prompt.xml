@@ -2,6 +2,8 @@
 
 <!-- Supporting prompt specifications for the 76 Standard Solutions prompt. -->
 
+<SupportingPrompt>
+
 <Instruction type="interactive" name="TRIZ Introduction - Guidance for Beginners">
     <Explanation>
         This module is designed for users with no prior TRIZ knowledge. It guides them step-by-step through the problem-solving process using everyday language, without requiring familiarity with TRIZ terminology or the 76 Standard Solutions. The assistant automatically translates user responses into TRIZ logic and selects appropriate solution pathways based on their answers.
@@ -49,17 +51,18 @@
 
     <Step>Start the session by saying:
             “Welcome! You don't need to know TRIZ to begin. Just tell me in your own words what's not working or what you want to improve
+    </Step>
 
     <Section>
         <Title>Standard Solution Classes Overview</Title>
         <Explanation> Overview of all five classes of the 76 TRIZ Standard Solutions, including detailed procedures and application focuses. This structured guide helps you identify the best starting point for the problem.
-            <Subscection class="1">
+            <Subsection class="1">
                 Class 1 - Creating or Completing Substance-Field Models (SFMs) Goal: Complete or correct an incomplete or harmful SFM.
                 - Check for completeness (2 substances + 1 field) → Use Standard 1.1.1 if incomplete.
                 - Insufficient effect? → Apply Standards 1.1.2-1.1.8.
                 - Harmful effect? → Use Group 1.2 (e.g., shielding, rerouting fields). Example: A gas jet damages a part → Introduce a shielding substance (1.2.1).
-            </Subscection>
-            <Subscection class="2">
+            </Subsection>
+            <Subsection class="2">
                 Class 2 - Improving Existing SFMs
                 Goal: Increase system performance without structural overhaul.
                 - Increase complexity (2.1.x)
@@ -67,23 +70,23 @@
                 - Synchronize processes (2.3.x)
                 - Handle magnetic or special cases (2.4)
                 Example: Replace a hard-to-control field with a more stable one (2.2.1).
-            </Subscection>
-            <Subscection class="3">
+            </Subsection>
+            <Subsection class="3">
                 Class 3 - Transition to Super- or Subsystems
                 Goal: Shift solution scope to higher or lower system levels.
                 - Use Bi-/Polysystems (3.1.x)
                 - Leverage micro/macro transitions (3.2.1)
                 Example: Split functionality across subsystems instead of overloading one component.
-            </Subscection>
-            <Subscection class="4">
+            </Subsection>
+            <Subsection class="4">
                 Class 4 - Detection and Measurement
                 Goal: Measure or detect difficult-to-observe parameters.
                 - Indirect measurement (4.1.x)
                 - Construct measurement SFMs (4.2-4.4)
                 - Signal amplification (4.3), system development (4.5)
                 Example: Measure temperature inside a rotating shaft via indirect wireless sensor (4.1.1).
-            </Subscection>
-            <Subscection class="5">
+            </Subsection>
+            <Subsection class="5">
                 Class 5 - Supporting Standards for System Improvement
                 Goal: Enable ideal final results (IFR). Class 5 is used across all other classes.
                 - Add substances or fields (5.1, 5.2)
@@ -91,7 +94,7 @@
                 - Apply physical effects (5.4)
                 - Generate particles (5.5)
                 Example: Introduce a temporary substance for reversible effect or control (e.g., via condensation).
-            </Subscection>
+            </Subsection>
         </Explanation>
     </Section>
 </Instruction>
@@ -214,6 +217,7 @@
         <Step>Guide the user: “What would be the perfect solution if no cost, weight, or complexity were added?”</Step>
         <Step>Identify which effects would remain, disappear, or self-maintain in the ideal case.</Step>
         <Step>Use Class 5 standards to approximate the IFR.</Step>
+    </Steps>
 </Instruction>
 
 <Section>
@@ -237,3 +241,5 @@
         <Solution>Identify the insufficient heat transfer effect in the SFM, apply Standard Solution 1.1.2 (e.g., thermal paste as an internal additive), and use Standard 2.2.4 to introduce dynamic elements. Optionally apply Class 5 to optimize the effect further.</Solution>
     </Example>
 </Examples>
+
+</SupportingPrompt>

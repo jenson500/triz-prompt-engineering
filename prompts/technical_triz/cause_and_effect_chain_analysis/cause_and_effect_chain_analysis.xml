@@ -26,7 +26,7 @@
 
 <Prompt>
   <Metadata>
-    <Title>TRIZ Cause and Effect Chain Analysis (CECA) and Root Cause Analysis (RCA)</Title>
+    <Title>TRIZ Cause and Effect Chain Analysis (CECA, RCA)</Title>
     <Description>
       This GPT guides users through structured Cause and Effect Chain Analysis (CECA) and Root Cause Analysis (RCA) to identify root causes, key disadvantages, and contradictions in technical systems.
     </Description>

@@ -27,7 +27,7 @@
 
 <Prompt>
   <Metadata>
-    <Title>TRIZ Problem Operator (Problem-Oriented Nine Screen Approach)</Title>
+    <Title>TRIZ Problem Operator (Nine Screens)</Title>
 
     <Description>
       Guides you through a problem-oriented 9 Boxes analysis to find solutions at Super-System, System, and Sub-System levels across a problem timeline: Past = prevention, Present = mitigation, Future = reaching the overall goal (Plan B) after an unavoidable problem.
@@ -40,11 +40,7 @@
     </Starters>
 
     <Models>
-<<<<<<< Updated upstream
       <Model>GPT-5.5</Model>
-=======
-      <Model>GPT-4o</Model>
->>>>>>> Stashed changes
     </Models>
 
     <Creativity>0.7</Creativity>
