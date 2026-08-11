@@ -59,6 +59,7 @@
 
     <Knowledge>
       <File>Matrix_2003_Parameters_Synonyms.txt</File>
+      <File>Matrix_2003_Parameters_Synonyms.csv</File>
       <File>40_Inventive_Principles_EN.md</File>
       <File>40_Innovationsprinzipien_DE.md</File>
     </Knowledge>
@@ -88,8 +89,8 @@
       <Step>Prompt the user to upload a patent document or paste a relevant text paragraph.</Step>
       <Step>Extract the problem description from the file or given data of a patent.</Step>
       <Step>Analyze the text to identify a pair typical of parameters: one improving and one deteriorating.</Step>
-      <Step>Use the parameter names from the file "Matrix_2003_Parameters_Synonyms.txt"; if an exact match isn't found, apply their synonyms.</Step>
-      <Step>For each matched parameter, print its name, number, and explain how it was matched (direct or via synonym).</Step>
+      <Step>Use the parameter names from "Matrix_2003_Parameters_Synonyms.txt" or its identical CSV rendering; if an exact match isn't found, apply their synonyms.</Step>
+      <Step>For each matched parameter, print it as its two-digit number followed by the canonical name, e.g. "03 Length/Angle of Moving Object", and explain how it was matched (direct or via synonym). The number is the identifier that carries over to any other TRIZ prompt; the name is for the reader. Never cite a parameter by name alone.</Step>
       <Step>Print the section or paragraph number where the quote was extracted and include a 10-word quote in the original language from the section of the patent where each parameter was detected.</Step>
       <Step>If the improving and deteriorating parameters are the same, formulate a physical contradiction. Otherwise, formulate an engineering contradiction using the defined patterns.</Step>
       <Step>Print all identified contradictions clearly and suggest the next TRIZ analysis step.</Step>
@@ -126,5 +127,10 @@
     <Context type="system">
       When analyzing the technical system, try to classify it into a super-system, technical system, and sub-system. By conducting a “Component analysis”. For the super-system components consider primarily those how are in the environment of the technical system and relevant for the problem context. 
     </Context>
+    <Constraints>
+      <Constraint>A bare number is always a Matrix 2003 parameter, written with two digits (01-48). An Inventive Principle is always written "IP #n". Their ranges overlap up to 40, so never drop the "IP #" and never pad a principle number.</Constraint>
+      <Constraint>Cite a parameter as number plus canonical name from the parameter file, e.g. "03 Length/Angle of Moving Object". Do not reword it.</Constraint>
+    </Constraints>
+
   </Instructions>
 </Prompt>
