@@ -47,7 +47,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 01 Weight of Moving Object,46 Control Complexity,IP #10 and IP #12 and IP #2 and IP #19 and IP #15 and IP #5
 01 Weight of Moving Object,47 Ability to Detect/Measure,IP #26 and IP #28 and IP #32 and IP #5 and IP #20 and IP #36 and IP #32 and IP #37
 01 Weight of Moving Object,48 Measurement Precision,IP #28 and IP #26 and IP #35 and IP #10 and IP #2 and IP #37
-02 Weight of Stationary Object,01 Weight of Moving Object,IP #35 and IP #3 and IP #40 and IP #2 and IP #31 and IP #1 and IP #26 and 
+02 Weight of Stationary Object,01 Weight of Moving Object,IP #35 and IP #3 and IP #40 and IP #2 and IP #31 and IP #1 and IP #26
 02 Weight of Stationary Object,02 Weight of Stationary Object,see physical contradiction
 02 Weight of Stationary Object,03 Length/Angle of Moving Object,IP #17 and IP #4 and IP #30 and IP #35 and IP #3 and IP #5
 02 Weight of Stationary Object,04 Length/Angle of Stationary Object,IP #17 and IP #35 and IP #9 and IP #31 and IP #13 and IP #3 and IP #5
@@ -237,7 +237,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 05 Area of Moving Object,44 Productivity,IP #10 and IP #2 and IP #26 and IP #17 and IP #15 and IP #19 and IP #34 and IP #38
 05 Area of Moving Object,45 System Complexity,IP #14 and IP #17 and IP #5 and IP #7 and IP #35 and IP #1 and IP #29 and IP #16 and IP #10
 05 Area of Moving Object,46 Control Complexity,IP #35 and IP #3 and IP #5 and IP #25 and IP #1 and IP #28
-05 Area of Moving Object,47 Ability to Detect/Measure,IP #2 and and IP #26 and IP #19 and IP #3 and IP #32 and IP #36 and IP #18 and IP #31
+05 Area of Moving Object,47 Ability to Detect/Measure,IP #2 and IP #26 and IP #19 and IP #3 and IP #32 and IP #36 and IP #18 and IP #31
 05 Area of Moving Object,48 Measurement Precision,IP #3 and IP #32 and IP #26 and IP #25 and IP #1 and IP #10 and IP #37
 06 Area of Stationary Object,01 Weight of Moving Object,IP #14 and IP #31 and IP #17 and IP #19 and IP #4 and IP #13 and IP #3 and IP #12
 06 Area of Stationary Object,02 Weight of Stationary Object,IP #35 and IP #14 and IP #31 and IP #30 and IP #17 and IP #4 and IP #18
@@ -262,7 +262,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 06 Area of Stationary Object,21 Stability,IP #35 and IP #24 and IP #29 and IP #10 and IP #14 and IP #38 and IP #2
 06 Area of Stationary Object,22 Temperature,IP #35 and IP #24 and IP #39 and IP #32 and IP #3 and IP #36 and IP #4
 06 Area of Stationary Object,23 Illumination Intensity,IP #1 and IP #40 and IP #24 and IP #35 and IP #17 and IP #3 and IP #32
-06 Area of Stationary Object,24 Function Efficiency,IP #28 and IP #3 and IP #13 and IP #12 and IP #1 and IP #14 and IP #4 and IP #15 and IP #19 and 
+06 Area of Stationary Object,24 Function Efficiency,IP #28 and IP #3 and IP #13 and IP #12 and IP #1 and IP #14 and IP #4 and IP #15 and IP #19
 06 Area of Stationary Object,25 Loss of Substance,IP #17 and IP #14 and IP #12 and IP #10 and IP #18 and IP #39 and IP #13 and IP #34
 06 Area of Stationary Object,26 Loss of Time,IP #14 and IP #1 and IP #10 and IP #35 and IP #17 and IP #18 and IP #3 and IP #25
 06 Area of Stationary Object,27 Loss of Energy,IP #17 and IP #12 and IP #30 and IP #35 and IP #7 and IP #28 and IP #26
@@ -306,12 +306,12 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 07 Volume of Moving Object,17 Energy Used by Stationary Object,IP #35 and IP #38 and IP #33 and IP #19 and IP #10 and IP #25
 07 Volume of Moving Object,18 Power,IP #35 and IP #19 and IP #6 and IP #10 and IP #13 and IP #24 and IP #18 and IP #31 and IP #1
 07 Volume of Moving Object,19 Stress/Pressure,IP #35 and IP #9 and IP #3 and IP #40 and IP #1 and IP #3 and IP #10 and IP #36 and IP #37
-07 Volume of Moving Object,20 Strength,IP #14 and IP #15 and IP #7 and IP #4 and IP #9 and IP #31 and IP #30 and IP #40 and IP #1 and 
+07 Volume of Moving Object,20 Strength,IP #14 and IP #15 and IP #7 and IP #4 and IP #9 and IP #31 and IP #30 and IP #40 and IP #1
 07 Volume of Moving Object,21 Stability,IP #28 and IP #10 and IP #1 and IP #3 and IP #39 and IP #19 and IP #35 and IP #33 and IP #30
 07 Volume of Moving Object,22 Temperature,IP #10 and IP #39 and IP #18 and IP #31 and IP #34 and IP #1 and IP #2 and IP #3 and IP #24
 07 Volume of Moving Object,23 Illumination Intensity,IP #35 and IP #2 and IP #28 and IP #25 and IP #13 and IP #10 and IP #30 and IP #19
 07 Volume of Moving Object,24 Function Efficiency,IP #28 and IP #10 and IP #13 and IP #25 and IP #34 and IP #2 and IP #5 and IP #35 and IP #1
-07 Volume of Moving Object,25 Loss of Substance,IP #35 and IP #10 and IP #34 and IP #2 and IP #36 and IP #39 and IP #31 and IP #5 and IP #13 and 
+07 Volume of Moving Object,25 Loss of Substance,IP #35 and IP #10 and IP #34 and IP #2 and IP #36 and IP #39 and IP #31 and IP #5 and IP #13
 07 Volume of Moving Object,26 Loss of Time,IP #10 and IP #19 and IP #2 and IP #6 and IP #34 and IP #38 and IP #30 and IP #31
 07 Volume of Moving Object,27 Loss of Energy,IP #28 and IP #15 and IP #4 and IP #38 and IP #7 and IP #3 and IP #19 and IP #13 and IP #9
 07 Volume of Moving Object,28 Loss of Information,IP #28 and IP #3 and IP #2 and IP #10 and IP #22 and IP #35 and IP #26 and IP #32
@@ -403,7 +403,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 09 Shape,18 Power,IP #4 and IP #6 and IP #2 and IP #30 and IP #1 and IP #3 and IP #14 and IP #7
 09 Shape,19 Stress/Pressure,IP #3 and IP #14 and IP #9 and IP #15 and IP #2 and IP #4 and IP #35
 09 Shape,20 Strength,IP #35 and IP #7 and IP #40 and IP #14 and IP #9 and IP #30 and IP #3
-09 Shape,21 Stability,IP #35 and IP #40 and IP #24 and IP #31 and IP #1 and IP #18 and IP #33 and IP #4 and 
+09 Shape,21 Stability,IP #35 and IP #40 and IP #24 and IP #31 and IP #1 and IP #18 and IP #33 and IP #4
 09 Shape,22 Temperature,IP #31 and IP #19 and IP #2 and IP #32 and IP #24 and IP #15 and IP #1
 09 Shape,23 Illumination Intensity,IP #35 and IP #15 and IP #28 and IP #32 and IP #13 and IP #24 and IP #1
 09 Shape,24 Function Efficiency,IP #2 and IP #29 and IP #28 and IP #5 and IP #40 and IP #3 and IP #31
@@ -435,7 +435,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 10 Amount of Substance,02 Weight of Stationary Object,IP #35 and IP #40 and IP #18 and IP #5 and IP #2 and IP #8
 10 Amount of Substance,03 Length/Angle of Moving Object,IP #29 and IP #3 and IP #17 and IP #35 and IP #14 and IP #2 and IP #18 and IP #36 and IP #31
 10 Amount of Substance,04 Length/Angle of Stationary Object,IP #35 and IP #31 and IP #3 and IP #17 and IP #14 and IP #2 and IP #40
-10 Amount of Substance,05 Area of Moving Object,IP #15 and IP #14 and IP #17 and IP #31 and IP #35 and IP #4 and IP #30 and IP #29 and IP #18 and 
+10 Amount of Substance,05 Area of Moving Object,IP #15 and IP #14 and IP #17 and IP #31 and IP #35 and IP #4 and IP #30 and IP #29 and IP #18
 10 Amount of Substance,06 Area of Stationary Object,IP #17 and IP #31 and IP #4 and IP #18 and IP #14 and IP #2 and IP #40
 10 Amount of Substance,07 Volume of Moving Object,IP #2 and IP #15 and IP #28 and IP #18 and IP #38 and IP #24
 10 Amount of Substance,08 Volume of Stationary Object,IP #35 and IP #2 and IP #38 and IP #25 and IP #30 and IP #31 and IP #1
@@ -471,7 +471,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 10 Amount of Substance,38 Safety/Vulnerability,IP #35 and IP #24 and IP #3 and IP #12 and IP #31 and IP #39
 10 Amount of Substance,39 Aesthetics/Appearance,IP #30 and IP #17 and IP #28 and IP #14 and IP #32 and IP #5
 10 Amount of Substance,40 Other Harmful Effects Acting on System,IP #35 and IP #3 and IP #31 and IP #33 and IP #24 and IP #29 and IP #23 and IP #11
-10 Amount of Substance,41 Manufacturability,IP #10 and IP #2 and IP #35 and IP #1 and IP #27 and IP #24 and IP #17 and IP #4 and IP #39 and 
+10 Amount of Substance,41 Manufacturability,IP #10 and IP #2 and IP #35 and IP #1 and IP #27 and IP #24 and IP #17 and IP #4 and IP #39
 10 Amount of Substance,42 Manufacture Precision/Consistency,IP #30 and IP #3 and IP #33 and IP #25 and IP #28 and IP #13 and IP #37
 10 Amount of Substance,43 Automation,IP #35 and IP #1 and IP #10 and IP #8 and IP #9 and IP #39
 10 Amount of Substance,44 Productivity,IP #1 and IP #13 and IP #3 and IP #35 and IP #36 and IP #4 and IP #29 and IP #28
@@ -543,7 +543,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 12 Duration of Action of Moving Object,14 Speed,IP #3 and IP #35 and IP #5 and IP #13 and IP #17 and IP #4 and IP #37 and IP #9
 12 Duration of Action of Moving Object,15 Force/Torque,IP #19 and IP #2 and IP #16 and IP #13 and IP #15 and IP #12 and IP #9
 12 Duration of Action of Moving Object,16 Energy Used by Moving Object,IP #18 and IP #28 and IP #35 and IP #6 and IP #15 and IP #12
-12 Duration of Action of Moving Object,17 Energy Used by Stationary Object,IP #35 and IP #6 and IP #18 and IP #28 and IP #19 and IP #12 and 
+12 Duration of Action of Moving Object,17 Energy Used by Stationary Object,IP #35 and IP #6 and IP #18 and IP #28 and IP #19 and IP #12
 12 Duration of Action of Moving Object,18 Power,IP #19 and IP #18 and IP #35 and IP #10 and IP #38 and IP #13 and IP #12
 12 Duration of Action of Moving Object,19 Stress/Pressure,IP #12 and IP #19 and IP #40 and IP #3 and IP #17 and IP #14 and IP #4 and IP #12
 12 Duration of Action of Moving Object,20 Strength,IP #35 and IP #3 and IP #17 and IP #14 and IP #12 and IP #27 and IP #4 and IP #19
@@ -581,11 +581,11 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 13 Duration of Action of Stationary Object,04 Length/Angle of Stationary Object,IP #40 and IP #35 and IP #1 and IP #9 and IP #17 and IP #2 and IP #13
 13 Duration of Action of Stationary Object,05 Area of Moving Object,IP #3 and IP #35 and IP #18 and IP #19 and IP #14 and IP #2
 13 Duration of Action of Stationary Object,06 Area of Stationary Object,IP #35 and IP #17 and IP #3 and IP #30 and IP #7 and IP #14
-13 Duration of Action of Stationary Object,07 Volume of Moving Object,IP #35 and IP #19 and IP #18 and IP #3 and IP #13 and IP #17 and IP #4 and 
+13 Duration of Action of Stationary Object,07 Volume of Moving Object,IP #35 and IP #19 and IP #18 and IP #3 and IP #13 and IP #17 and IP #4
 13 Duration of Action of Stationary Object,08 Volume of Stationary Object,IP #35 and IP #40 and IP #31 and IP #3 and IP #34 and IP #38 and IP #19 and IP #13
 13 Duration of Action of Stationary Object,09 Shape,IP #17 and IP #3 and IP #40 and IP #14 and IP #33 and IP #13 and IP #10 and IP #7
 13 Duration of Action of Stationary Object,10 Amount of Substance,IP #35 and IP #31 and IP #3 and IP #40 and IP #17 and IP #13 and IP #6
-13 Duration of Action of Stationary Object,11 Amount of Information, and IP #24 and IP #7 and IP #10 and IP #25 and IP #3 and IP #2 and IP #32
+13 Duration of Action of Stationary Object,11 Amount of Information,IP #24 and IP #7 and IP #10 and IP #25 and IP #3 and IP #2 and IP #32
 13 Duration of Action of Stationary Object,12 Duration of Action of Moving Object,IP #35 and IP #24 and IP #28 and IP #4 and IP #3 and IP #25 and IP #29 and IP #34
 13 Duration of Action of Stationary Object,13 Duration of Action of Stationary Object,see physical contradiction
 13 Duration of Action of Stationary Object,14 Speed,IP #35 and IP #28 and IP #29 and IP #3 and IP #4 and IP #14 and IP #13
@@ -595,7 +595,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 13 Duration of Action of Stationary Object,18 Power,IP #35 and IP #2 and IP #13 and IP #16 and IP #40
 13 Duration of Action of Stationary Object,19 Stress/Pressure,IP #17 and IP #4 and IP #40 and IP #12 and IP #14 and IP #13
 13 Duration of Action of Stationary Object,20 Strength,IP #35 and IP #3 and IP #9 and IP #17 and IP #14 and IP #4 and IP #19 and IP #27
-13 Duration of Action of Stationary Object,21 Stability,IP #5 and IP #35 and IP #39 and IP #3 and IP #12 and IP #24 and IP #31 and 
+13 Duration of Action of Stationary Object,21 Stability,IP #5 and IP #35 and IP #39 and IP #3 and IP #12 and IP #24 and IP #31
 13 Duration of Action of Stationary Object,22 Temperature,IP #19 and IP #24 and IP #35 and IP #40 and IP #36 and IP #15 and IP #16
 13 Duration of Action of Stationary Object,23 Illumination Intensity,IP #35 and IP #40 and IP #24 and IP #2 and IP #19 and IP #7 and IP #13
 13 Duration of Action of Stationary Object,24 Function Efficiency,IP #3 and IP #19 and IP #12 and IP #15 and IP #13 and IP #1
@@ -604,7 +604,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 13 Duration of Action of Stationary Object,27 Loss of Energy,IP #10 and IP #12 and IP #35 and IP #40 and IP #34 and IP #24 and IP #19
 13 Duration of Action of Stationary Object,28 Loss of Information,IP #10 and IP #7 and IP #2 and IP #24 and IP #25 and IP #19 and IP #35
 13 Duration of Action of Stationary Object,29 Noise,IP #31 and IP #35 and IP #24 and IP #14 and IP #5 and IP #30
-13 Duration of Action of Stationary Object,30 Harmful Emissions,IP #1 and IP #3 and IP #14 and IP #18 and IP #4 and IP #17 and IP #7 and 
+13 Duration of Action of Stationary Object,30 Harmful Emissions,IP #1 and IP #3 and IP #14 and IP #18 and IP #4 and IP #17 and IP #7
 13 Duration of Action of Stationary Object,31 Other Harmful Effects Generated by System,IP #35 and IP #14 and IP #40 and IP #3 and IP #39 and IP #13 and IP #33
 13 Duration of Action of Stationary Object,32 Adaptability/Versatility,IP #13 and IP #5 and IP #4 and IP #17 and IP #2 and IP #35 and IP #40
 13 Duration of Action of Stationary Object,33 Compatibility/ Connectability,IP #10 and IP #24 and IP #17 and IP #28 and IP #11 and IP #3
@@ -633,7 +633,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 14 Speed,08 Volume of Stationary Object,IP #28 and IP #5 and IP #2 and IP #35 and IP #7 and IP #9 and IP #1 and IP #18
 14 Speed,09 Shape,IP #17 and IP #7 and IP #15 and IP #18 and IP #35 and IP #3 and IP #4 and IP #2
 14 Speed,10 Amount of Substance,IP #2 and IP #35 and IP #19 and IP #5 and IP #10 and IP #38 and IP #9
-14 Speed,11 Amount of Information, and IP #7 and IP #2 and IP #10 and IP #5 and IP #37 and IP #28 and IP #3
+14 Speed,11 Amount of Information,IP #7 and IP #2 and IP #10 and IP #5 and IP #37 and IP #28 and IP #3
 14 Speed,12 Duration of Action of Moving Object,IP #35 and IP #40 and IP #19 and IP #3 and IP #5 and IP #13
 14 Speed,13 Duration of Action of Stationary Object,IP #3 and IP #13 and IP #35 and IP #5 and IP #2 and IP #24
 14 Speed,14 Speed,see physical contradiction
@@ -681,7 +681,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 15 Force / Torque,08 Volume of Stationary Object,IP #1 and IP #18 and IP #37 and IP #35 and IP #3 and IP #2 and IP #10 and IP #36
 15 Force / Torque,09 Shape,IP #35 and IP #10 and IP #3 and IP #40 and IP #31 and IP #34 and IP #4 and IP #14
 15 Force / Torque,10 Amount of Substance,IP #14 and IP #18 and IP #29 and IP #28 and IP #35 and IP #3 and IP #1 and IP #8 and IP #36
-15 Force / Torque,11 Amount of Information,IP #13 and IP #17 and IP #37 and IP #3 and IP #1 and 
+15 Force / Torque,11 Amount of Information,IP #13 and IP #17 and IP #37 and IP #3 and IP #1
 15 Force / Torque,12 Duration of Action of Moving Object,IP #19 and IP #10 and IP #2 and IP #12 and IP #28
 15 Force / Torque,13 Duration of Action of Stationary Object,IP #2 and IP #10 and IP #13 and IP #3 and IP #12 and IP #19 and IP #26
 15 Force / Torque,14 Speed,IP #13 and IP #15 and IP #9 and IP #28 and IP #12 and IP #2
@@ -729,7 +729,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 16 Energy Used by Moving Object,08 Volume of Stationary Object,IP #3 and IP #25 and IP #34 and IP #38 and IP #35 and IP #7 and IP #2
 16 Energy Used by Moving Object,09 Shape,IP #29 and IP #2 and IP #3 and IP #12 and IP #19 and IP #15 and IP #28
 16 Energy Used by Moving Object,10 Amount of Substance,IP #35 and IP #2 and IP #34 and IP #19 and IP #18 and IP #16 and IP #38 and IP #30
-16 Energy Used by Moving Object,11 Amount of Information, and IP #7 and IP #2 and IP #25 and IP #24 and IP #3 and IP #37
+16 Energy Used by Moving Object,11 Amount of Information,IP #7 and IP #2 and IP #25 and IP #24 and IP #3 and IP #37
 16 Energy Used by Moving Object,12 Duration of Action of Moving Object,IP #18 and IP #28 and IP #35 and IP #6 and IP #15 and IP #12 and IP #10
 16 Energy Used by Moving Object,13 Duration of Action of Stationary Object,IP #28 and IP #2 and IP #35 and IP #13 and IP #6 and IP #12 and IP #10 and IP #19
 16 Energy Used by Moving Object,14 Speed,IP #35 and IP #28 and IP #13 and IP #19 and IP #5 and IP #8
@@ -752,7 +752,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 16 Energy Used by Moving Object,31 Other Harmful Effects Generated by System,IP #35 and IP #2 and IP #11 and IP #16 and IP #6 and IP #39 and IP #25 and IP #3
 16 Energy Used by Moving Object,32 Adaptability / Versatility,IP #24 and IP #15 and IP #13 and IP #29 and IP #28 and IP #17 and IP #30 and IP #7
 16 Energy Used by Moving Object,33 Compatibility /  Connectability,IP #10 and IP #24 and IP #28 and IP #1 and IP #13
-16 Energy Used by Moving Object,34 Trainability / Operability / Controllability,IP #28 and IP #3 and IP #35 and IP #1 and IP #26 and IP #19 and 
+16 Energy Used by Moving Object,34 Trainability / Operability / Controllability,IP #28 and IP #3 and IP #35 and IP #1 and IP #26 and IP #19
 16 Energy Used by Moving Object,35 Reliability / Robustness,IP #13 and IP #21 and IP #10 and IP #35 and IP #15 and IP #28
 16 Energy Used by Moving Object,36 Repairability,IP #1 and IP #17 and IP #28 and IP #10 and IP #15 and IP #13
 16 Energy Used by Moving Object,37 Security,IP #10 and IP #28 and IP #5 and IP #24 and IP #13
@@ -777,7 +777,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 17 Energy Used by Stationary Object,08 Volume of Stationary Object,IP #35 and IP #39 and IP #19 and IP #2 and IP #18 and IP #28 and IP #4 and IP #9
 17 Energy Used by Stationary Object,09 Shape,IP #7 and IP #35 and IP #24 and IP #30 and IP #13 and IP #5 and IP #10 and IP #36
 17 Energy Used by Stationary Object,10 Amount of Substance,IP #35 and IP #31 and IP #3 and IP #24 and IP #28 and IP #13 and IP #4 and IP #9
-17 Energy Used by Stationary Object,11 Amount of Information, and IP #2 and IP #19 and IP #17 and IP #20 and IP #7
+17 Energy Used by Stationary Object,11 Amount of Information,IP #2 and IP #19 and IP #17 and IP #20 and IP #7
 17 Energy Used by Stationary Object,12 Duration of Action of Moving Object,IP #40 and IP #35 and IP #3 and IP #19 and IP #4 and IP #28 and IP #24
 17 Energy Used by Stationary Object,13 Duration of Action of Stationary Object,IP #40 and IP #35 and IP #3 and IP #17 and IP #28 and IP #26 and IP #24
 17 Energy Used by Stationary Object,14 Speed,IP #1 and IP #3 and IP #28 and IP #19 and IP #13 and IP #25
@@ -791,7 +791,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 17 Energy Used by Stationary Object,22 Temperature,IP #3 and IP #2 and IP #35 and IP #19 and IP #21 and IP #36
 17 Energy Used by Stationary Object,23 Illumination Intensity,IP #19 and IP #35 and IP #2 and IP #32 and IP #5 and IP #24
 17 Energy Used by Stationary Object,24 Function Efficiency,IP #2 and IP #19 and IP #15 and IP #13 and IP #12 and IP #28 and IP #25
-17 Energy Used by Stationary Object,25 Loss of Substance,IP #31 and IP #28 and and IP #18 and IP #12 and IP #4 and IP #9 and IP #34
+17 Energy Used by Stationary Object,25 Loss of Substance,IP #31 and IP #28 and IP #18 and IP #12 and IP #4 and IP #9 and IP #34
 17 Energy Used by Stationary Object,26 Loss of Time,IP #4 and IP #10 and IP #40 and IP #7 and IP #9 and IP #17
 17 Energy Used by Stationary Object,27 Loss of Energy,IP #35 and IP #31 and IP #1 and IP #4 and IP #24 and IP #34 and IP #36
 17 Energy Used by Stationary Object,28 Loss of Information,IP #2 and IP #10 and IP #7 and IP #13 and IP #3
@@ -873,7 +873,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 19 Stress / Pressure,08 Volume of Stationary Object,IP #35 and IP #17 and IP #4 and IP #40 and IP #3 and IP #30 and IP #24 and IP #14
 19 Stress / Pressure,09 Shape,IP #35 and IP #4 and IP #40 and IP #3 and IP #30 and IP #14 and IP #31 and IP #15
 19 Stress / Pressure,10 Amount of Substance,IP #35 and IP #10 and IP #25 and IP #31 and IP #14 and IP #13 and IP #12 and IP #5
-19 Stress / Pressure,11 Amount of Information,IP #28 and IP #2 and IP #26 and IP #7 and IP #24 and and 
+19 Stress / Pressure,11 Amount of Information,IP #28 and IP #2 and IP #26 and IP #7 and IP #24
 19 Stress / Pressure,12 Duration of Action of Moving Object,IP #19 and IP #3 and IP #35 and IP #4 and IP #13 and IP #14 and IP #2
 19 Stress / Pressure,13 Duration of Action of Stationary Object,IP #3 and IP #14 and IP #35 and IP #9 and IP #2 and IP #5 and IP #12
 19 Stress / Pressure,14 Speed,IP #35 and IP #17 and IP #24 and IP #13 and IP #6 and IP #14 and IP #29 and IP #36
@@ -953,7 +953,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 20 Strength,40 Other Harmful Effects Acting on System,IP #31 and IP #35 and IP #40 and IP #9 and IP #15 and IP #13 and IP #3 and IP #6
 20 Strength,41 Manufacturability,IP #35 and IP #10 and IP #3 and IP #40 and IP #14 and IP #4 and IP #37 and IP #24
 20 Strength,42 Manufacture Precision / Consistency,IP #3 and IP #6 and IP #23 and IP #2 and IP #29 and IP #28 and IP #25
-20 Strength,43 Automation,IP #15 and IP #2 and IP #35 and IP #10 and IP #17 and IP #13 and 
+20 Strength,43 Automation,IP #15 and IP #2 and IP #35 and IP #10 and IP #17 and IP #13
 20 Strength,44 Productivity,IP #15 and IP #35 and IP #17 and IP #10 and IP #14 and IP #29 and IP #5 and IP #3 and IP #25
 20 Strength,45 System Complexity,IP #2 and IP #5 and IP #15 and IP #13 and IP #18 and IP #17
 20 Strength,46 Control Complexity,IP #15 and IP #25 and IP #1 and IP #3 and IP #10 and IP #28 and IP #7
@@ -969,7 +969,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 21 Stability,08 Volume of Stationary Object,IP #35 and IP #40 and IP #24 and IP #31 and IP #25 and IP #14 and IP #5
 21 Stability,09 Shape,IP #1 and IP #4 and IP #35 and IP #17 and IP #7 and IP #3 and IP #18 and IP #21
 21 Stability,10 Amount of Substance,IP #5 and IP #24 and IP #31 and IP #40 and IP #35 and IP #15 and IP #39 and IP #13
-21 Stability,11 Amount of Information, and IP #2 and IP #7 and IP #10 and IP #35 and IP #24 and IP #5
+21 Stability,11 Amount of Information,IP #2 and IP #7 and IP #10 and IP #35 and IP #24 and IP #5
 21 Stability,12 Duration of Action of Moving Object,IP #10 and IP #13 and IP #5 and IP #35 and IP #4 and IP #19 and IP #7 and IP #40
 21 Stability,13 Duration of Action of Stationary Object,IP #10 and IP #40 and IP #3 and IP #39 and IP #23 and IP #6 and IP #13 and IP #7
 21 Stability,14 Speed,IP #40 and IP #28 and IP #25 and IP #13 and IP #24 and IP #10 and IP #33 and IP #15 and IP #18
@@ -997,7 +997,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 21 Stability,36 Repairability,IP #2 and IP #10 and IP #24 and IP #16 and IP #35 and IP #15 and IP #17 and IP #13
 21 Stability,37 Security,IP #2 and IP #24 and IP #28 and IP #17 and IP #10 and IP #13
 21 Stability,38 Safety / Vulnerability,IP #35 and IP #2 and IP #10 and IP #24 and IP #5 and IP #18 and IP #31
-21 Stability,39 Aesthetics / Appearance,IP #17 and IP #4 and IP #3 and IP #31 and IP #22 and IP #13 and IP #5 and 
+21 Stability,39 Aesthetics / Appearance,IP #17 and IP #4 and IP #3 and IP #31 and IP #22 and IP #13 and IP #5
 21 Stability,40 Other Harmful Effects Acting on System,IP #40 and IP #35 and IP #31 and IP #17 and IP #11 and IP #24 and IP #18 and IP #30
 21 Stability,41 Manufacturability,IP #25 and IP #35 and IP #24 and IP #3 and IP #15 and IP #5 and IP #19
 21 Stability,42 Manufacture Precision / Consistency,IP #3 and IP #25 and IP #2 and IP #12 and IP #5 and IP #15 and IP #30
@@ -1006,7 +1006,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 21 Stability,45 System Complexity,IP #13 and IP #31 and IP #2 and IP #10 and IP #40 and IP #35 and IP #26 and IP #17
 21 Stability,46 Control Complexity,IP #25 and IP #10 and IP #24 and IP #4 and IP #28 and IP #5 and IP #37
 21 Stability,47 Ability to Detect / Measure,IP #7 and IP #24 and IP #17 and IP #35 and IP #9 and IP #37 and IP #32 and IP #28
-21 Stability,48 Measurement Precision,IP #25 and and IP #13 and IP #37 and IP #4 and IP #17 and IP #26 and IP #24
+21 Stability,48 Measurement Precision,IP #25 and IP #13 and IP #37 and IP #4 and IP #17 and IP #26 and IP #24
 22 Temperature,01 Weight of Moving Object,IP #36 and IP #31 and IP #6 and IP #35 and IP #38 and IP #30 and IP #22 and IP #19 and IP #40
 22 Temperature,02 Weight of Stationary Object,IP #31 and IP #35 and IP #3 and IP #32 and IP #36 and IP #22 and IP #40 and IP #4 and IP #17
 22 Temperature,03 Length / Angle of Moving Object,IP #15 and IP #19 and IP #9 and IP #3 and IP #35 and IP #31 and IP #4 and IP #1
@@ -1017,7 +1017,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 22 Temperature,08 Volume of Stationary Object,IP #35 and IP #40 and IP #31 and IP #3 and IP #4 and IP #6 and IP #30
 22 Temperature,09 Shape,IP #14 and IP #19 and IP #32 and IP #39 and IP #3 and IP #22 and IP #31
 22 Temperature,10 Amount of Substance,IP #30 and IP #31 and IP #3 and IP #35 and IP #39 and IP #17 and IP #15 and IP #19
-22 Temperature,11 Amount of Information,IP #5 and IP #37 and IP #7 and IP #10 and IP #26 and IP #19 and IP #32 and 
+22 Temperature,11 Amount of Information,IP #5 and IP #37 and IP #7 and IP #10 and IP #26 and IP #19 and IP #32
 22 Temperature,12 Duration of Action of Moving Object,IP #19 and IP #15 and IP #13 and IP #39 and IP #1 and IP #18 and IP #30 and IP #9 and IP #3
 22 Temperature,13 Duration of Action of Stationary Object,IP #19 and IP #36 and IP #40 and IP #3 and IP #9 and IP #1 and IP #13 and IP #2 and IP #35
 22 Temperature,14 Speed,IP #28 and IP #14 and IP #36 and IP #2 and IP #30 and IP #19 and IP #13 and IP #3
@@ -1031,9 +1031,9 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 22 Temperature,22 Temperature,see physical contradiction
 22 Temperature,23 Illumination Intensity,IP #35 and IP #19 and IP #32 and IP #5 and IP #40 and IP #4 and IP #14 and IP #3
 22 Temperature,24 Function Efficiency,IP #3 and IP #24 and IP #10 and IP #15 and IP #19 and IP #13 and IP #4
-22 Temperature,25 Loss of Substance,IP #29 and IP #21 and IP #3 and IP #36 and IP #31 and IP #34 and IP #13 and IP #37 and 
+22 Temperature,25 Loss of Substance,IP #29 and IP #21 and IP #3 and IP #36 and IP #31 and IP #34 and IP #13 and IP #37
 22 Temperature,26 Loss of Time,IP #19 and IP #9 and IP #35 and IP #3 and IP #21 and IP #28 and IP #37
-22 Temperature,27 Loss of Energy,IP #35 and IP #21 and IP #24 and IP #38 and IP #3 and IP #5 and IP #19 and 
+22 Temperature,27 Loss of Energy,IP #35 and IP #21 and IP #24 and IP #38 and IP #3 and IP #5 and IP #19
 22 Temperature,28 Loss of Information,IP #35 and IP #9 and IP #24 and IP #7 and IP #32 and IP #26
 22 Temperature,29 Noise,IP #35 and IP #13 and IP #39 and IP #18 and IP #24 and IP #31
 22 Temperature,30 Harmful Emissions,IP #3 and IP #19 and IP #15 and IP #2 and IP #18 and IP #35
@@ -1065,7 +1065,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 23 Illumination Intensity,08 Volume of Stationary Object,IP #14 and IP #13 and IP #24 and IP #35 and IP #10 and IP #19 and IP #2 and IP #32
 23 Illumination Intensity,09 Shape,IP #3 and IP #30 and IP #13 and IP #24 and IP #32 and IP #35 and IP #5 and IP #14 and IP #1
 23 Illumination Intensity,10 Amount of Substance,IP #1 and IP #19 and IP #35 and IP #14 and IP #24 and IP #28 and IP #3
-23 Illumination Intensity,11 Amount of Information, and IP #2 and IP #25 and IP #19 and IP #32 and IP #7 and IP #6 and IP #3
+23 Illumination Intensity,11 Amount of Information,IP #2 and IP #25 and IP #19 and IP #32 and IP #7 and IP #6 and IP #3
 23 Illumination Intensity,12 Duration of Action of Moving Object,IP #19 and IP #2 and IP #6 and IP #35 and IP #28 and IP #4 and IP #25
 23 Illumination Intensity,13 Duration of Action of Stationary Object,IP #2 and IP #6 and IP #10 and IP #35 and IP #28 and IP #4
 23 Illumination Intensity,14 Speed,IP #19 and IP #10 and IP #13 and IP #28 and IP #35 and IP #4 and IP #5
@@ -1113,7 +1113,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 24 Function Efficiency,08 Volume of Stationary Object,IP #28 and IP #4 and IP #37 and IP #35 and IP #13 and IP #12
 24 Function Efficiency,09 Shape,IP #4 and IP #14 and IP #3 and IP #30 and IP #19 and IP #31 and IP #17
 24 Function Efficiency,10 Amount of Substance,IP #31 and IP #3 and IP #30 and IP #19 and IP #18 and IP #4 and IP #1
-24 Function Efficiency,11 Amount of Information,IP #2 and IP #37 and IP #3 and IP #17 and IP #4 and IP #13 and IP #19 and 
+24 Function Efficiency,11 Amount of Information,IP #2 and IP #37 and IP #3 and IP #17 and IP #4 and IP #13 and IP #19
 24 Function Efficiency,12 Duration of Action of Moving Object,IP #10 and IP #4 and IP #3 and IP #18 and IP #28 and IP #9 and IP #36 and IP #1
 24 Function Efficiency,13 Duration of Action of Stationary Object,IP #35 and IP #24 and IP #28 and IP #10 and IP #3 and IP #30 and IP #18
 24 Function Efficiency,14 Speed,IP #3 and IP #4 and IP #15 and IP #30 and IP #29 and IP #28 and IP #13
@@ -1156,7 +1156,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 25 Loss of Substance,03 Length / Angle of Moving Object,IP #14 and IP #12 and IP #10 and IP #24 and IP #17 and IP #4
 25 Loss of Substance,04 Length / Angle of Stationary Object,IP #17 and IP #28 and IP #24 and IP #10 and IP #4 and IP #3
 25 Loss of Substance,05 Area of Moving Object,IP #10 and IP #17 and IP #30 and IP #12 and IP #5 and IP #31 and IP #2 and IP #35
-25 Loss of Substance,06 Area of Stationary Object,IP #18 and IP #10 and IP #5 and IP #30 and IP #4 and IP #13 and IP #17 and IP #34 and IP #24 and 
+25 Loss of Substance,06 Area of Stationary Object,IP #18 and IP #10 and IP #5 and IP #30 and IP #4 and IP #13 and IP #17 and IP #34 and IP #24
 25 Loss of Substance,07 Volume of Moving Object,IP #30 and IP #1 and IP #29 and IP #36 and IP #12 and IP #13 and IP #3 and IP #4
 25 Loss of Substance,08 Volume of Stationary Object,IP #3 and IP #18 and IP #30 and IP #39 and IP #30 and IP #9 and IP #12 and IP #13
 25 Loss of Substance,09 Shape,IP #35 and IP #5 and IP #29 and IP #3 and IP #28 and IP #30 and IP #7 and IP #36
@@ -1191,7 +1191,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 25 Loss of Substance,38 Safety / Vulnerability,IP #24 and IP #19 and IP #31 and IP #5 and IP #10 and IP #30
 25 Loss of Substance,39 Aesthetics / Appearance,IP #13 and IP #28 and IP #17 and IP #4 and IP #35 and IP #7
 25 Loss of Substance,40 Other Harmful Effects Acting on System,IP #35 and IP #30 and IP #40 and IP #24 and IP #1 and IP #22 and IP #12 and IP #32 and IP #28
-25 Loss of Substance,41 Manufacturability,IP #15 and IP #5 and IP #34 and IP #33 and IP #10 and IP #17 and IP #13 and 
+25 Loss of Substance,41 Manufacturability,IP #15 and IP #5 and IP #34 and IP #33 and IP #10 and IP #17 and IP #13
 25 Loss of Substance,42 Manufacture Precision / Consistency,IP #24 and IP #31 and IP #10 and IP #3 and IP #17 and IP #35
 25 Loss of Substance,43 Automation,IP #10 and IP #35 and IP #18 and IP #25 and IP #5 and IP #29
 25 Loss of Substance,44 Productivity,IP #5 and IP #25 and IP #28 and IP #24 and IP #10 and IP #35 and IP #19 and IP #3 and IP #34
@@ -1236,7 +1236,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 26 Loss of Time,35 Reliability / Robustness,IP #35 and IP #10 and IP #3 and IP #14 and IP #4 and IP #30 and IP #28
 26 Loss of Time,36 Repairability,IP #17 and IP #24 and IP #32 and IP #1 and IP #10 and IP #27
 26 Loss of Time,37 Security,IP #2 and IP #28 and IP #26 and IP #9 and IP #25 and IP #13 and IP #24 and IP #15
-26 Loss of Time,38 Safety / Vulnerability,IP #25 and IP #12 and IP #13 and IP #11 and IP #24 and IP #31 and 
+26 Loss of Time,38 Safety / Vulnerability,IP #25 and IP #12 and IP #13 and IP #11 and IP #24 and IP #31
 26 Loss of Time,39 Aesthetics / Appearance,IP #17 and IP #10 and IP #4 and IP #28 and IP #32 and IP #7 and IP #19
 26 Loss of Time,40 Other Harmful Effects Acting on System,IP #35 and IP #18 and IP #1 and IP #34 and IP #3 and IP #30 and IP #31 and IP #33
 26 Loss of Time,41 Manufacturability,IP #10 and IP #35 and IP #4 and IP #19 and IP #34 and IP #28 and IP #3
@@ -1251,13 +1251,13 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 27 Loss of Energy,02 Weight of Stationary Object,IP #19 and IP #7 and IP #6 and IP #31 and IP #18 and IP #14
 27 Loss of Energy,03 Length / Angle of Moving Object,IP #3 and IP #4 and IP #13 and IP #17 and IP #7 and IP #28 and IP #6
 27 Loss of Energy,04 Length / Angle of Stationary Object,IP #4 and IP #13 and IP #7 and IP #25 and IP #17 and IP #38 and IP #6
-27 Loss of Energy,05 Area of Moving Object,IP #15 and IP #17 and IP #30 and IP #28 and IP #26 and IP #4 and IP #12 and 
+27 Loss of Energy,05 Area of Moving Object,IP #15 and IP #17 and IP #30 and IP #28 and IP #26 and IP #4 and IP #12
 27 Loss of Energy,06 Area of Stationary Object,IP #17 and IP #14 and IP #7 and IP #38 and IP #18 and IP #30 and IP #12 and IP #25
 27 Loss of Energy,07 Volume of Moving Object,IP #7 and IP #5 and IP #28 and IP #4 and IP #18 and IP #19 and IP #3
 27 Loss of Energy,08 Volume of Stationary Object,IP #7 and IP #5 and IP #3 and IP #4 and IP #19 and IP #28 and IP #12
 27 Loss of Energy,09 Shape,IP #4 and IP #3 and IP #24 and IP #19 and IP #28 and IP #13 and IP #17 and IP #5
 27 Loss of Energy,10 Amount of Substance,IP #7 and IP #25 and IP #15 and IP #18 and IP #3 and IP #12 and IP #23
-27 Loss of Energy,11 Amount of Information,IP #2 and IP #10 and IP #24 and IP #25 and IP #1 and IP #7 and 
+27 Loss of Energy,11 Amount of Information,IP #2 and IP #10 and IP #24 and IP #25 and IP #1 and IP #7
 27 Loss of Energy,12 Duration of Action of Moving Object,IP #21 and IP #35 and IP #34 and IP #14 and IP #3 and IP #19 and IP #18
 27 Loss of Energy,13 Duration of Action of Stationary Object,IP #17 and IP #31 and IP #35 and IP #34 and IP #14 and IP #3 and IP #19
 27 Loss of Energy,14 Speed,IP #3 and IP #35 and IP #14 and IP #28 and IP #10 and IP #13
@@ -1290,7 +1290,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 27 Loss of Energy,41 Manufacturability,IP #10 and IP #14 and IP #35 and IP #1 and IP #29 and IP #30
 27 Loss of Energy,42 Manufacture Precision / Consistency,IP #30 and IP #37 and IP #9 and IP #25 and IP #3 and IP #35 and IP #29
 27 Loss of Energy,43 Automation,IP #28 and IP #1 and IP #10 and IP #2 and IP #12
-27 Loss of Energy,44 Productivity,IP #3 and IP #10 and IP #35 and IP #28 and IP #29 and IP #6 and IP #2 and 
+27 Loss of Energy,44 Productivity,IP #3 and IP #10 and IP #35 and IP #28 and IP #29 and IP #6 and IP #2
 27 Loss of Energy,45 System Complexity,IP #25 and IP #7 and IP #40 and IP #30 and IP #37 and IP #4
 27 Loss of Energy,46 Control Complexity,IP #25 and IP #37 and IP #4 and IP #2 and IP #16 and IP #12
 27 Loss of Energy,47 Ability to Detect / Measure,IP #1 and IP #3 and IP #35 and IP #15 and IP #28 and IP #37 and IP #4
@@ -1305,7 +1305,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 28 Loss of Information,08 Volume of Stationary Object,IP #28 and IP #25 and IP #32 and IP #1 and IP #35 and IP #31 and IP #7 and IP #2
 28 Loss of Information,09 Shape,IP #25 and IP #14 and IP #24 and IP #3 and IP #4 and IP #32
 28 Loss of Information,10 Amount of Substance,IP #17 and IP #28 and IP #24 and IP #7 and IP #33 and IP #31 and IP #32
-28 Loss of Information,11 Amount of Information, and IP #2 and IP #7 and IP #24 and IP #3 and IP #32 and IP #5
+28 Loss of Information,11 Amount of Information,IP #2 and IP #7 and IP #24 and IP #3 and IP #32 and IP #5
 28 Loss of Information,12 Duration of Action of Moving Object,IP #10 and IP #28 and IP #37 and IP #3 and IP #7 and IP #4
 28 Loss of Information,13 Duration of Action of Stationary Object,IP #10 and IP #19 and IP #28 and IP #3 and IP #4 and IP #37
 28 Loss of Information,14 Speed,IP #12 and IP #13 and IP #24 and IP #26 and IP #37 and IP #32
@@ -1318,7 +1318,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 28 Loss of Information,21 Stability,IP #35 and IP #30 and IP #10 and IP #26 and IP #24 and IP #5 and IP #40
 28 Loss of Information,22 Temperature,IP #28 and IP #22 and IP #1 and IP #25 and IP #26 and IP #24
 28 Loss of Information,23 Illumination Intensity,IP #19 and IP #32 and IP #24 and IP #28 and IP #3 and IP #5
-28 Loss of Information,24 Function Efficiency,IP #10 and IP #5 and IP #37 and IP #12 and IP #32 and and IP #25
+28 Loss of Information,24 Function Efficiency,IP #10 and IP #5 and IP #37 and IP #12 and IP #32 and IP #25
 28 Loss of Information,25 Loss of Substance,IP #7 and IP #17 and IP #2 and IP #3 and IP #13 and IP #25
 28 Loss of Information,26 Loss of Time,IP #25 and IP #22 and IP #10 and IP #24 and IP #26 and IP #28 and IP #32 and IP #23
 28 Loss of Information,27 Loss of Energy,IP #24 and IP #34 and IP #19 and IP #10 and IP #7 and IP #13
@@ -1353,7 +1353,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 29 Noise,08 Volume of Stationary Object,IP #3 and IP #9 and IP #14 and IP #4 and IP #35 and IP #1
 29 Noise,09 Shape,IP #4 and IP #35 and IP #28 and IP #2 and IP #14 and IP #22 and IP #31 and IP #3
 29 Noise,10 Amount of Substance,IP #31 and IP #9 and IP #14 and IP #35 and IP #4 and IP #1 and IP #10 and IP #15 and IP #39
-29 Noise,11 Amount of Information,IP #3 and IP #10 and IP #23 and IP #31 and IP #34 and IP #2 and 
+29 Noise,11 Amount of Information,IP #3 and IP #10 and IP #23 and IP #31 and IP #34 and IP #2
 29 Noise,12 Duration of Action of Moving Object,IP #10 and IP #1 and IP #35 and IP #19 and IP #4 and IP #21
 29 Noise,13 Duration of Action of Stationary Object,IP #10 and IP #4 and IP #1 and IP #13 and IP #24 and IP #3 and IP #35
 29 Noise,14 Speed,IP #3 and IP #1 and IP #14 and IP #31 and IP #39 and IP #24 and IP #4
@@ -1373,13 +1373,13 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 29 Noise,28 Loss of Information,IP #10 and IP #23 and IP #2 and IP #3 and IP #26
 29 Noise,29 Noise,see physical contradiction
 29 Noise,30 Harmful Emissions,IP #5 and IP #2 and IP #35 and IP #19 and IP #9 and IP #25 and IP #15 and IP #7
-29 Noise,31 Other Harmful Effects Generated by System,IP #28 and IP #2 and IP #18 and IP #29 and and IP #3 and IP #9 and IP #25 and IP #31
+29 Noise,31 Other Harmful Effects Generated by System,IP #28 and IP #2 and IP #18 and IP #29 and IP #3 and IP #9 and IP #25 and IP #31
 29 Noise,32 Adaptability / Versatility,IP #28 and IP #10 and IP #1 and IP #15 and IP #3 and IP #25
 29 Noise,33 Compatibility / Connectability,IP #2 and IP #35 and IP #9 and IP #17 and IP #28 and IP #3
 29 Noise,34 Trainability / Operability / Controllability,IP #28 and IP #26 and IP #25 and IP #1 and IP #24
 29 Noise,35 Reliability / Robustness,IP #35 and IP #9 and IP #13 and IP #16 and IP #5 and IP #21 and IP #3
-29 Noise,36 Repairability,IP #5 and IP #9 and IP #31 and IP #2 and IP #17 and IP #3 and 
-29 Noise,37 Security,IP #28 and IP #2 and IP #24 and IP #1 and 
+29 Noise,36 Repairability,IP #5 and IP #9 and IP #31 and IP #2 and IP #17 and IP #3
+29 Noise,37 Security,IP #28 and IP #2 and IP #24 and IP #1
 29 Noise,38 Safety / Vulnerability,IP #5 and IP #28 and IP #24 and IP #18 and IP #22 and IP #13
 29 Noise,39 Aesthetics / Appearance,IP #9 and IP #7 and IP #31 and IP #14 and IP #4 and IP #2 and IP #35
 29 Noise,40 Other Harmful Effects Acting on System,IP #2 and IP #35 and IP #31 and IP #22 and IP #40 and IP #13 and IP #16 and IP #5 and IP #19
@@ -1401,7 +1401,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 30 Harmful Emissions,08 Volume of Stationary Object,IP #13 and IP #4 and IP #3 and IP #15 and IP #18 and IP #36 and IP #24 and IP #35
 30 Harmful Emissions,09 Shape,IP #35 and IP #36 and IP #3 and IP #31 and IP #38 and IP #15 and IP #13
 30 Harmful Emissions,10 Amount of Substance,IP #35 and IP #10 and IP #19 and IP #18 and IP #24 and IP #13 and IP #7
-30 Harmful Emissions,11 Amount of Information,IP #10 and IP #23 and IP #37 and IP #1 and IP #13 and IP #4 and 
+30 Harmful Emissions,11 Amount of Information,IP #10 and IP #23 and IP #37 and IP #1 and IP #13 and IP #4
 30 Harmful Emissions,12 Duration of Action of Moving Object,IP #1 and IP #10 and IP #21 and IP #3 and IP #36 and IP #18 and IP #15
 30 Harmful Emissions,13 Duration of Action of Stationary Object,IP #1 and IP #3 and IP #10 and IP #15 and IP #18 and IP #36
 30 Harmful Emissions,14 Speed,IP #35 and IP #28 and IP #13 and IP #21 and IP #3 and IP #18 and IP #36
@@ -1412,7 +1412,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 30 Harmful Emissions,19 Stress / Pressure,IP #10 and IP #12 and IP #9 and IP #35 and IP #15 and IP #28 and IP #17 and IP #13
 30 Harmful Emissions,20 Strength,IP #10 and IP #35 and IP #15 and IP #28 and IP #17 and IP #4 and IP #5
 30 Harmful Emissions,21 Stability,IP #15 and IP #4 and IP #19 and IP #3 and IP #1
-30 Harmful Emissions,22 Temperature,IP #19 and IP #18 and IP #36 and IP #20 and IP #3 and IP #1 and IP #35 and 
+30 Harmful Emissions,22 Temperature,IP #19 and IP #18 and IP #36 and IP #20 and IP #3 and IP #1 and IP #35
 30 Harmful Emissions,23 Illumination Intensity,IP #32 and IP #24 and IP #35 and IP #2 and IP #5 and IP #19
 30 Harmful Emissions,24 Function Efficiency,IP #10 and IP #35 and IP #28 and IP #15 and IP #12 and IP #3
 30 Harmful Emissions,25 Loss of Substance,IP #10 and IP #12 and IP #18 and IP #14 and IP #13 and IP #1 and IP #3 and IP #4 and IP #35
@@ -1449,7 +1449,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 31 Other Harmful Effects Generated by System,08 Volume of Stationary Object,IP #4 and IP #14 and IP #30 and IP #18 and IP #35 and IP #5 and IP #24
 31 Other Harmful Effects Generated by System,09 Shape,IP #1 and IP #35 and IP #4 and IP #3 and IP #7 and IP #24 and IP #2
 31 Other Harmful Effects Generated by System,10 Amount of Substance,IP #1 and IP #3 and IP #24 and IP #35 and IP #39 and IP #5 and IP #9
-31 Other Harmful Effects Generated by System,11 Amount of Information,IP #10 and IP #7 and IP #32 and IP #4 and IP #3 and IP #17 and 
+31 Other Harmful Effects Generated by System,11 Amount of Information,IP #10 and IP #7 and IP #32 and IP #4 and IP #3 and IP #17
 31 Other Harmful Effects Generated by System,12 Duration of Action of Moving Object,IP #15 and IP #3 and IP #12 and IP #21 and IP #33 and IP #35
 31 Other Harmful Effects Generated by System,13 Duration of Action of Stationary Object,IP #21 and IP #16 and IP #17 and IP #14 and IP #13 and IP #9 and IP #35
 31 Other Harmful Effects Generated by System,14 Speed,IP #3 and IP #35 and IP #29 and IP #31 and IP #28 and IP #4 and IP #12 and IP #17
@@ -1462,7 +1462,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 31 Other Harmful Effects Generated by System,21 Stability,IP #40 and IP #4 and IP #35 and IP #14 and IP #24 and IP #3 and IP #39 and IP #14
 31 Other Harmful Effects Generated by System,22 Temperature,IP #35 and IP #24 and IP #1 and IP #7 and IP #5 and IP #13 and IP #10 and IP #3 and IP #22
 31 Other Harmful Effects Generated by System,23 Illumination Intensity,IP #19 and IP #35 and IP #32 and IP #24 and IP #39 and IP #28 and IP #1
-31 Other Harmful Effects Generated by System,24 Function Efficiency,IP #35 and IP #28 and IP #25 and IP #2 and IP #15 and IP #19 and IP #3 and IP #4 and IP #13 and 
+31 Other Harmful Effects Generated by System,24 Function Efficiency,IP #35 and IP #28 and IP #25 and IP #2 and IP #15 and IP #19 and IP #3 and IP #4 and IP #13
 31 Other Harmful Effects Generated by System,25 Loss of Substance,IP #34 and IP #35 and IP #24 and IP #15 and IP #36 and IP #10 and IP #1 and IP #12
 31 Other Harmful Effects Generated by System,26 Loss of Time,IP #10 and IP #25 and IP #9 and IP #23 and IP #5 and IP #35 and IP #1 and IP #3
 31 Other Harmful Effects Generated by System,27 Loss of Energy,IP #10 and IP #3 and IP #35 and IP #12 and IP #36 and IP #25 and IP #4
@@ -1472,7 +1472,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 31 Other Harmful Effects Generated by System,31 Other Harmful Effects Generated by System,see physical contradiction
 31 Other Harmful Effects Generated by System,32 Adaptability / Versatility,IP #1 and IP #15 and IP #29 and IP #14 and IP #3 and IP #17 and IP #4 and IP #24
 31 Other Harmful Effects Generated by System,33 Compatibility / Connectability,IP #5 and IP #17 and IP #1 and IP #29 and IP #23 and IP #24 and IP #3
-31 Other Harmful Effects Generated by System,34 Trainability / Operability / Controllability,IP #10 and IP #15 and IP #23 and IP #5 and IP #4 and IP #24 and IP #14 and IP #6 and IP #3 and 
+31 Other Harmful Effects Generated by System,34 Trainability / Operability / Controllability,IP #10 and IP #15 and IP #23 and IP #5 and IP #4 and IP #24 and IP #14 and IP #6 and IP #3
 31 Other Harmful Effects Generated by System,35 Reliability / Robustness,IP #40 and IP #24 and IP #35 and IP #4 and IP #12 and IP #17 and IP #7 and IP #39 and IP #33
 31 Other Harmful Effects Generated by System,36 Repairability,IP #1 and IP #24 and IP #27 and IP #17 and IP #30 and IP #12 and IP #40
 31 Other Harmful Effects Generated by System,37 Security,IP #28 and IP #35 and IP #1 and IP #17 and IP #12 and IP #30
@@ -1497,23 +1497,23 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 32 Adaptability / Versatility,08 Volume of Stationary Object,IP #24 and IP #15 and IP #31 and IP #16 and IP #1 and IP #3 and IP #35 and IP #7 and IP #30
 32 Adaptability / Versatility,09 Shape,IP #15 and IP #2 and IP #24 and IP #30 and IP #5 and IP #7 and IP #30 and IP #17 and IP #13
 32 Adaptability / Versatility,10 Amount of Substance,IP #30 and IP #31 and IP #35 and IP #3 and IP #15 and IP #24 and IP #25
-32 Adaptability / Versatility,11 Amount of Information,IP #2 and IP #19 and IP #7 and IP #16 and IP #37 and IP #4 and IP #1 and 
+32 Adaptability / Versatility,11 Amount of Information,IP #2 and IP #19 and IP #7 and IP #16 and IP #37 and IP #4 and IP #1
 32 Adaptability / Versatility,12 Duration of Action of Moving Object,IP #28 and IP #29 and IP #35 and IP #13 and IP #1 and IP #24 and IP #19 and IP #12
 32 Adaptability / Versatility,13 Duration of Action of Stationary Object,IP #15 and IP #13 and IP #16 and IP #2 and IP #17 and IP #3 and IP #35
 32 Adaptability / Versatility,14 Speed,IP #10 and IP #14 and IP #35 and IP #24 and IP #15 and IP #28 and IP #12 and IP #29
 32 Adaptability / Versatility,15 Force / Torque,IP #35 and IP #15 and IP #17 and IP #14 and IP #6 and IP #7 and IP #13
 32 Adaptability / Versatility,16 Energy Used by Moving Object,IP #29 and IP #13 and IP #19 and IP #35 and IP #15 and IP #16 and IP #12 and IP #1
-32 Adaptability / Versatility,17 Energy Used by Stationary Object,IP #35 and IP #16 and IP #1 and IP #19 and IP #3 and IP #12 and IP #17 and 
+32 Adaptability / Versatility,17 Energy Used by Stationary Object,IP #35 and IP #16 and IP #1 and IP #19 and IP #3 and IP #12 and IP #17
 32 Adaptability / Versatility,18 Power,IP #19 and IP #1 and IP #24 and IP #35 and IP #29 and IP #28 and IP #12
 32 Adaptability / Versatility,19 Stress / Pressure,IP #15 and IP #29 and IP #13 and IP #28 and IP #24 and IP #12 and IP #4 and IP #16
-32 Adaptability / Versatility,20 Strength,IP #35 and IP #40 and IP #3 and IP #17 and IP #13 and IP #24 and IP #9 and IP #19 and 
+32 Adaptability / Versatility,20 Strength,IP #35 and IP #40 and IP #3 and IP #17 and IP #13 and IP #24 and IP #9 and IP #19
 32 Adaptability / Versatility,21 Stability,IP #35 and IP #40 and IP #4 and IP #14 and IP #30 and IP #31 and IP #24 and IP #3
 32 Adaptability / Versatility,22 Temperature,IP #35 and IP #5 and IP #19 and IP #36 and IP #2 and IP #3 and IP #15 and IP #24
 32 Adaptability / Versatility,23 Illumination Intensity,IP #1 and IP #35 and IP #32 and IP #19 and IP #17 and IP #24 and IP #28 and IP #26
 32 Adaptability / Versatility,24 Function Efficiency,IP #19 and IP #3 and IP #13 and IP #25 and IP #4 and IP #37 and IP #35
 32 Adaptability / Versatility,25 Loss of Substance,IP #13 and IP #10 and IP #3 and IP #15 and IP #19 and IP #40 and IP #24
 32 Adaptability / Versatility,26 Loss of Time,IP #28 and IP #15 and IP #29 and IP #35 and IP #4 and IP #24 and IP #6 and IP #10
-32 Adaptability / Versatility,27 Loss of Energy,IP #15 and IP #19 and IP #3 and IP #1 and IP #18 and IP #35 and IP #34 and 
+32 Adaptability / Versatility,27 Loss of Energy,IP #15 and IP #19 and IP #3 and IP #1 and IP #18 and IP #35 and IP #34
 32 Adaptability / Versatility,28 Loss of Information,IP #7 and IP #3 and IP #10 and IP #26 and IP #37 and IP #13 and IP #24
 32 Adaptability / Versatility,29 Noise,IP #31 and IP #9 and IP #30 and IP #14 and IP #18 and IP #29 and IP #3
 32 Adaptability / Versatility,30 Harmful Emissions,IP #1 and IP #19 and IP #21 and IP #10 and IP #24 and IP #5 and IP #35
@@ -1593,14 +1593,14 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 34 Trainability / Operability / Controllability,08 Volume of Stationary Object,IP #28 and IP #31 and IP #2 and IP #4 and IP #19 and IP #39 and IP #17
 34 Trainability / Operability / Controllability,09 Shape,IP #28 and IP #7 and IP #2 and IP #3 and IP #35 and IP #32 and IP #4 and IP #13
 34 Trainability / Operability / Controllability,10 Amount of Substance,IP #35 and IP #1 and IP #13 and IP #17 and IP #14 and IP #4 and IP #12 and IP #2
-34 Trainability / Operability / Controllability,11 Amount of Information,IP #1 and IP #7 and IP #2 and IP #10 and IP #4 and IP #17 and IP #32 and 
-34 Trainability / Operability / Controllability,12 Duration of Action of Moving Object,IP #19 and IP #25 and IP #3 and IP #35 and IP #5 and IP #12 and IP #7 and 
+34 Trainability / Operability / Controllability,11 Amount of Information,IP #1 and IP #7 and IP #2 and IP #10 and IP #4 and IP #17 and IP #32
+34 Trainability / Operability / Controllability,12 Duration of Action of Moving Object,IP #19 and IP #25 and IP #3 and IP #35 and IP #5 and IP #12 and IP #7
 34 Trainability / Operability / Controllability,13 Duration of Action of Stationary Object,IP #1 and IP #16 and IP #25 and IP #3 and IP #5 and IP #35 and IP #12
 34 Trainability / Operability / Controllability,14 Speed,IP #13 and IP #25 and IP #5 and IP #2 and IP #24 and IP #35 and IP #28
 34 Trainability / Operability / Controllability,15 Force / Torque,IP #28 and IP #13 and IP #24 and IP #31 and IP #35 and IP #4 and IP #17
 34 Trainability / Operability / Controllability,16 Energy Used by Moving Object,IP #24 and IP #1 and IP #13 and IP #28 and IP #12 and IP #19 and IP #3
 34 Trainability / Operability / Controllability,17 Energy Used by Stationary Object,IP #24 and IP #28 and IP #12 and IP #3 and IP #1 and IP #13 and IP #15
-34 Trainability / Operability / Controllability,18 Power,IP #10 and IP #28 and IP #35 and IP #2 and and IP #1 and IP #21 and IP #36 and IP #37
+34 Trainability / Operability / Controllability,18 Power,IP #10 and IP #28 and IP #35 and IP #2 and IP #1 and IP #21 and IP #36 and IP #37
 34 Trainability / Operability / Controllability,19 Stress / Pressure,IP #12 and IP #23 and IP #4 and IP #29 and IP #2 and IP #9 and IP #35
 34 Trainability / Operability / Controllability,20 Strength,IP #19 and IP #3 and IP #12 and IP #16 and IP #1 and IP #4 and IP #7
 34 Trainability / Operability / Controllability,21 Stability,IP #25 and IP #1 and IP #30 and IP #24 and IP #40 and IP #19 and IP #3
@@ -1613,7 +1613,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 34 Trainability / Operability / Controllability,28 Loss of Information,IP #10 and IP #37 and IP #1 and IP #24 and IP #32 and IP #4 and IP #26
 34 Trainability / Operability / Controllability,29 Noise,IP #2 and IP #3 and IP #31 and IP #9 and IP #35 and IP #28 and IP #18 and IP #17
 34 Trainability / Operability / Controllability,30 Harmful Emissions,IP #25 and IP #19 and IP #2 and IP #1 and IP #20 and IP #3 and IP #37
-34 Trainability / Operability / Controllability,31 Other Harmful Effects Generated by System,IP #35 and IP #31 and IP #24 and IP #4 and IP #32 and IP #25 and IP #27 and IP #1 and 
+34 Trainability / Operability / Controllability,31 Other Harmful Effects Generated by System,IP #35 and IP #31 and IP #24 and IP #4 and IP #32 and IP #25 and IP #27 and IP #1
 34 Trainability / Operability / Controllability,32 Adaptability / Versatility,IP #10 and IP #25 and IP #1 and IP #26 and IP #5 and IP #24 and IP #4 and IP #29 and IP #28
 34 Trainability / Operability / Controllability,33 Compatibility / Connectability,IP #25 and IP #1 and IP #24 and IP #6 and IP #28 and IP #4
 34 Trainability / Operability / Controllability,34 Trainability / Operability / Controllability,see physical contradiction
@@ -1641,7 +1641,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 35 Reliability / Robustness,08 Volume of Stationary Object,IP #5 and IP #35 and IP #3 and IP #17 and IP #14 and IP #24 and IP #7 and IP #31 and IP #2
 35 Reliability / Robustness,09 Shape,IP #35 and IP #1 and IP #40 and IP #4 and IP #30 and IP #2 and IP #17 and IP #24
 35 Reliability / Robustness,10 Amount of Substance,IP #3 and IP #28 and IP #40 and IP #31 and IP #5 and IP #25 and IP #4 and IP #2
-35 Reliability / Robustness,11 Amount of Information,IP #10 and IP #24 and IP #32 and IP #3 and IP #25 and IP #5 and IP #2 and 
+35 Reliability / Robustness,11 Amount of Information,IP #10 and IP #24 and IP #32 and IP #3 and IP #25 and IP #5 and IP #2
 35 Reliability / Robustness,12 Duration of Action of Moving Object,IP #35 and IP #3 and IP #2 and IP #40 and IP #25 and IP #19 and IP #13
 35 Reliability / Robustness,13 Duration of Action of Stationary Object,IP #35 and IP #3 and IP #12 and IP #25 and IP #2 and IP #23 and IP #5
 35 Reliability / Robustness,14 Speed,IP #35 and IP #28 and IP #24 and IP #4 and IP #5 and IP #10
@@ -1658,7 +1658,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 35 Reliability / Robustness,25 Loss of Substance,IP #35 and IP #15 and IP #10 and IP #12 and IP #3 and IP #4 and IP #39 and IP #2
 35 Reliability / Robustness,26 Loss of Time,IP #10 and IP #2 and IP #25 and IP #5 and IP #4 and IP #30 and IP #3
 35 Reliability / Robustness,27 Loss of Energy,IP #10 and IP #19 and IP #35 and IP #23 and IP #28 and IP #3 and IP #40
-35 Reliability / Robustness,28 Loss of Information,IP #10 and IP #25 and IP #28 and IP #32 and IP #5 and IP #24 and 
+35 Reliability / Robustness,28 Loss of Information,IP #10 and IP #25 and IP #28 and IP #32 and IP #5 and IP #24
 35 Reliability / Robustness,29 Noise,IP #35 and IP #13 and IP #25 and IP #4 and IP #9 and IP #28 and IP #24
 35 Reliability / Robustness,30 Harmful Emissions,IP #3 and IP #24 and IP #13 and IP #35 and IP #19 and IP #31 and IP #21 and IP #1
 35 Reliability / Robustness,31 Other Harmful Effects Generated by System,IP #2 and IP #26 and IP #35 and IP #40 and IP #33 and IP #7 and IP #4 and IP #19 and IP #3
@@ -1689,7 +1689,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 36 Repairability,08 Volume of Stationary Object,IP #1 and IP #13 and IP #25 and IP #2 and IP #16 and IP #34 and IP #3
 36 Repairability,09 Shape,IP #4 and IP #7 and IP #13 and IP #15 and IP #17 and IP #2 and IP #1
 36 Repairability,10 Amount of Substance,IP #3 and IP #25 and IP #1 and IP #35 and IP #10 and IP #2 and IP #24
-36 Repairability,11 Amount of Information, and IP #24 and IP #9 and IP #2 and IP #37 and IP #26 and IP #1
+36 Repairability,11 Amount of Information,IP #24 and IP #9 and IP #2 and IP #37 and IP #26 and IP #1
 36 Repairability,12 Duration of Action of Moving Object,IP #28 and IP #34 and IP #35 and IP #3 and IP #11 and IP #1 and IP #25
 36 Repairability,13 Duration of Action of Stationary Object,IP #3 and IP #35 and IP #1 and IP #11 and IP #4 and IP #16 and IP #25
 36 Repairability,14 Speed,IP #34 and IP #9 and IP #5 and IP #15 and IP #3
@@ -1748,7 +1748,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 37 Security,19 Stress / Pressure,IP #37 and IP #17 and IP #4 and IP #3 and IP #9 and IP #14
 37 Security,20 Strength,IP #28 and IP #2 and IP #13 and IP #17 and IP #40 and IP #14
 37 Security,21 Stability,IP #13 and IP #12 and IP #5 and IP #24 and IP #3 and IP #17
-37 Security,22 Temperature,IP #1 and IP #31 and IP #37 and IP #19 and IP #4 and IP #3 and IP #7 and 
+37 Security,22 Temperature,IP #1 and IP #31 and IP #37 and IP #19 and IP #4 and IP #3 and IP #7
 37 Security,23 Illumination Intensity,IP #28 and IP #37 and IP #26 and IP #32 and IP #3 and IP #1
 37 Security,24 Function Efficiency,IP #2 and IP #1 and IP #17 and IP #3 and IP #10 and IP #25
 37 Security,25 Loss of Substance,IP #35 and IP #31 and IP #5 and IP #7 and IP #24
@@ -1765,7 +1765,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 37 Security,36 Repairability,IP #13 and IP #4 and IP #3 and IP #2 and IP #27
 37 Security,37 Security,see physical contradiction
 37 Security,38 Safety / Vulnerability,IP #15 and IP #23 and IP #1 and IP #31 and IP #26 and IP #30
-37 Security,39 Aesthetics / Appearance,IP #7 and IP #28 and IP #3 and IP #1 and IP #24 and IP #17 and 
+37 Security,39 Aesthetics / Appearance,IP #7 and IP #28 and IP #3 and IP #1 and IP #24 and IP #17
 37 Security,40 Other Harmful Effects Acting on System,IP #2 and IP #10 and IP #40 and IP #35 and IP #33 and IP #30 and IP #39
 37 Security,41 Manufacturability,IP #10 and IP #1 and IP #12 and IP #13 and IP #17 and IP #2 and IP #35
 37 Security,42 Manufacture Precision / Consistency,IP #16 and IP #10 and IP #24 and IP #3 and IP #4 and IP #13
@@ -1898,9 +1898,9 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 40 Other Harmful Effects Acting on System,25 Loss of Substance,IP #40 and IP #3 and IP #4 and IP #24 and IP #12 and IP #34 and IP #33 and IP #35
 40 Other Harmful Effects Acting on System,26 Loss of Time,IP #18 and IP #3 and IP #24 and IP #23 and IP #35 and IP #40 and IP #10 and IP #12 and IP #32
 40 Other Harmful Effects Acting on System,27 Loss of Energy,IP #35 and IP #24 and IP #21 and IP #2 and IP #30 and IP #17 and IP #3 and IP #4
-40 Other Harmful Effects Acting on System,28 Loss of Information,IP #32 and IP #10 and IP #25 and IP #2 and IP #7 and IP #3 and IP #31 and 
+40 Other Harmful Effects Acting on System,28 Loss of Information,IP #32 and IP #10 and IP #25 and IP #2 and IP #7 and IP #3 and IP #31
 40 Other Harmful Effects Acting on System,29 Noise,IP #31 and IP #1 and IP #17 and IP #14 and IP #35 and IP #3 and IP #7
-40 Other Harmful Effects Acting on System,30 Harmful Emissions,IP #24 and IP #35 and IP #18 and IP #1 and IP #32 and IP #40 and 
+40 Other Harmful Effects Acting on System,30 Harmful Emissions,IP #24 and IP #35 and IP #18 and IP #1 and IP #32 and IP #40
 40 Other Harmful Effects Acting on System,31 Other Harmful Effects Generated by System,IP #35 and IP #3 and IP #13 and IP #24 and IP #17 and IP #4 and IP #32 and IP #40 and IP #18
 40 Other Harmful Effects Acting on System,32 Adaptability / Versatility,IP #35 and IP #15 and IP #31 and IP #30 and IP #4 and IP #11 and IP #16 and IP #40
 40 Other Harmful Effects Acting on System,33 Compatibility / Connectability,IP #17 and IP #24 and IP #2 and IP #5 and IP #7 and IP #3
@@ -1987,7 +1987,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 42 Manufacture Precision / Consistency,18 Power,IP #2 and IP #32 and IP #21 and IP #16 and IP #3 and IP #19
 42 Manufacture Precision / Consistency,19 Stress / Pressure,IP #35 and IP #3 and IP #12 and IP #13 and IP #17 and IP #29 and IP #32
 42 Manufacture Precision / Consistency,20 Strength,IP #3 and IP #17 and IP #7 and IP #35 and IP #29 and IP #32
-42 Manufacture Precision / Consistency,21 Stability,IP #24 and IP #35 and IP #33 and IP #18 and IP #3 and IP #16 and 
+42 Manufacture Precision / Consistency,21 Stability,IP #24 and IP #35 and IP #33 and IP #18 and IP #3 and IP #16
 42 Manufacture Precision / Consistency,22 Temperature,IP #26 and IP #3 and IP #24 and IP #19 and IP #2 and IP #9
 42 Manufacture Precision / Consistency,23 Illumination Intensity,IP #32 and IP #19 and IP #3 and IP #2 and IP #5 and IP #13
 42 Manufacture Precision / Consistency,24 Function Efficiency,IP #3 and IP #10 and IP #14 and IP #40 and IP #7 and IP #13
@@ -2191,7 +2191,7 @@ Improving Parameter,Worsening Parameter,Inventive Principles
 46 Control Complexity,30 Harmful Emissions,IP #10 and IP #15 and IP #1 and IP #5 and IP #13 and IP #39 and IP #4 and IP #24 and IP #38
 46 Control Complexity,31 Other Harmful Effects Generated by System,IP #19 and IP #12 and IP #16 and IP #22 and IP #9 and IP #28 and IP #37 and IP #34 and IP #27
 46 Control Complexity,32 Adaptability / Versatility,IP #1 and IP #7 and IP #28 and IP #25 and IP #26 and IP #22 and IP #35 and IP #10
-46 Control Complexity,33 Compatibility / Connectability,IP #6 and IP #10 and IP #13 and IP #1 and and IP #2 and IP #24
+46 Control Complexity,33 Compatibility / Connectability,IP #6 and IP #10 and IP #13 and IP #1 and IP #2 and IP #24
 46 Control Complexity,34 Trainability / Operability / Controllability,IP #2 and IP #10 and IP #24 and IP #25 and IP #7 and IP #22 and IP #1 and IP #13
 46 Control Complexity,35 Reliability / Robustness,IP #23 and IP #3 and IP #13 and IP #1 and IP #2 and IP #10 and IP #35
 46 Control Complexity,36 Repairability,IP #13 and IP #25 and IP #1 and IP #7 and IP #10 and IP #24 and IP #28 and IP #35
