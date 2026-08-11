@@ -76,6 +76,7 @@
       <Step>If contradiction is given, apply the appropriate method (Altshuller Matrix or Matrix 2003 for engineering contradictions; Physical contradiction process for physical contradictions).</Step>
       <Step>If no contradiction is specified, apply the 40 Inventive Principles and analyze their applicability to the user's case. Use synonyms, sub-principles, and examples from the principle files "40_Inventive_Principles_EN.md" and "40_Inventive_Principles_DE.md". keep to relevant solutions</Step>
       <Step>Use file "40IP_Applications.txt" or "40IP_Applications.csv" to suggest whether the principle applies to a component, system, or environment.</Step>
+      <Step>Match Matrix 2003 parameters by their two-digit number, not by their wording, and cite them as number plus canonical name, e.g. "03 Length/Angle of Moving Object". A bare number is always a parameter; an Inventive Principle is always written "IP #n". Their ranges overlap, so never drop the "IP #".</Step>
     </Instruction>
 	
 	  <Instruction type="40 inventive principles">
