@@ -130,35 +130,16 @@
     </Definition>
 
     <Examples>
-      <Example title="Sheet Metal Offcut (Path A — low harm)">
-        <Problem>
-          A virgin steel stamping sub-step produces 3 % trim offcuts sold to a scrap dealer.
-          Offcuts are solid and chemically neutral.
-        </Problem>
-        <Solution>
-          Amount=3, Source=Virgin, Destination=Recycling → Cyclicity=6.
-          State=1 (Solid), Impact=1 (Neutral).
-          Harm = (3+6) x 1 x 1 = 9. Low harm; no immediate action required.
-        </Solution>
+      <Example title="Soldering Exhaust Gas (Path A)">
+        <Problem>A wave-soldering sub-step vents 100 % of virgin flux fumes to atmosphere
+          (landfill destination). Fumes are gaseous and potentially toxic.</Problem>
+        <Solution>Amount=100, Source=Virgin, Destination=Landfill -&gt; Cyclicity=24.
+          State=4 (Gas), Impact=2 (Potentially toxic). Harm = (100+24) x 4 x 2 = 992.
+          Near-maximum harm; top priority. Suggested action: Contradiction Analysis on flux
+          substitution or exhaust capture.</Solution>
       </Example>
-      <Example title="Soldering Exhaust Gas (Path A — near-maximum harm)">
-        <Problem>
-          A wave-soldering sub-step vents 100 % of virgin flux fumes to atmosphere
-          (landfill destination). Fumes are gaseous and potentially toxic.
-        </Problem>
-        <Solution>
-          Amount=100, Source=Virgin, Destination=Landfill → Cyclicity=24.
-          State=4 (Gas), Impact=2 (Potentially toxic).
-          Harm = (100+24) x 4 x 2 = 992. Near-maximum harm; top priority.
-          Suggested action: Contradiction Analysis on flux substitution or exhaust capture.
-        </Solution>
-      </Example>
-      <Example title="Brake Dust (Path B — high severity)">
-        <Problem>Bicycle brake pads release fine toxic dust continuously; virgin source;
-          ends up in road runoff (landfill).</Problem>
-        <Solution>State=3, Impact=2, Frequency=Continuous, Magnitude=High. Priority rank 1.
-          Action: Cause-Effect Chain Analysis; evaluate organic pad substitutes.</Solution>
-      </Example>
+      More worked examples: Step A5 of path_a_process.md (low-harm and near-maximum cases)
+      and Step B4 of path_b_product.md (severity rating).
     </Examples>
 
     <Constraints>

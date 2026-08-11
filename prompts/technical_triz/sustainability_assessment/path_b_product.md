@@ -109,6 +109,17 @@ Rate each sustainability-critical interaction on two dimensions:
 
 Interactions that are both **continuous** and **high magnitude** are top priorities.
 
+### Worked severity example
+
+**Brake dust — high severity.** Bicycle brake pads release fine toxic dust continuously;
+the material is virgin and ends up in road runoff (landfill destination).
+
+    State = 3 (Fine dust), Impact = 2 (Potentially toxic)
+    Frequency = Continuous, Magnitude = High
+    -> Priority rank 1
+
+Action: Cause-Effect Chain Analysis; evaluate organic pad substitutes.
+
 ---
 
 ## Step B5 — Structured Summary

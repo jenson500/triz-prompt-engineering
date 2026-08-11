@@ -119,6 +119,28 @@ Record all values in the Detailed Function Model Table.
 | Input is tap water from mains | Source = Virgin |
 | Input is recycled process water | Source = Recycled |
 
+### Worked scoring examples
+
+**Sheet metal offcut — low harm.** A virgin steel stamping sub-step produces 3 % trim
+offcuts sold to a scrap dealer; the offcuts are solid and chemically neutral.
+
+    Amount = 3, Source = Virgin, Destination = Recycling -> Cyclicity = 6
+    State = 1 (Solid), Impact = 1 (Neutral)
+    Harm = (3 + 6) x 1 x 1 = 9
+
+Low harm; no immediate action required.
+
+**Soldering exhaust gas — near-maximum harm.** A wave-soldering sub-step vents 100 % of
+virgin flux fumes to atmosphere (landfill destination); the fumes are gaseous and
+potentially toxic.
+
+    Amount = 100, Source = Virgin, Destination = Landfill -> Cyclicity = 24
+    State = 4 (Gas), Impact = 2 (Potentially toxic)
+    Harm = (100 + 24) x 4 x 2 = 992
+
+Near-maximum harm; top priority. Suggested action: Contradiction Analysis on flux
+substitution or exhaust capture.
+
 ---
 
 ## Step A6 — Aggregate and Normalize Harm
