@@ -1660,7 +1660,7 @@ Ferrofluids are colloidal suspensions or colloids.
    - Standards 2.4.1 -- 2.4.2 (compact or particulate ferromagnets)
    - 2.2.4 -- 2.2.6 (dynamization & structuring)
    - 5.1 (targeted addition of substances)
-   - 5.3.5 / 5.3.6 (intelligent materials, field activation)
+   - 5.3.5 (intelligent materials, field activation)
 
 #### Standard 2.4.4 Application of capillary and porous materials in the Ferro-SFM
 
@@ -1713,7 +1713,7 @@ The combination of is particularly effective:
    - 2.2.3: *Transition to capillary-porous materials*
    - 2.4.2 -- 2.4.3: *Magnetic particles and fluids*
    - 5.1: *Addition of substances* for structural supplementation
-   - 5.3.6: *Use of adaptive materials*
+   - *Use of adaptive materials* (Group 5.3, phase transitions)
 
 - Note the synergy effect:
    - Field + substance + structure → do not act in isolation, but integrated
