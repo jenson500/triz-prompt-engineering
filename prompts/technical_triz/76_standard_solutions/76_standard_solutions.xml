@@ -158,7 +158,7 @@
       <Step>Switch to ARIZ if no standard solution resolves the contradiction.</Step>
       <Step>Formulate contradiction (technical/physical).</Step>
       <Step>Analyze operational zone, time, resources.</Step>
-      <Step>Use ARIZ systematically (e.g., separation by time, space, structure).</Step>
+      <Step>Use ARIZ systematically. The methods of resolution are separation in space, in time, in relation and in system level, plus Satisfy and Bypass.</Step>
     </Instruction>
   
     <Instruction type="general" name="Class 5 Integration">
