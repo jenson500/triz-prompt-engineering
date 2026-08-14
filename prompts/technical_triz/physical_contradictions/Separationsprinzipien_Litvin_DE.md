@@ -27,11 +27,6 @@ Zuerst steht die Bezeichnung aus der Quelltabelle, in Klammern die kanonische Be
 `40_Innovationsprinzipien_DE.md`, sofern sie abweicht. Beim Nachschlagen immer die Nummer
 verwenden — die Nummerierung ist in beiden Sprachen identisch.
 
-> **Hinweis zu einer älteren Datei im Repository:** `Solving_Physical_Contradictions.txt` (Ordner
-> `contradiction_solver_40_inventive_principles`) führt IP #13 zusätzlich unter *Befriedigung* auf.
-> In der Litvin-Tabelle von 1993 ist #13 ausschließlich der *Umgehung* zugeordnet. Maßgeblich ist
-> die Tabelle oben.
-
 ---
 
 ## 2. Bearbeitungsreihenfolge
