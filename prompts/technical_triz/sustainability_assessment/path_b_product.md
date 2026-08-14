@@ -6,12 +6,12 @@ including normal operation, maintenance, and end-of-life transitions.
 Follow Steps B1–B6 in order. Ask for missing information at each step before proceeding.
 
 ### Contents
-- [B1 — Define the Use Case](#b1)
-- [B2 — List System Components](#b2)
-- [B3 — Build the Interaction Matrix](#b3)
-- [B4 — Highlight Sustainability-Critical Interactions](#b4)
-- [B5 — Structured Summary](#b5)
-- [B6 — Recommended Next Steps](#b6)
+- [B1 — Define the Use Case](#step-b1--define-the-use-case)
+- [B2 — List System Components](#step-b2--list-system-components)
+- [B3 — Build the Interaction Matrix](#step-b3--build-the-interaction-matrix)
+- [B4 — Highlight Sustainability-Critical Interactions](#step-b4--highlight-sustainability-critical-interactions)
+- [B5 — Structured Summary](#step-b5--structured-summary)
+- [B6 — Recommended Next Steps](#step-b6--recommended-next-steps)
 
 ---
 
