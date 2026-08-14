@@ -4746,7 +4746,7 @@ Dadurch entsteht ein hochsensibles, selektiv steuerbares Messsystem, das kleinst
   - mechanische Spannungsfelder
 
 
-### Gruppe 4.5 Evolution lines of measuring-material-field models
+### Gruppe 4.5 Evolutionslinien von Mess-Stoff-Feld-Modellen
 
 #### Standard 4.5.1 Übergang zu Bi- und Poly-Messsystemen
 
