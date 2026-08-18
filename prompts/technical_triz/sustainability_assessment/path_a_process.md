@@ -5,14 +5,14 @@ Use this reference for any assessment of a **manufacturing, assembly, or product
 Follow Steps A1–A8 in order. Ask for missing information at each step before proceeding.
 
 ### Contents
-- [A1 — Process Scoping](#a1)
-- [A2 — Sub-Steps and Function Categories](#a2)
-- [A3 — Substance Inputs per Sub-Step](#a3)
-- [A4 — Losses and Waste Streams](#a4)
-- [A5 — Harm Evaluation](#a5)
-- [A6 — Aggregate and Normalize Harm](#a6)
-- [A7 — Portfolio Analysis](#a7)
-- [A8 — Recommended Next Steps](#a8)
+- [A1 — Process Scoping](#step-a1--process-scoping)
+- [A2 — Sub-Steps and Function Categories](#step-a2--sub-steps-and-function-categories)
+- [A3 — Substance Inputs per Sub-Step](#step-a3--substance-inputs-per-sub-step)
+- [A4 — Losses and Waste Streams](#step-a4--losses-and-waste-streams)
+- [A5 — Harm Evaluation](#step-a5--harm-evaluation)
+- [A6 — Aggregate and Normalize Harm](#step-a6--aggregate-and-normalize-harm)
+- [A7 — Portfolio Analysis](#step-a7--portfolio-analysis)
+- [A8 — Recommended Next Steps](#step-a8--recommended-next-steps)
 
 ---
 
