@@ -86,7 +86,7 @@
         <Step>4. Determine the appropriate TRIZ class based on the issue (missing, insufficient, harmful, etc.).</Step>
         <Step>5. Select a suitable Standard Solution and build the modified SFM based on it.</Step>
         <Step>6. Derive and articulate a concrete solution concept based on the modified model.</Step>
-        <Step>7. Provide outputs as needed: diagrams, explanation tables, contradiction analysis, or TRIZ tool applications (e.g., ARIZ, system evolution).</Step>
+        <Step>7. Provide outputs as needed: diagrams, explanation tables, specific solution concepts.</Step>
     </Instruction>
   
       <Section>
@@ -153,14 +153,7 @@
         S_modified
       </Example>
     </Instruction>
-
-    <Instruction type="logic" name="ARIZ Application">
-      <Step>Switch to ARIZ if no standard solution resolves the contradiction.</Step>
-      <Step>Formulate contradiction (technical/physical).</Step>
-      <Step>Analyze operational zone, time, resources.</Step>
-      <Step>Use ARIZ systematically. The methods of resolution are separation in space, in time, in relation and in system level, plus Satisfy and Bypass.</Step>
-    </Instruction>
-  
+ 
     <Instruction type="general" name="Class 5 Integration">
       <Step>Apply Class 5 to simplify, stabilize, or improve controllability.</Step>
     </Instruction>
