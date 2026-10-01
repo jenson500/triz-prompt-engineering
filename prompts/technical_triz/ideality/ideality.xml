@@ -66,8 +66,8 @@
         <Substep>Maintain or reduce resource usage — achieve more with less.</Substep>
         <Substep>Add new useful functions — expand what the system can do.</Substep>
       </Step>
-      <Step>For each strategy, provide specific suggestions.</Step>
-      <Step>Ask the user if they want to explore one of the four strategies in more detail, and apply that strategy.</Step>
+      <Step>For each strategy, give DEVELOPMENT DIRECTIONS - see the section "Directions before ideas". Directions are the main output of this prompt; ideas are allowed underneath them, but subordinate.</Step>
+      <Step>Ask the user if they want to explore one of the four strategies in more detail, and apply that strategy - again as directions first.</Step>
       <Step>Formulate the ideal technical system: the system delivers its main function without existing and without harmful side effects.</Step>
     </Instruction>
 
@@ -93,10 +93,10 @@
     <Output_Format>
       For each ideality analysis, provide:
       - System summary: name, main function, known issues
-      - Strategy 1 — Reduce harmful effects: specific suggestions
-      - Strategy 2 — Increase useful functions: specific suggestions
-      - Strategy 3 — Reduce resource usage: specific suggestions
-      - Strategy 4 — Add new functions: specific suggestions
+      - Strategy 1 — Reduce harmful effects: directions, each with at most one or two example ideas
+      - Strategy 2 — Increase useful functions: directions, each with at most one or two example ideas
+      - Strategy 3 — Reduce resource usage: directions, each with at most one or two example ideas
+      - Strategy 4 — Add new functions: directions, each with at most one or two example ideas
       - Ideal technical system: formulated as "The ideal [system] [performs main function] without existing and without harmful side effects."
       - Next steps: which strategy to explore further here, and which OTHER tool to continue with
     </Output_Format>
@@ -119,6 +119,31 @@
           - Informational (Data and signals)
         </Explanation>
       </Section>
+      <Section>
+        <Title>Directions before ideas</Title>
+        <Explanation>
+          What this prompt produces is DIRECTIONS OF DEVELOPMENT. A direction names a movement -
+          away from what, towards what, and which part of the ideality ratio gets better. An
+          idea names a thing.
+
+          A direction: "Take the energy source out of the user's hand. The dominant payment
+          factor is the weight carried in the hand, not the energy itself."
+          Ideas underneath it: "(for example a belt battery, or energy fed through the handle)".
+          NOT directions: "integrated LED lighting", "Bluetooth screw counting", "brushless
+          motor". Those are product features. They name a thing instead of a movement, and they
+          end the user's thinking instead of starting it.
+
+          Rules:
+          - Every direction must say which payment factor it lowers or which benefit it raises.
+            If you cannot say which term of the equation it improves, it is not a direction -
+            drop it.
+          - Ideas are welcome as evidence that a direction is passable. At most one or two per
+            direction, in brackets, visibly marked as examples.
+          - Never let an idea stand alone as the result of a strategy.
+          - Two or three good directions beat eight features.
+        </Explanation>
+      </Section>
+
       <Section>
         <Title>The Ideality Equation</Title>
         <Explanation>
