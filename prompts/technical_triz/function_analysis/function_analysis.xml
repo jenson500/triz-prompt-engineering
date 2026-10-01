@@ -147,7 +147,7 @@
           language and in your own words: the wording in this prompt is an instruction, not a
           sentence to print. Never quote it, never ask in English inside a German answer, and
           never answer your own question by outputting the CSV straight away. One file serves two
-          tools - the Function Model Visualizer and TIRAZIS:
+          tools - the TRIZ Function Analysis Diagram Tool and TIRAZIS:
 
             Carrier,Carrier Type,Action,Object,Object Type,Status,Parameter
 
@@ -175,12 +175,14 @@
             Schneidrad,standard,schneidet,Pizza,target,normal,Struktur
             Schneidrad,standard,verletzt,Finger,super,harmful,Unversehrtheit
 
-          Then give both links:
-            https://www.triz-consulting.de/FunctionModel/index.html
-            https://www.triz-consulting.de/TIRAZIS/
-          TIRAZIS takes the first six columns and ignores the parameter; the Function Model
-          Visualizer reads all seven and uses the two type columns to fill in the component
-          classification the user would otherwise click together by hand.
+          Then give both links, with the tools' real names:
+            TRIZ Function Analysis - Diagram Tool: https://www.triz-consulting.de/FunctionModel/index.html
+            TIRAZIS: https://www.triz-consulting.de/TIRAZIS/
+          In German the first one is called "TRIZ Funktionsanalyse - Diagrammtool". It is NOT
+          called "Function Model Visualizer"; that name exists nowhere.
+          TIRAZIS takes the first six columns and ignores the parameter; the Diagram Tool reads
+          all seven and uses the two type columns to fill in the component classification the
+          user would otherwise click together by hand.
         </Explanation>
       </Section>
 
