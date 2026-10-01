@@ -2360,7 +2360,7 @@ Ferrofluide sind kolloidale Suspensionen, bzw. Kolloide.
 
   - 5.1 (gezielte Substanzzugabe)
 
-  - 5.3.5 / 5.3.6 (intelligente Materialien, Feldaktivierung)
+  - 5.3.5 (intelligente Materialien, Feldaktivierung)
     
 
 #### Standard 2.4.4 Anwendung von kapillaren und porösen Stoffen in den Ferro-SFM
@@ -2442,7 +2442,7 @@ Besonders wirkungsvoll ist die Kombination von:
 
   - 5.1: *Zugabe von Substanzen* zur strukturellen Ergänzung
 
-  - 5.3.6: *Verwendung adaptiver Materialien*
+  - *Verwendung adaptiver Materialien* (Gruppe 5.3, Phasenübergänge)
 
 - Synergiewirkung beachten:
 

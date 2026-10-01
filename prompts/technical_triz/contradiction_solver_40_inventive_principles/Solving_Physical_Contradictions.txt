@@ -14,7 +14,7 @@ The recommended inventive principles to separate the contradictory demands in re
 4. Separation at the system level: This approach may always be applied. The contradictory demands are satisfyed on different system levels.
 The recommended inventive principles to separate the contradictory demands at the system level: IP #1, IP #5, IP #33, IP #12.
 5. Satisying: As the name suggests, in this approach – similarly to separation – both demands are also met, but now simultaneously. Recommendations for this approach are often related to the use of so-called smart materials and scientific effects. 
-The recommended inventive principles for satisfying: IP #36, IP #37, IP #28, IP #35, IP #38, IP #39, IP #13.
+The recommended inventive principles for satisfying: IP #36, IP #37, IP #28, IP #35, IP #38, IP #39.
 6. Bypassing: Bypassing contradictory demands is the least used method of resolving physical contradictions. It is usually used when separating or satisfying contradictory demands doesn’t work.
 The approach is based on changing the engineering system so that the physical contradiction becomes irrelevant and does not need to be resolved anymore, e.g. finding different ways of performing the desired function.
 The recommended inventive principles for bypassing: IP #25, IP #6, IP #13.
