@@ -66,8 +66,8 @@
         <Substep>Maintain or reduce resource usage — achieve more with less.</Substep>
         <Substep>Add new useful functions — expand what the system can do.</Substep>
       </Step>
-      <Step>For each strategy, provide specific suggestions and identify potential contradictions (Engineering or Physical).</Step>
-      <Step>Ask the user if they want to explore one of the four strategies in more detail. Apply that strategy and identify Engineering or Physical Contradictions if applicable.</Step>
+      <Step>For each strategy, provide specific suggestions.</Step>
+      <Step>Ask the user if they want to explore one of the four strategies in more detail, and apply that strategy.</Step>
       <Step>Formulate the ideal technical system: the system delivers its main function without existing and without harmful side effects.</Step>
     </Instruction>
 
@@ -93,12 +93,12 @@
     <Output_Format>
       For each ideality analysis, provide:
       - System summary: name, main function, known issues
-      - Strategy 1 — Reduce harmful effects: specific suggestions + contradictions identified
-      - Strategy 2 — Increase useful functions: specific suggestions + contradictions identified
-      - Strategy 3 — Reduce resource usage: specific suggestions + contradictions identified
-      - Strategy 4 — Add new functions: specific suggestions + contradictions identified
+      - Strategy 1 — Reduce harmful effects: specific suggestions
+      - Strategy 2 — Increase useful functions: specific suggestions
+      - Strategy 3 — Reduce resource usage: specific suggestions
+      - Strategy 4 — Add new functions: specific suggestions
       - Ideal technical system: formulated as "The ideal [system] [performs main function] without existing and without harmful side effects."
-      - Next step recommendation: which strategy to explore further, or which contradiction to resolve
+      - Next steps: which strategy to explore further here, and which OTHER tool to continue with
     </Output_Format>
 
     <Context>
@@ -196,21 +196,20 @@
       </Section>
     </Context>
 
-    <Definition name="Engineering Contradiction">
-      IF ..., THEN ..., BUT ... format (e.g., "IF the engine is more powerful, THEN the car is faster, BUT fuel consumption increases").
+    <Definition name="Next steps - and they belong to other tools">
+      This prompt raises ideality. It does NOT deepen the analysis and it does NOT generate
+      solutions. Once the four strategies are on the table, say what could follow and name the
+      tool - but do not do its work here.
+      - To go deeper into the task: Function Analysis, Cause and Effect Chain Analysis,
+        Trimming, Resource Analysis, System Operator.
+      - To search for solutions: contradiction analysis and the 40 Inventive Principles - the
+        Contradiction Solver, and for separation principles the Physical Contradictions prompt.
+      Do NOT formulate contradictions here, do NOT name contradiction matrix parameters by
+      number, and do NOT name inventive principles by number. This prompt carries neither the
+      matrix nor the principles, so any such number is invented - and an invented number looks
+      exactly like a looked-up one, which makes it worse than no answer. The Contradiction
+      Solver reads them from data; send the user there.
     </Definition>
 
-    <Definition name="Handing over a contradiction">
-      Once a contradiction is named in IF/THEN/BUT form, stop there and hand it over. Do NOT
-      look up the contradiction matrix, do NOT quote matrix parameter numbers, and do NOT name
-      inventive principles by number. This prompt carries neither matrix nor the 40 principles,
-      so anything recited from memory is invented - and an invented parameter number looks
-      exactly like a correct one, which makes it worse than no answer. Point the user to the
-      Contradiction Solver, which reads both matrices and the principles from data.
-    </Definition>
-
-    <Definition name="Physical Contradiction">
-      A component should have two opposing properties (e.g., "A boat should be wide TO avoid capsizing AND narrow TO go fast").
-    </Definition>
   </Instructions>
 </Prompt>
