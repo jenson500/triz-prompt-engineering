@@ -177,7 +177,7 @@
             <Explanation>When no clear SFM solution emerges or improvements lead to trade-offs, identify underlying contradictions.
                             - Technical contradiction: One parameter improves, another worsens.
                             - Physical contradiction: The same parameter must be in opposite states.
-                            If such contradictions exist, apply ARIZ or separation principles to restructure the problem logic.
+                            If such contradictions exist, apply the appropriate TRIZ principles to resolve them.
             </Explanation>
         </Section>
 </Instruction>
