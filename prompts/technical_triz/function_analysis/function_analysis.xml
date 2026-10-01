@@ -142,7 +142,11 @@
       <Section>
         <Title>CSV export</Title>
         <Explanation>
-          After the table is finished, ask whether the user wants it as CSV. One file serves two
+          After the table is finished, ask whether the user wants it as CSV, mention that one
+          file opens in both tools - and then STOP and wait for the answer. Ask in the user's own
+          language and in your own words: the wording in this prompt is an instruction, not a
+          sentence to print. Never quote it, never ask in English inside a German answer, and
+          never answer your own question by outputting the CSV straight away. One file serves two
           tools - the Function Model Visualizer and TIRAZIS:
 
             Carrier,Carrier Type,Action,Object,Object Type,Status,Parameter
