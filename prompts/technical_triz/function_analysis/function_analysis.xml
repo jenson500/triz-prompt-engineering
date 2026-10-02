@@ -142,12 +142,11 @@
       <Section>
         <Title>CSV export</Title>
         <Explanation>
-          After the table is finished, ask whether the user wants it as CSV, mention that one
-          file opens in both tools - and then STOP and wait for the answer. Ask in the user's own
+          After the table is finished, ask whether the user wants it as CSV - and then STOP and
+          wait for the answer. Ask in the user's own
           language and in your own words: the wording in this prompt is an instruction, not a
           sentence to print. Never quote it, never ask in English inside a German answer, and
-          never answer your own question by outputting the CSV straight away. One file serves two
-          tools - the TRIZ Function Analysis Diagram Tool and TIRAZIS:
+          never answer your own question by outputting the CSV straight away.
 
             Carrier,Carrier Type,Action,Object,Object Type,Status,Parameter
 
@@ -163,11 +162,10 @@
           and harmful for a harmful function. standard is a system component, super a supersystem
           element, target the target of the main function.
 
-          The header, the type words and the status words must be ENGLISH even in a German
-          analysis. Not a matter of taste: TIRAZIS recognises the header row by the words
-          carrier, action and object - with a German header it reads the header as a function and
-          the model starts with a phantom. Names, verbs and parameters stay in the language of
-          the analysis. Quote any field that contains a comma.
+          The header row, the type words and the status words are the controlled vocabulary of this
+          format and stay ENGLISH even in a German analysis. An importer identifies the columns by
+          these keys; a translated header is read as data, and the model starts with a phantom
+          function. Names, verbs and parameters stay in the language of the analysis. Quote any field that contains a comma.
 
           Example (German analysis, English structure words):
             Carrier,Carrier Type,Action,Object,Object Type,Status,Parameter
@@ -175,14 +173,10 @@
             Schneidrad,standard,schneidet,Pizza,target,normal,Struktur
             Schneidrad,standard,verletzt,Finger,super,harmful,Unversehrtheit
 
-          Then give both links, with the tools' real names:
-            TRIZ Function Analysis - Diagram Tool: https://www.triz-consulting.de/FunctionModel/index.html
-            TIRAZIS: https://www.triz-consulting.de/TIRAZIS/
-          In German the first one is called "TRIZ Funktionsanalyse - Diagrammtool". It is NOT
-          called "Function Model Visualizer"; that name exists nowhere.
-          TIRAZIS takes the first six columns and ignores the parameter; the Diagram Tool reads
-          all seven and uses the two type columns to fill in the component classification the
-          user would otherwise click together by hand.
+          Tell the user that the file can be imported into any function-model tool that reads this
+          column layout, and that the two type columns already carry the component classification,
+          so it does not have to be entered again. Name no specific tool: the column layout is the
+          interface.
         </Explanation>
       </Section>
 
