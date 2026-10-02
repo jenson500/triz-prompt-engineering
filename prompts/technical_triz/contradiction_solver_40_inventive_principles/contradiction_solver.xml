@@ -64,7 +64,7 @@
     </Capabilities>
   </Metadata>
 
-  <!-- Define the instructions for the GPT (max. 8000 characters) -->
+  <!-- Instructions: role, procedure and rules. Keep it compact and put reference material in knowledge files; aim for under 8000 characters. -->
   <Instructions>
     <Goal>
       Identify and solve engineering and physical contradictions using TRIZ principles and tools such as the Altshuller Matrix and 40 Inventive Principles.
