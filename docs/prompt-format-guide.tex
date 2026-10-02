@@ -140,7 +140,7 @@ List necessary tools or model features. Can include model-specific attributes.
 List all additional files required for your prompt to function correctly. These files must be placed in the same directory as the prompt XML file. For further guidance, refer to Section~\ref{sec:additional-knowledge-files}.
 
 \section{Instructions Section}
-The \lstinline!<Instructions>! section holds the core prompt logic and shall not exceed 8000 characters. Use the elements listed below to organize it, dropping any tags that are irrelevant to your use case. For clarity and consistency, it is recommended to follow the order shown here.
+The \lstinline!<Instructions>! section holds the core prompt logic: the role, the procedure and the rules the assistant must follow. Keep it compact. Reference material such as worked examples, tables and background belongs in knowledge files (see Section~ef{sec:additional-knowledge-files}), which are consulted on demand, whereas the instruction block is sent with every turn. As a guideline, aim to stay below roughly 8,000 characters; some hosted assistants cap their instruction field around that size, and a shorter block is also followed more reliably and stays reviewable. Use the elements listed below to organize it, dropping any tags that are irrelevant to your use case. For clarity and consistency, it is recommended to follow the order shown here.
 
 \subsection{Role and Persona}
 \begin{lstlisting}
@@ -240,7 +240,7 @@ Defines the mandatory blueprint covering section order, length allocation, and r
 List the minimum data the user must supply so the GPT can start the process on solid ground instead of guesswork.
 
 \subsection{Additional Knowledge Files}\label{sec:additional-knowledge-files}
-List all external files required for your prompt. External files may be necessary if the XML file exceeds the size limit (e.g., 8,000 characters for ChatGPT) or if additional reference knowledge is needed for the GPT to consult.
+List all external files required for your prompt. External files may be necessary if the instruction block grows beyond what a target platform accepts (the ChatGPT GPT builder, for example, caps it at about 8,000 characters) or if additional reference knowledge is needed for the assistant to consult.
 
 Accepted file formats include XML, TXT, CSV, and PDF. Proprietary file formats should be avoided. Ensure that all XML, TXT, and CSV files are encoded in UTF-8 and, where possible, avoid special characters. Proprietary office suites often export tab-separated files containing special characters or non-standard encoding, which can cause the LLM to misread them. If necessary, identify and fix encoding issues manually in a text editor such as Visual Studio Code.
 
