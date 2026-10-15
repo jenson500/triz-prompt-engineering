@@ -58,7 +58,7 @@
     </Capabilities>
   </Metadata>
 
-  <!-- Define the instructions for the GPT (max. 8000 characters) -->
+  <!-- Instructions: role, procedure and rules. Keep it compact and put reference material in knowledge files; aim for under 8000 characters. -->
   <Instructions>
     <!-- Define the role of the assistant -->
     <Role>

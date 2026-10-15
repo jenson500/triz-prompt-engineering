@@ -27,10 +27,6 @@ The name printed in the source table is given first; the canonical name used in
 `40_Inventive_Principles_EN.md` follows in parentheses where it differs. When looking a
 principle up, always use the number — the numbering is identical in both.
 
-> **Note on an older repository file:** `Solving_Physical_Contradictions.txt` (in the folder
-> `contradiction_solver_40_inventive_principles`) additionally lists IP #13 under *Satisfy*.
-> The Litvin 1993 table assigns #13 to *Bypass* only. Follow the table above.
-
 ---
 
 ## 2. Working order
